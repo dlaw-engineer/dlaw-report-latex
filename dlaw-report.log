@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  22 NOV 2022 00:43
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  22 NOV 2022 01:40
 entering extended mode
 **./dlaw-report.tex
 (dlaw-report.tex
@@ -986,77 +986,94 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--312
 
 [4
 
-] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 353--355
-\TU/THSarabunNew(0)/m/n/10 ประเภทต่างๆให้อยู่ในรูปแบบของข้อความที่คอมพิวเตอร์สา
-มารถเข้าใจได้ เพื่อใช้ในการเก็บข้อมูลเอกสารให้อยู่ในรูปแบบของตัวอักษร
+]
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
-|  \TU/THSarabunNew(0)/m/n/10 เป็นแอปพลิเคชันที่ใช้สำหรับการสื่อสารที่สามารถสื่
-อสารได้ทั้งเสียงและข้อความโดยสามารถแบ่งแยกห้องออกมาเป็นหมวดหมู่
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+
+Overfull \hbox (4.73445pt too wide) in paragraph at lines 369--372
+|  \TU/THSarabunNew(0)/m/n/10 คือ React UI library ที่มี Component ให้ใช้ที่ค่อ
+นข้างครอบคลุม หลากหาย และสวยงาม ซึ่งสามารถรองรับ Responsive
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
+Overfull \hbox (2.33391pt too wide) in paragraph at lines 385--387
+\TU/THSarabunNew(0)/m/n/10 ผลลัพธ์อะไรให้ตรงกับที่ต้องการมากที่สุดซึ่งมีการใช้ว
+ิธีการประเมินที่เรียกว่า Term Frequency-Inverse Document Frequency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 389--390
-
+Underfull \hbox (badness 2503) in paragraph at lines 385--387
+\TU/THSarabunNew(0)/m/n/10 มากและยิ่งจำนวนเอกสารที่มีในการค้นหามากเท่าไหร่แสดงว
+่า คำหรือข้อความที่ค้นหานั้นมีความสำคัญน้อยลง ซึ่งการใช้วิธีการ
  []
 
 [7]
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+|  \TU/THSarabunNew(0)/m/n/10 เป็นแอปพลิเคชันที่ใช้สำหรับการสื่อสารที่สามารถสื่
+อสารได้ทั้งเสียงและข้อความโดยสามารถแบ่งแยกห้องออกมาเป็น
+ []
+
+[8]
 บทที่ 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 401.
+(hyperref)                removed on input line 421.
 
-[8
+[9
 
 ]
 บทที่ 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 434.
+(hyperref)                removed on input line 443.
 
-[9
+[10
 
 ]
 บทที่ 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 446.
+(hyperref)                removed on input line 455.
 
-No file dlaw-report.bbl.
-[10
+(dlaw-report.bbl [11
+
+]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [12
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 21.25432pt on input line 481.
+(Font)              scaled to size 21.25432pt on input line 490.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 481.
- [11]
+(Font)              scaled to size 21.25432pt on input line 490.
+ [13]
 
 Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.29996pt
-(hyperref)                replaced by space on input line 481.
+(hyperref)                replaced by space on input line 490.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
 
@@ -1149,7 +1166,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[12] (dlaw-report.aux
+[14] (dlaw-report.aux
 \thai@year=\count313
 )
 
@@ -1158,16 +1175,16 @@ Package rerunfilecheck Warning: File `dlaw-report.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `dlaw-report.out':
-(rerunfilecheck)             Before: EFE03A3BB77424DCE05ADC99AC110DBA;10536
-(rerunfilecheck)             After:  F883AFBBB5B84E1A780494CFE84C922D;10281.
+(rerunfilecheck)             Before: D42FD5B4DE6D4FF1075A323000C8E38C;9922
+(rerunfilecheck)             After:  5064559F5CA887B8B17ADEE2D4D1CEBE;9420.
  ) 
 Here is how much of TeX's memory you used:
- 17043 strings out of 412197
- 304346 string characters out of 2849632
- 694894 words of memory out of 3000000
- 36331 multiletter control sequences out of 15000+200000
+ 17039 strings out of 412197
+ 304254 string characters out of 2849632
+ 694266 words of memory out of 3000000
+ 36325 multiletter control sequences out of 15000+200000
  537681 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,9n,112p,682b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 105i,9n,112p,1391b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dlaw-report.pdf (23 pages).
+Output written on dlaw-report.pdf (25 pages).
