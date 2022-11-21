@@ -1,0 +1,34 @@
+{
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex ➞ bibtex ➞ pdflatex",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+            ]
+        },
+        {
+            "name": "bibtex",
+            "tools": ["bibtex"]
+        }
+    ],
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ],
+            "env": {}
+        },
+    ]
+}
