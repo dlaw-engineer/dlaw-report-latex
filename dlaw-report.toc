@@ -24,34 +24,48 @@
 \contentsline {subsection}{\numberline {2.1.4}RESTful API}{5}{subsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.1.5}Data visualization}{5}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}Optical Character Recognition}{5}{subsection.2.1.6}%
-\contentsline {section}{\numberline {2.2}งานวิจัยที่เกี่ยวข้อง}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}ผลิตภัณฑ์ที่ที่เกี่ยวข้อง}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Avokaado application}{6}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}ContractSafe application}{6}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}เครื่องมือที่ใช้ในการพัฒนา}{6}{section.2.4}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {3}\hskip -0.8em วิธีการดำเนินงานกระบวนการและการออกแบบ}}}{7}{chapter.3}%
-\contentsline {section}{\numberline {3.1}ข้อกำหนดและความต้องการของระบบ}{7}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Hardware Module 1}{7}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Component 1}{7}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Logical Circuit Diagram}{7}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Hardware Module 2}{7}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Component 1}{7}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Component 2}{7}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Path Finding Algorithm}{7}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Database Design}{7}{section.3.5}%
-\contentsline {section}{\numberline {3.6}UML Design}{7}{section.3.6}%
-\contentsline {section}{\numberline {3.7}GUI Design}{7}{section.3.7}%
-\contentsline {section}{\numberline {3.8}การออกแบบการทดลอง}{7}{section.3.8}%
-\contentsline {subsection}{\numberline {3.8.1}ตัวชี้วัดและปัจจัยที่ศึกษา}{7}{subsection.3.8.1}%
-\contentsline {subsection}{\numberline {3.8.2}รูปแบบการเก็บข้อมูล}{7}{subsection.3.8.2}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}ประสิทฺธิภาพการทำงานของระบบ}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}ความพึงพอใจการใช้งาน}{8}{section.4.2}%
-\contentsline {section}{\numberline {4.3}การวิเคราะห์ข้อมูลและผลการทดลอง}{8}{section.4.3}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em บทสรุป}}}{9}{chapter.5}%
-\contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{9}{section.5.2}%
-\contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{9}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{10}{section.5.3}%
+\contentsline {subsection}{\numberline {2.1.7}Development framework}{5}{subsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7.1}NextJS}{5}{subsubsection.2.1.7.1}%
+\contentsline {subsubsection}{\numberline {2.1.7.2}Antd}{5}{subsubsection.2.1.7.2}%
+\contentsline {subsubsection}{\numberline {2.1.7.3}Tailwind}{6}{subsubsection.2.1.7.3}%
+\contentsline {subsubsection}{\numberline {2.1.7.4}Gin framework}{6}{subsubsection.2.1.7.4}%
+\contentsline {subsection}{\numberline {2.1.8}Version control}{6}{subsection.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.8.1}Github}{6}{subsubsection.2.1.8.1}%
+\contentsline {subsection}{\numberline {2.1.9}Cloud}{6}{subsection.2.1.9}%
+\contentsline {subsubsection}{\numberline {2.1.9.1}Google cloud storage}{6}{subsubsection.2.1.9.1}%
+\contentsline {subsubsection}{\numberline {2.1.9.2}Google cloud Virtual Machine}{6}{subsubsection.2.1.9.2}%
+\contentsline {subsubsection}{\numberline {2.1.9.3}AI GEN Optical Character Recognition}{6}{subsubsection.2.1.9.3}%
+\contentsline {subsection}{\numberline {2.1.10}Planning \& Discuss tools}{6}{subsection.2.1.10}%
+\contentsline {subsubsection}{\numberline {2.1.10.1}Trello}{6}{subsubsection.2.1.10.1}%
+\contentsline {subsubsection}{\numberline {2.1.10.2}Figma and FigJam}{6}{subsubsection.2.1.10.2}%
+\contentsline {subsubsection}{\numberline {2.1.10.3}Discord}{7}{subsubsection.2.1.10.3}%
+\contentsline {section}{\numberline {2.2}งานวิจัยที่เกี่ยวข้องและผลิตภัณฑ์ใกล้เคียง}{7}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Avokaado application}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}ContractSafe application}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Laserfiche application}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Amagno application}{7}{subsection.2.2.4}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {3}\hskip -0.8em วิธีการดำเนินงาน กระบวนการและการออกแบบ}}}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}ข้อกำหนดและความต้องการของระบบ}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Hardware Module 1}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Component 1}{8}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Logical Circuit Diagram}{8}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Hardware Module 2}{8}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Component 1}{8}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Component 2}{8}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Path Finding Algorithm}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Database Design}{8}{section.3.5}%
+\contentsline {section}{\numberline {3.6}UML Design}{8}{section.3.6}%
+\contentsline {section}{\numberline {3.7}GUI Design}{8}{section.3.7}%
+\contentsline {section}{\numberline {3.8}การออกแบบการทดลอง}{8}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}ตัวชี้วัดและปัจจัยที่ศึกษา}{8}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}รูปแบบการเก็บข้อมูล}{8}{subsection.3.8.2}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{9}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ประสิทฺธิภาพการทำงานของระบบ}{9}{section.4.1}%
+\contentsline {section}{\numberline {4.2}ความพึงพอใจการใช้งาน}{9}{section.4.2}%
+\contentsline {section}{\numberline {4.3}การวิเคราะห์ข้อมูลและผลการทดลอง}{9}{section.4.3}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em บทสรุป}}}{10}{chapter.5}%
+\contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{10}{section.5.1}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{10}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{10}{section.5.3}%
 \contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{11}{section.5.3}%
 \contentsline {apdx}{A\hskip 1em ชื่อภาคผนวกที่ 1}{12}{section.5.3}%

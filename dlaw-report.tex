@@ -5,6 +5,7 @@
 
 
 \usepackage{polyglossia}
+\usepackage{titlesec}
 \setdefaultlanguage{thai}
 \setotherlanguage{english}
 \newfontfamily\thaifont[Script=Thai,Scale=1.23]{TH Sarabun New}
@@ -13,6 +14,7 @@
 \XeTeXlinebreaklocale "th"	
 \XeTeXlinebreakskip = 0pt plus 0pt
 \emergencystretch=10pt
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Customize below to suit your needs 
@@ -316,30 +318,89 @@ In a multihop ad hoc network, the interference among nodes is
 \end{itemize}
 
 \subsection{Data visualization}
+\hspace*{1cm} คือ การนำข้อมูลที่มีอยู่หรือจากแหล่งข้อมูลต่างๆ มาวิเคราะห์ประมวลผลแล้วนำเสนอออกมาในรูปแบบที่เข้าใจง่ายสามารถมองแล้วเข้าใจ เช่น รูปภาพ แผนที่ แผนภูมิประเภทต่างๆ ตาราง เป็นต้น ซึ่งประโยชน์ที่ได้จากการทำ Data visualization แล้วไม่ใช่เพียงแค่การอธิบายข้อมูลให้เข้าใจง่ายขึ้นแล้ว แต่ยังเป็นถึงการทำให้เห็นถึงภาพรวม หรือสามารถที่จะคาดการณ์ หรือเปรียบเทียบ และหาความสัมพันธ์ของข้อมูลได้ อีกทั้งยังประหยัดเวลาในการตีความข้อมูล หรือเห็นจุดเด่นของข้อมูลได้ชัดเจนยิ่งขึ้น 
+
 
 \subsection{Optical Character Recognition}
+\hspace*{1cm} Optical Character Recognition หรือ OCR คือเทคโนโลยีพื้นฐานในการเปลี่ยนข้อความที่อยู่ในเอกสารประเภทต่างๆให้อยู่ในรูปแบบของข้อความที่คอมพิวเตอร์สามารถเข้าใจได้ เพื่อใช้ในการเก็บข้อมูลเอกสารให้อยู่ในรูปแบบของตัวอักษรเพื่อใช้ในการค้นหา \\
+\hspace*{1cm} ในปกติเราจะเห็นการใช้ OCR กับการ สแกนหนังสือเก่า สแกนเอกสาร การแปลงแบบฟอร์มกระดาษเป็นรูปแบบดิจิทัลเป็นต้น เพื่อที่จะนำไปเก็บรักษาในระบบดิจิทัล ซึ่ง OCR นี้จะช่วยประหยัดเวลาเป็นอย่างมาก อีกทั้งยังมีความแม่นยำ และยังสามารถ แปลงไฟล์ได้เป็นหลายประเภท เช่นแปลงจากรูปภาพ หรือไฟล์ PDF เป็นต้น
 
-\newpage
-\section{งานวิจัยที่เกี่ยวข้อง}
+\subsection{Development framework}
+\subsubsection{NextJS}
+\hspace*{1cm} เป็น Framework ที่ใช้สำหรับเขียนเว็บ โดยพัฒนามาจาก React ซึ่ง ออกแบบมาให้ใช้งานง่ายมี learning curve ต่ำ โดยตัว NextJS มีคามโดดเด่นด้านการทำ SSR (Server-side-rendering) และยังมีการทำ Routing ที่เข้าใจได้ง่ายมี Folder structure ที่ชัดเจน \\
+\hspace*{1cm} เนื่องจาก NextJS มี learning curve ที่ต่ำ และไม่จำเป็นต้อง optimize มากนัก เนื่องจากตัว Framework ได้ทำการ optimize มาในบางส่วนแล้ว เลยทำให้สามารถเริ่ม ทำงานได้เลย และอยู่ในมาตรฐานของเว็บไซต์ทั่วไป
+\subsubsection{Antd}
+\hspace*{1cm} คือ React UI library ที่มี  Component ให้ใช้ที่ค่อนข้างครอบคลุม หลากหาย และสวยงาม ซึ่งสามารถรองรับ Responsive ได้เป็นอย่างดี \\
+\hspace*{1cm} ดังนั้น เราจึงเลือกใช้ antd เพื่อที่จะมาลดเวลา การทำ Base component ต่างๆ ซึ่งคิดว่าในส่วนของการทำเว็บ ตัว Base component นั้นใช้เวลาในการ พัฒนามากที่สุด และ antd ยังสามารถ กำหนด Rule ต่างๆ เพื่อ handling error ต่างๆ ได้สะดวกขึ้น
+\subsubsection{Tailwind}
+\hspace*{1cm} คือ Utility-First CSS Framework สำหรับจัดการ HTML Element โดยตรง ซึ่ง Tailwind ออกแบบมาให้เป็น low-level class ทำให้ตัวไฟล์มีขนาดที่เล็กมาก และจากที่ Tailwind มี class ให้ใช้ค่อนข้างครอบคลุม และการทำ Custom class element ได้ง่ายขึ้น และที่สำคัญ Tailwind เป็น CSS Framework ที่ทำ responsive ค่อนข้างง่าย \\
+\hspace*{1cm} ดังนั้น การนำ Tailwind มาใช้ในการทำเว็บไซต์จะนำมาช่วยทำ layout ต่างๆในเว็บ และทำในส่วนของ custom class element ให้ง่าย และเร็วมากขึ้น
+\subsubsection{Gin framework}
+\hspace*{1cm} เป็น web Framework ที่เขียนด้วยภาษา Golang ซึ่งมีประสิทธิภาพด้านความเร็วที่สูงมาก และเป็นที่นิยมในกลุ่มนักพัฒนา ซึ่ง Gin นั้นสามารถที่จะสร้างเว็บแอปพลิเคชันและไมโครเซอร์วิสได้ ซึ่งในตัวของ framework ประกอบด้วยฟังก์ชันต่างๆให้ใช้งานครบถ้วน 
 
-\section{ผลิตภัณฑ์ที่ที่เกี่ยวข้อง}
+\subsection{Version control}
+\subsubsection{Github}
+\hspace*{1cm} เนื่องจาก กลุ่มเรามีการใช้ auto CI/CD ซึ่ง github มีสิ่งนี้ให้อยู่แล้ว ประกอบกับในทีมค่อนข้างคุ้นเคยกับ github มากกว่า source version control ค่ายอื่นๆ
+
+
+\subsection{Cloud}
+\subsubsection{Google cloud storage}
+\hspace*{1cm} คือ บริการ Storage ของ Google cloud ที่ให้บริการฝากรูป, ไฟล์ ต่าง ๆ ประเภทข้อมูลที่เป็น Unstructure data ขนาดใหญ่ มีการเปิด API ในการจัดการไฟล์ต่าง ๆ ทำให้สามารถเขียนโปรแกรมเพื่ออัพโหลด หรือดาวโหลดไฟล์เพื่อนำมาใช้งานได้ \\
+\hspace*{1cm} เนื่องจาก ผู้จัดทำมีการเก็บไฟล์ประเภทรูปและเอกสารต่าง ๆ เช่น รูปโปรไฟล์ผู้ใช้งาน เอกสารของทนาย จึงเลือกใช้ Google cloud storage ในเก็บข้อมูลเพื่อเรา ไม่ต้องจัดการกับการจัดเก็บไฟล์ อีกทั้งในอนาคตยังสามารถ scale ได้ง่ายเพราะว่าไฟล์มีการ จัดเก็บอยู่บน Cloud ไม่ใช่เครื่องใดเครื่องหนึ่ง
+\subsubsection{Google cloud Virtual Machine}
+\hspace*{1cm}	คือ บริการ Virtual Machine ของ Google cloud เพื่อใช้ในการ deploy ทั้งหลังบ้านและ database และอีกเหตุผลที่ใช้ vm ของ google เพราะ google cloud มี service ต่างๆอีกมากมายที่สามารถใช้งานได้ 
+\subsubsection{AI GEN Optical Character Recognition}
+\hspace*{1cm} คือ บริการเทคโนโลยี OCR หรือ Optical Character Recognition เป็นเทคโนโลยีพื้นฐานในการเปลี่ยนข้อความที่อยู่ในเอกสารประเภทต่างๆให้อยู่ในรูปแบบของข้อความที่คอมพิวเตอร์สามารถเข้าใจได้ เพื่อใช้ในการเก็บข้อมูลเอกสารให้อยู่ในรูปแบบของตัวอักษรเพื่อใช้ในการค้นหา ซึ่งเป็นบริการที่รองรับภาษาไทย \\
+\hspace*{1cm} เนื่องจาก ในส่วนของข้อมูลต้นทางนั้น บางส่วนจะเป็นในรูปแบบเอกสาร ดังนั้นจึงมีความจำเป็นที่จะต้อง นำ OCR มาใช้ โดยจะเปลี่ยนจากรูปภาพเอกสารที่มีตัวอักษรให้เป็นเอกสารอิเล็กทรอนิค เพื่อทางผู้จัดทำ จะสามารถ นำเอกสารอิเล็กทอนิค ไปจัดเก็บไว้ใน ส่วนของ Google Cloud Storage ต่อไป 
+
+\subsection{Planning \& Discuss tools}
+\subsubsection{Trello}
+\hspace*{1cm} เป็นแอปพลิเคชันที่ใช้เพื่อจัดการวางแผนงานหรือขั้นตอนการทำงาน โดยจะทำเป็นลักษณะของ Kanban board ซึ่งสามารถติดตามสถานะต่างๆ และปริมาณงานได้
+\subsubsection{Figma and FigJam}
+\hspace*{1cm} เป็นแอปพลิเคชันที่มีความสามารถในการออกแบบ flow และ UI ของเว็บแอปพลิเคชันอีกทั้ง ยังสามารถใช้งานได้ง่ายผ่าน Web browser ได้โดยตรง ซึ่ง FigJam เป็นอีกฟังก์ชันหนึ่งในตัว Figma ที่มีลักษณะเป็นไวท์บอร์ดสามารถที่จะเขียนข้อความต่างๆได้ โดยเหมาะที่จะมาใช้ในการระดมความคิด
+\subsubsection{Discord}
+\hspace*{1cm} เป็นแอปพลิเคชันที่ใช้สำหรับการสื่อสารที่สามารถสื่อสารได้ทั้งเสียงและข้อความโดยสามารถแบ่งแยกห้องออกมาเป็นหมวดหมู่ได้
+
+
+\section{งานวิจัยที่เกี่ยวข้องและผลิตภัณฑ์ใกล้เคียง}
 \subsection{Avokaado application}
-\hspace*{1cm}Avokaado คือ all-in-one contract lifecycle management ที่จะช่วยสำนักงานกฎหมาย ในการสร้าง จัดการ และดูแลเอกสารต่างๆ อยู่ในแพลตฟอร์มเดียว เช่น smart drafting, co-editing, negotiating approving, e-signing, document management และ tracking dashboard
+\hspace*{1cm} Avokaado คือ all-in-one contract lifecycle management ที่จะช่วยสำนักงานกฎหมาย ในการสร้าง จัดการ และดูแลเอกสารต่างๆ อยู่ในแพลตฟอร์มเดียว เช่น smart drafting, co-editing, negotiating approving, e-signing, document management และ tracking dashboard
 % \begin{figure}[!h]\centering
     %   \includegraphics[width=13cm]{./image/NetScout.png}
     %   \caption{ รูปแสดงซอฟแวร์ nGeniusPLUSE ของ NETSCOUT }\label{fig:netScout}
     % \end{figure}
 \subsection{ContractSafe application}
-\hspace*{1cm}xxx
+\hspace*{1cm} ContractSafe ใช้สำหรับจัดการกับเอกสารสัญญาต่างๆ โดยจะสามารถ ค้นหา และ แสกนเอกสารโดยใช้ OCR ได้ รวมไปถึงยังมีระบบความปลอดภัยที่ดีเยี่ยม \\
+\begin{itemize}
+  \item มีการจัดการจัดเก็บที่ปลอดภัย และสามารถแสกนได้อย่างรวดเร็ว	
+  \item สามารถจัดการกับสิทธิการเข้าถึงข้อมูลได้และมีการติดตามที่ชัดเจน
+\end{itemize}
 
-\section{เครื่องมือที่ใช้ในการพัฒนา}
+\subsection{Laserfiche application}
+\hspace*{1cm} Laserfiche สามารถปรับแต่งหรือกำหนดรูปแบบได้อย่าง อิสระ เพื่อให้สอดคล้องกับแต่ละบริษัท ทำให้ลดข้อผิดพลาดที่อาจจะเกิดขึ้น และสามารถดำเนินการได้อย่างครบถ้วน จุดเด่น ของLaserfiche นั้น จะเป็นรูปแบบ Config Flow คือ รูปแบบการทำงานที่จะสามารถย้อนกลับมาแก้ไขไฟล์ได้ตลอดเวลา ซึ่งถ้าหากเจอข้อผิดพลาด ก็ไม่ต้องยกเลิก หรือต้องเสียเวลาเริ่มต้นกระบวนการใหม่ทั้งหมด \\
+\begin{itemize}
+  \item ค้นหาเอกสารได้อย่างรวดเร็ว
+  \item ค้นหาข้อมูลด้วย Text จากเอกสารสแกน
+  \item จัดระเบียบข้อมูลและเอกสารได้ตามต้องการ
+  \item ลดไฟล์เอกสารซ้ำซ้อน
+\end{itemize}
+
+\subsection{Amagno application}
+\hspace*{1cm} Amagno คือ เครื่องมือสำคัญสำหรับองค์กรเพื่อบริหารจัดการคอนเทนท์ต่าง ๆ ที่มีอยู่มากมายและกระจัดกระจาย ให้กลับมาเป็นระเบียบ โดยจะสามารถตรวจสอบและค้นหาเอกสารได้อย่างรวดเร็ว อีกทั้งยังสามารถกำหนดสิทธิการเข้าถึงเพื่อเพิ่มความปลอดภัยให้กับข้อมูลที่สำคัญขององค์กร \\
+\begin{itemize}
+  \item ป้องกันเอกสารไม่ให้ถูกลบ - แก้ไขซ้ำ
+  \item ป้องกันเอกสารซ้ำด้วยการเปรียบเทียบเวอร์ชั่นเอกสารล่าสุด
+  \item สแกนเอกสารกระดาษเข้าระบบได้โดยตรง
+  \item รองรับไฟล์ข้อมูลเอกสารได้ทุกรูปแบบ
+\end{itemize}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%% CHAPTER3 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{วิธีการดำเนินงานกระบวนการและการออกแบบ}
+\chapter{วิธีการดำเนินงาน กระบวนการและการออกแบบ}
 
-Explain the design (how you plan to implement your work) of your project. Adjust the section titles below to suit the types of your work. Detailed physical design like circuits and source codes should be placed in the appendix.
+ในส่วนบทที่ 3 จะกล่าวถึงรายโครงสร้างของระบบหรือรูปแบบการออกแบบต่างๆ อาทิเช่น UML diagram, Usecase diagram เป็นต้น
 
 \section{ข้อกำหนดและความต้องการของระบบ}
 
