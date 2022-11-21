@@ -1,6 +1,10 @@
 {
     "latex-workshop.latex.recipes": [
         {
+            "name": "xelatex",
+            "tools": ["xelatex"]
+        },
+        {
             "name": "pdflatex ➞ bibtex ➞ pdflatex",
             "tools": [
                 "xelatex",

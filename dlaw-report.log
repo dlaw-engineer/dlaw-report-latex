@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  21 NOV 2022 18:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  21 NOV 2022 21:34
 entering extended mode
 **./dlaw-report.tex
 (dlaw-report.tex
@@ -644,40 +644,40 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 )
 \openout1 = `dlaw-report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-13.
+11.
 
 (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 111.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11
-3.
+1.
 
 (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
-LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
+LaTeX Font Info:    ... okay on input line 111.
 
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -720,7 +720,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-Package hyperref Info: Link coloring ON on input line 113.
+Package hyperref Info: Link coloring ON on input line 111.
  (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -733,9 +733,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count298
 )
-LaTeX Info: Redefining \ref on input line 113.
-LaTeX Info: Redefining \pageref on input line 113.
-LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
  (dlaw-report.out) (dlaw-report.out)
 \@outlinefile=\write3
 \openout3 = `dlaw-report.out'.
@@ -778,7 +778,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/options}  =>  {variant=newzealand}.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 113.
+LaTeX Info: Redefining \selectfont on input line 111.
 \thai@year=\count299
 File: logo02.jpg Graphic file (type bmp)
 <logo02.jpg>
@@ -791,25 +791,25 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 125
+LaTeX Font Info:    Trying to load font information for U+msa on input line 123
 .
 
 (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 125
+LaTeX Font Info:    Trying to load font information for U+msb on input line 123
 .
 
 (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
-5.
+3.
 
 (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \hbox (badness 10000) in alignment at lines 125--125
+Underfull \hbox (badness 10000) in alignment at lines 123--123
 [] [] 
  []
 
@@ -818,71 +818,71 @@ Underfull \hbox (badness 10000) in alignment at lines 125--125
 Package hyperref Warning: bookmark level for unknown chapterx defaults to 0.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 12.29996pt on input line 130.
+(Font)              scaled to size 12.29996pt on input line 128.
 
-Underfull \hbox (badness 10000) in alignment at lines 147--149
+Underfull \hbox (badness 10000) in alignment at lines 145--147
 [][] 
  []
 
 [2]
 \thai@year=\count300
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count301
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count302
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count303
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count304
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count305
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count306
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count307
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count308
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count309
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count310
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 \thai@year=\count311
-LaTeX Info: Redefining \rmfamily on input line 159.
-LaTeX Info: Redefining \sffamily on input line 159.
-LaTeX Info: Redefining \ttfamily on input line 159.
+LaTeX Info: Redefining \rmfamily on input line 157.
+LaTeX Info: Redefining \sffamily on input line 157.
+LaTeX Info: Redefining \ttfamily on input line 157.
 
-Underfull \hbox (badness 10000) in alignment at lines 164--168
+Underfull \hbox (badness 10000) in alignment at lines 162--166
 [][] 
  []
 
 [3]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 14.75995pt on input line 177.
+(Font)              scaled to size 14.75995pt on input line 175.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 14.75995pt on input line 177.
+(Font)              scaled to size 14.75995pt on input line 175.
  [4
 
 ] (dlaw-report.toc
@@ -907,18 +907,8 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 [8
 
 ]
-Overfull \hbox (1.72173pt too wide) in paragraph at lines 196--196
+Overfull \hbox (1.72173pt too wide) in paragraph at lines 194--194
 []|\TU/THSarabunNew(0)/b/n/10 SYMBOL| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
  []
 
 [9
@@ -930,132 +920,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 221.
+(hyperref)                removed on input line 218.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 17.71193pt on input line 221.
+(Font)              scaled to size 17.71193pt on input line 218.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 17.71193pt on input line 221.
+(Font)              scaled to size 17.71193pt on input line 218.
 
-Underfull \hbox (badness 3930) in paragraph at lines 225--227
-\TU/THSarabunNew(0)/m/n/10 อัตโนมัติได้ แม้คอมพิวเตอร์จะมีประโยชน์เป็นอย่างมาก 
-แต่ก็ปฏิเสธไม่ได้ว่าบางอย่างการควบคุมโดย มนุษย์นั้นมีความจำเป็นมากกว่า
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
+| \TU/THSarabunNew(0)/m/n/10 ด้วยเหตุเหล่านี้ทางคณะผู้จัดทำได้เล็งเห็นถึงปัญหาด
+ังกล่าว จึงต้องการที่จะพัฒนาเว็บแอปพลิเคชันเพื่อใช้ในการจัดการเอกสาร
  []
 
 
-Underfull \hbox (badness 6300) in paragraph at lines 225--227
-\TU/THSarabunNew(0)/m/n/10 ซึ่งในปัจจุบันการควบคุมคอมพิวเตอร์ของมนุษย์ ไม่ได้ใช
-้อวัยวะเพียงแค่มือสองมือ แต่ยังมีการนำอวัยวะอื่นภายในร่างกายมาใช้ควบคุม
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 225--227
-\TU/THSarabunNew(0)/m/n/10 ควบคุมคอมพิวเตอร์โดยตรง โดยหวังผลให้เกิดประสิทธิภาพท
-ี่ดีขึ้นกว่าการใช้อวัยวะในการควบคุม จึงเป็นจุดเริ่มต้นของการจินตนาการ
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+\TU/THSarabunNew(0)/m/n/10 นี้ทุกคนสามารถเข้าถึงข้อมูลเหล่านี้ได้ และอีกส่วนหนึ
+่งเป็นข้อมูลเอกสารที่ได้ความยินยอมจากเจ้าของคดีและทนายให้สามารถเผยแพร่
  []
 
 [1
 
-] [2]
+] [2] [3]
 บทที่ 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 269.
-
-
-Overfull \hbox (0.93755pt too wide) in paragraph at lines 271--273
-[]\TU/THSarabunNew(0)/m/n/10 อธิบายทฤษฎี องค์ความรู้หลักที่ใช้ในงาน งานวิจัยที่
-นำมาใช้ในโครงงาน หรือเปรียบเทียบผลิตภัณฑ์ที่มีอยู่ในท้องตลาด[[]] Explain theory
-,
- []
+(hyperref)                removed on input line 281.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 13.52995pt on input line 290.
-File: ./model2.pdf Graphic file (type pdf)
-<use ./model2.pdf>
-[3
+(Font)              scaled to size 13.52995pt on input line 288.
 
-]
+Overfull \hbox (10.78975pt too wide) in paragraph at lines 296--298
+\TU/THSarabunNew(0)/m/n/10 ประสงค์เพื่อลดความซ้ำซ้อนของข้อมูล และช่วยเพิ่มประสิ
+ทธิภาพในการจัดการข้อมูล ผ่านระบบจัดการฐานข้อมูล (Database Management
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+| \TU/THSarabunNew(0)/m/n/10 เป็นระบบจัดการฐานข้อมูลที่มีความเสถียรมากเหมาะสำหร
+ับการเก็บข้อมูลที่มีจุดประสงค์และแยกประเภทชัดเจน ใช้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--305
+| \TU/THSarabunNew(0)/m/n/10 เป็นระบบจัดการฐานข้อมูลชนิดหนึ่งที่ถูกสร้างขึ้นเพื
+่อวัตถุประสงค์ในการเก็บข้อมูลที่ต้องการเข้าถึงอย่างรวดเร็ว โดยใช้
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
+
+ []
+
+[4
+
+] [5] [6]
 บทที่ 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 313.
+(hyperref)                removed on input line 340.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
-[]|\TU/THSarabunNew(0)/m/n/10 jobs/
- []
-
-[4
+[7
 
 ]
 บทที่ 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 364.
+(hyperref)                removed on input line 373.
 
-[5
+[8
 
 ]
 บทที่ 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 376.
+(hyperref)                removed on input line 385.
 
-(dlaw-report.bbl [6
+(dlaw-report.bbl [9
 
 ]
-\thai@year=\count313
-LaTeX Info: Redefining \rmfamily on input line 12.
-LaTeX Info: Redefining \sffamily on input line 12.
-LaTeX Info: Redefining \ttfamily on input line 12.
-\thai@year=\count314
-LaTeX Info: Redefining \rmfamily on input line 15.
-LaTeX Info: Redefining \sffamily on input line 15.
-LaTeX Info: Redefining \ttfamily on input line 15.
-) [7
+
+LaTeX Warning: Empty `thebibliography' environment on input line 3.
+
+) [10
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 21.25432pt on input line 411.
+(Font)              scaled to size 21.25432pt on input line 420.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 411.
- [8]
+(Font)              scaled to size 21.25432pt on input line 420.
+ [11]
 
 Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.29996pt
-(hyperref)                replaced by space on input line 411.
+(hyperref)                replaced by space on input line 420.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
-
- []
-
-[9] [10]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \hskip 12.29996pt
-(hyperref)                replaced by space on input line 481.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 482--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
 
@@ -1148,19 +1115,19 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[11] (dlaw-report.aux
-\thai@year=\count315
+[12] (dlaw-report.aux
+\thai@year=\count313
 )
 Package rerunfilecheck Info: File `dlaw-report.out' has not changed.
-(rerunfilecheck)             Checksum: 87D5A63444C942D094265CD54A17374E;7962.
+(rerunfilecheck)             Checksum: 42DFD99D5064E13C72382626F344FE54;9434.
  ) 
 Here is how much of TeX's memory you used:
- 16777 strings out of 412197
- 300964 string characters out of 2849632
- 682712 words of memory out of 3000000
- 36065 multiletter control sequences out of 15000+200000
+ 16757 strings out of 412197
+ 300720 string characters out of 2849632
+ 685585 words of memory out of 3000000
+ 36046 multiletter control sequences out of 15000+200000
  537681 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,11n,112p,1392b,558s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 105i,9n,112p,682b,510s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dlaw-report.pdf (22 pages).
+Output written on dlaw-report.pdf (23 pages).
