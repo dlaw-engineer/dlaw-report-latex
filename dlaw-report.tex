@@ -6,6 +6,8 @@
 
 \usepackage{polyglossia}
 \usepackage{titlesec}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
 \setdefaultlanguage{thai}
 \setotherlanguage{english}
 \newfontfamily\thaifont[Script=Thai,Scale=1.23]{TH Sarabun New}
@@ -221,8 +223,8 @@ In a multihop ad hoc network, the interference among nodes is
 
 \section{ที่มาและความสำคัญ}
 
-\hspace*{1cm} ในปัจจุบันได้เกิดคดีความต่างๆมากมายทั้งคดีออาชญากรรม คดียาเสพติด หรือคดีทางการเมือง และในบางคดีนั้นผู้ที่ถูกดำเนินคดีมักจะถูกกลั่นแกล้งผ่านทางกฎหมาย หรือไม่ได้รับความเป็นธรรมโดยเฉพาะคดีที่เกี่ยวข้องกับการเมือง โดยจะมีทั้งเยาวชน นักศึกษามหาวิทยาลัย และประชาชนทั่วไป ซึ่งถ้าจะไปจ้างทนายส่วนตัวก็จะต้องเสียทั้งเงิน เสียทั้งเวลา ดังนั้นจึงมีองค์กรที่ไม่แสวงหาผลกำไร ที่จะจัดตั้งทนายขึ้นมา เพื่อที่จะมาช่วยเหลือ ผู้ที่ถูกดำเนินคดีทางการเมืองเหล่านี้ ซึ่งในปัจจุบันก็จะมีอยู่ 2 องค์กรที่คอยให้ความช่วยเหลือ และเป็นองค์กรไม่แสวงผลกำไร ซึ่งมีจำนวนทั้งสิ้น 2 องค์กรคือ โครงการอินเทอร์เน็ตเพื่อกฎหมายประชาชนหรือ ILaw และ ศูนย์ทนายความเพื่อสิทธิมนุษยชน หรือ TLHR ซึ่งองค์กรไม่แสวงผลกำไรนี้ได้เข้ามามีบทบาท ทำให้ผู้ที่ถูกดำเนินคดีทางการเมืองจำนวนมากต่าง เข้ามาติดต่อเพื่อขอความช่วยเหลือ และในทางกลับกันจำนวนของทนายที่คอยให้ความช่วยเหลือผู้ที่ถูกดำเนินคดีนั้นมีจำนวนเท่าเดิม สวนทางกับจำนวนของผู้ที่ถูกดำเนินคดีที่มีมากขึ้นเรื่อยๆ ซึ่งจะทำให้เห็นว่าทนาย 1 คนนั้นมีความจำเป็นที่จะต้องรับผิดชอบคดีความมากกว่า 1 คดี และต้องรับทำคดีมากกว่า 1 คน อีกทั้งยังต้องจัดการเอกสารจำนวนมาก จึงทำให้พบปัญหาในการจัดเก็บเอกสาร หรือรูปภาพอยู่เสมอ โดยเฉพาะในบางคดีที่ใช้ระยะเวลานาน จนอาจจะมีการหลงลืมที่อยู่ในการจัดเก็บเอกสารได้ \\
-\hspace*{1cm} ด้วยเหตุเหล่านี้ทางคณะผู้จัดทำได้เล็งเห็นปัญหาดังกล่าว คณะผู้จัดทำจึงต้องการที่จะพัฒนาเว็บแอปพลิเคชันเพื่อใช้ในการจัดการเอกสารต่างๆของทนาย หรือ Document management system for lawyer โดยสามารถจัดเก็บเอกสาร ตามรายบุคคลหรือตามเคสแต่ละคดีได้ และยังสามารถนำเอกสารบางส่วนที่สามารถเผยแพร่ได้นำมาเผยแพร่ ให้บุคคลทั่วไปสามารถดาวน์โหลดและติดตามคดีเหล่านั้นได้ อีกทั้งทางคณะผู้จัดทำจะนำข้อมูลต่างๆที่มีความน่าสนใจ มาจัดทำให้รูปแบบของแผนที่จำลองหรือแผนภูมิในรูปแบบต่างๆ และนำข้อมูลต่างๆมาแสดงผลในรูปแบบของแผนที่หรือแผนภูมิรูปต่างๆ เพื่อที่จะให้บุคคลทั่วไป ได้รับความรู้ และรับรู้ถึงสถานการณ์ทางด้านกฎหมาย และการเมืองในประเทศไทยในปัจจุบัน
+\hspace*{1cm} ในปัจจุบันได้เกิดคดีความต่างๆมากมายทั้งคดีออาชญากรรม คดียาเสพติด หรือคดีทางการเมือง และในบางคดีนั้นผู้ที่ถูกดำเนินคดีมักจะถูกกลั่นแกล้งผ่านทางกฎหมายหรือไม่ได้รับความเป็นธรรมโดยเฉพาะคดีที่เกี่ยวข้องกับการเมือง โดยจะมีทั้งเยาวชน นักศึกษามหาวิทยาลัย และประชาชนทั่วไป ซึ่งถ้าจะไปจ้างทนายส่วนตัวก็จะต้องเสียทั้งเงิน เสียทั้งเวลา ดังนั้นจึงมีองค์กรที่ไม่แสวงหาผลกำไร ที่จะจัดตั้งทนายขึ้นมา เพื่อที่จะมาช่วยเหลือ ผู้ที่ถูกดำเนินคดีทางการเมืองเหล่านี้ ซึ่งในปัจจุบันก็จะมีอยู่ 2 องค์กรที่คอยให้ความช่วยเหลือ และเป็นองค์กรไม่แสวงผลกำไร ซึ่งมีจำนวนทั้งสิ้น 2 องค์กรคือ โครงการอินเทอร์เน็ตเพื่อกฎหมายประชาชนหรือ ILaw และ ศูนย์ทนายความเพื่อสิทธิมนุษยชน หรือ TLHR ซึ่งองค์กรไม่แสวงผลกำไรนี้ได้เข้ามามีบทบาท ทำให้ผู้ที่ถูกดำเนินคดีทางการเมืองจำนวนมากต่างเข้ามาติดต่อเพื่อขอความช่วยเหลือ และในทางกลับกันจำนวนของทนายที่คอยให้ความช่วยเหลือผู้ที่ถูกดำเนินคดีนั้นมีจำนวนเท่าเดิม ซึ่งสวนทางกับจำนวนของผู้ที่ถูกดำเนินคดีที่มีมากขึ้นเรื่อยๆ โดยจะทำให้เห็นว่าทนาย 1 คนนั้นมีความจำเป็นที่จะต้องรับผิดชอบคดีความมากกว่า 1 คดี และต้องรับทำคดีมากกว่า 1 คน อีกทั้งยังต้องจัดการเอกสารจำนวนมาก จึงทำให้พบปัญหาในการจัดเก็บเอกสาร หรือรูปภาพอยู่เสมอ โดยเฉพาะในบางคดีที่ใช้ระยะเวลานาน จนอาจจะมีการหลงลืมที่อยู่ในการจัดเก็บเอกสารได้ \\
+\hspace*{1cm} ด้วยเหตุเหล่านี้ทางคณะผู้จัดทำได้เล็งเห็นถึงปัญหาดังกล่าว คณะผู้จัดทำจึงต้องการที่จะพัฒนาเว็บแอปพลิเคชันเพื่อใช้ในการจัดการเอกสารต่างๆของทนาย หรือ Document management system for lawyer โดยสามารถจัดเก็บเอกสาร ตามรายบุคคลหรือตามเคสแต่ละคดีได้ และยังสามารถนำเอกสารบางส่วนที่เป็นประโยชน์ต่อสาธารณะมาเผยแพร่ ให้บุคคลทั่วไปสามารถดาวน์โหลดและติดตามคดีเหล่านั้นได้ อีกทั้งทางคณะผู้จัดทำจะนำข้อมูลต่างๆที่มีความน่าสนใจมาจัดทำให้อยู่ในรูปแบบของแผนที่จำลองหรือแผนภูมิในรูปแบบต่างๆ เพื่อที่จะให้บุคคลทั่วไปได้ศึกษาข้อมูล พร้อมทั้งเข้าถึงสถานการณ์ทางด้านกฎหมายและคดีทางการเมืองของประเทศไทยในปัจจุบัน
 
 \section{วัตถุประสงค์}
 \begin{enumerate}
@@ -240,29 +242,470 @@ In a multihop ad hoc network, the interference among nodes is
 
 \newpage
 \section{ขั้นตอนการทํางานและระยะเวลาการดําเนินงาน}
-  \subsection{กำหนดหัวข้อโครงงานและปรึกษาอาจารที่ปรึกษา} 
-  \subsection{รวบรวมข้อมูลที่เกี่ยวข้องกับโครงงาน}
-  \subsection{ศึกษาเครื่องมือที่ใช้ในการทำโครงงาน}
-  \subsection{ศึกษาค้นคว้าและเก็บรวบรวมข้อมูลที่ใช้ในการทำโครงการ}
-  \subsection{จัดทำข้อเสนอโครงการ}
-  \subsection{จัดทำรูปเล่มปริญญานิพนธ์ประจำภาคการศึกษาที่ 1/2565}
-  \subsection{ออกแบบ โครงสร้าง UX/UI และฐานข้อมูล}
-    \subsubsection{ออกแบบ และจัดวาง flow ของระบบ}
-    \subsubsection{ออกแบบ UX/UI ของเว็บแอปพลิเคชัน}
-  \subsection{ทดสอบเทคโนโลยี และทฤษฎีที่นำมาใช้ การพัฒนา Web  Application}
-  \subsection{พัฒนาเว็บแอปพลิเคชัน}
-    \subsubsection{ศึกษาและพัฒนา Frontend ด้วย NextJS (Javascript)}
-    \subsubsection{ศึกษาและพัฒนา Backend ด้วยภาษา Go}
-    \subsubsection{ศึกษาและพัฒนาฐานข้อมูลด้วย PostgreSQL, Elasticsearch}
-  \subsection{นำเสนอปริญญานิพนธ์ประจำภาคการศึกษาที่ 1/2565}
-  \subsection{พัฒนาเว็บแอปพลิเคชัน (ต่อจากภาคเรียนที่ 1)}
-  \subsection{ทดสอบเว็บแอปพลิเคชัน (ต่อจากภาคเรียนที่ 1)}
-  \subsection{ปรับปรุงและแก้ไขเว็บแอปพลิเคชัน}
-  \subsection{ทดสอบการใช้งานจริง}
-  \subsection{จัดทำรูปเล่มปริญญานิพนธ์ประจำภาคการศึกษาที่ 2/2565}
-  \subsection{นำเสนอปริญญานิพนธ์ประจำภาคการศึกษาที่ 2/2565}
+\begin{enumerate}
+  \item{กำหนดหัวข้อโครงงานและปรึกษาอาจารที่ปรึกษา} 
+  \item{รวบรวมข้อมูลที่เกี่ยวข้องกับโครงงาน}
+  \item{ศึกษาเครื่องมือที่ใช้ในการทำโครงงาน}
+  \item{ศึกษาค้นคว้าและเก็บรวบรวมข้อมูลที่ใช้ในการทำโครงการ}
+  \item{จัดทำข้อเสนอโครงการ}
+  \item{จัดทำรูปเล่มปริญญานิพนธ์ประจำภาคการศึกษาที่ 1/2565}
+  \item{ออกแบบ โครงสร้าง UX/UI และฐานข้อมูล}
+  \begin{itemize}
+        \item{ออกแบบ และจัดวาง flow ของระบบ}
+        \item{ออกแบบ UX/UI ของเว็บแอปพลิเคชัน}
+    \end{itemize}
+\item{ทดสอบเทคโนโลยี และทฤษฎีที่นำมาใช้ การพัฒนา Web  Application}
+\item{พัฒนาเว็บแอปพลิเคชัน}
+    \begin{itemize}
+        \item{ศึกษาและพัฒนา Frontend ด้วย NextJS (Javascript)}
+        \item{ศึกษาและพัฒนา Backend ด้วยภาษา Go}
+        \item{ศึกษาและพัฒนาฐานข้อมูลด้วย PostgreSQL, Elasticsearch}
+    \end{itemize}
+  \item{นำเสนอปริญญานิพนธ์ประจำภาคการศึกษาที่ 1/2565}
+  \item{พัฒนาเว็บแอปพลิเคชัน (ต่อจากภาคเรียนที่ 1)}
+  \item{ทดสอบเว็บแอปพลิเคชัน (ต่อจากภาคเรียนที่ 1)}
+  \item{ปรับปรุงและแก้ไขเว็บแอปพลิเคชัน}
+  \item{ทดสอบการใช้งานจริง}
+  \item{จัดทำรูปเล่มปริญญานิพนธ์ประจำภาคการศึกษาที่ 2/2565}
+  \item{นำเสนอปริญญานิพนธ์ประจำภาคการศึกษาที่ 2/2565}
+\end{enumerate}
+\hspace*{1cm}จากขั้นตอนการทำงานทั้งหมดที่กล่าวมา สามารถแสดงผลเวลาในการดำเนินงาน ในรูปแบบของแผนภูมิแกนต์ (Gantt chart) ได้ดังตารางที่ \ref{tbl:working1} และตารางที่ \ref{tbl:working2} ดังนี้
 
-\hspace*{1cm}จากภาพรวมการทำงานทั้งหมดที่กล่าวมา สามารถแสดงผลเวลาในการดำเนินงาน ในรูปแบบของแผนภูมิแกนต์ (Gantt chart) ได้ดังตารางที่ \ref{tbl:working1} และตารางที่ \ref{tbl:working2} ดังนี้
+\begin{table}[!h]
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|llllllllllllllllllllll|}
+    \hline
+    \multicolumn{22}{|c|}{ตารางดำเนินงาน ภาคการศึกษาที่ 1/2565} \\ \hline
+    \multicolumn{1}{|c|}{} &
+      \multicolumn{1}{c|}{} &
+      \multicolumn{4}{c|}{สิงหาคม} &
+      \multicolumn{4}{c|}{กันยายน} &
+      \multicolumn{4}{c|}{ตุลาคม} &
+      \multicolumn{4}{c|}{พฤศจิกายน} &
+      \multicolumn{4}{c|}{ธันวาคม} \\ \cline{3-22} 
+    \multicolumn{1}{|c|}{\multirow{-2}{*}{ที่}} &
+      \multicolumn{1}{c|}{\multirow{-2}{*}{หัวข้อ}} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} \\ \hline
+    \multicolumn{1}{|l|}{1} &
+      \multicolumn{1}{l|}{กำหนดหัวข้อโครงงานและปรึกษาอาจารที่ปรึกษา} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{2} &
+      \multicolumn{1}{l|}{รวบรวมข้อมูลที่เกี่ยวข้องกับโครงงาน} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{3} &
+      \multicolumn{1}{l|}{ศึกษาเครื่องมือที่ใช้ในการทำโครงงาน} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{4} &
+      \multicolumn{1}{l|}{ศึกษาค้นคว้าและเก็บรวบรวมข้อมูลที่ใช้ในการทำโครงการ} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{5} &
+      \multicolumn{1}{l|}{จัดทำข้อเสนอโครงการ} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{6} &
+      \multicolumn{1}{l|}{จัดทำรายงาน   3 บทแรก} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{7} &
+      \multicolumn{1}{l|}{ออกแบบโครงสร้าง UX/UI และฐานข้อมูล} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \cellcolor[HTML]{FFCE93} \\ \hline
+    \multicolumn{1}{|l|}{8} &
+      \multicolumn{1}{l|}{ทดสอบเทคโนโลยี และทฤษฎีที่นำมาใช้ในการพัฒนาเว็บแอปพลิเคชัน} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \cellcolor[HTML]{FFCE93} \\ \hline
+    \multicolumn{1}{|l|}{9} &
+      \multicolumn{1}{l|}{พัฒนาเว็บแอปพลิเคชัน} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \cellcolor[HTML]{FFCE93} \\ \hline
+    \multicolumn{1}{|l|}{10} &
+      \multicolumn{1}{l|}{นำเสนอรายงาน   3 บทแรก} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \end{tabular}%
+    }
+    \caption{\centering  ตารางแสดงเวลาดำเนินงานของภาคการเรียนที่ 1/2565} \label{tbl:working1}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+
+\begin{table}[!h]
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{|llllllllllllllllllllll|}
+    \hline
+    \multicolumn{22}{|c|}{ตารางดำเนินงาน ภาคการศึกษาที่ 2/2565} \\ \hline
+    \multicolumn{1}{|c|}{} &
+      \multicolumn{1}{c|}{} &
+      \multicolumn{4}{c|}{มกราคม} &
+      \multicolumn{4}{c|}{กุมภาพันธ์} &
+      \multicolumn{4}{c|}{มีนาคม} &
+      \multicolumn{4}{c|}{เมษายน} &
+      \multicolumn{4}{c|}{พฤษภาคม} \\ \cline{3-22} 
+    \multicolumn{1}{|c|}{\multirow{-2}{*}{ที่}} &
+      \multicolumn{1}{c|}{\multirow{-2}{*}{หัวข้อ}} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} &
+      \multicolumn{1}{c|}{1} &
+      \multicolumn{1}{c|}{2} &
+      \multicolumn{1}{c|}{3} &
+      \multicolumn{1}{c|}{4} \\ \hline
+    \multicolumn{1}{|l|}{11} &
+      \multicolumn{1}{l|}{พัฒนา Web Application} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{12} &
+      \multicolumn{1}{l|}{ทดสอบ   Web Application} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{13} &
+      \multicolumn{1}{l|}{ปรับปรุงและแก้ไข   Web Application} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{14} &
+      \multicolumn{1}{l|}{ทดสอบการใช้งานจริง} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{15} &
+      \multicolumn{1}{l|}{จัดทำรายงานโครงงานฉบับสมบูรณ์} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \multicolumn{1}{|l|}{16} &
+      \multicolumn{1}{l|}{นำเสนอโครงงาน} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{\cellcolor[HTML]{FFCE93}} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+      \multicolumn{1}{l|}{} &
+       \\ \hline
+    \end{tabular} %
+    }
+    \caption{\centering  ตารางแสดงเวลาดำเนินงานของภาคการเรียนที่ 2/2565} \label{tbl:working2}
+\end{table}
+
 % TODO : ใส่ตาราง gantt chart และ ref tbl รูปด้วย
 
 
@@ -289,7 +732,7 @@ In a multihop ad hoc network, the interference among nodes is
 \section{ทฤษฎีที่เกี่ยวข้อง}
 
 \subsection{วิธีการดำเนินคดีของทนายความ} 
-\hspace*{1cm}หลังจากที่ ทนายได้รับเรื่องคดีเข้ามาแล้ว ทนายก็จะทำการสอบข้อเท็จจริงจากลูกความ และทำการปรับข้อเท็จจริงให้เข้ากับหลักกฎหมาย จากนั้น จะทำการออกหนังสือกล่าวทวงถาม เขียนคำฟ้อง คำให้การ และคำให้การพร้อมฟ้องแย้ง หลังจากนั้นจะทำการยื่นคำฟ้อง หรือยื่นคำให้การให้แก่ศาล ต่อมาจะเป็นการ ยื่นบัญชีระบุพยาน และทำการขอหมายเรียก พยานเอกสาร พยานบุคคล หรือพยานวัตถุ จากนั้นจะเป็นการเตรียมคดี หรือซ้อมพยาน ก่อนที่จะนัดฟังคำพิพากษา ทั้งศาลชั้นต้น ศาลอุทธรณ์ และศาลฎีกา 
+\hspace*{1cm}หลังจากที่ทนายได้รับเรื่องคดีเข้ามาแล้ว ทนายก็จะทำการสอบข้อเท็จจริงจากลูกความและทำการปรับข้อเท็จจริงให้เข้ากับหลักกฎหมาย จากนั้น จะทำการออกหนังสือกล่าวทวงถาม เขียนคำฟ้อง คำให้การ และคำให้การพร้อมฟ้องแย้ง หลังจากนั้นจะทำการยื่นคำฟ้อง หรือยื่นคำให้การให้แก่ศาล ต่อมาจะเป็นการ ยื่นบัญชีระบุพยาน และทำการขอหมายเรียก พยานเอกสาร พยานบุคคล หรือพยานวัตถุ จากนั้นจะเป็นการเตรียมคดี หรือซ้อมพยาน ก่อนที่จะนัดฟังคำพิพากษา ทั้งศาลชั้นต้น ศาลอุทธรณ์ และศาลฎีกา 
 
 \subsection{Kanban software developments} 
 \hspace*{1cm}Kanban board ถูกสร้างจากวิศวกรของบริษัท Toyota ที่มีชื่อว่า Taiichi Ohno ในปี 1940 โดนแนวคิดนี้สร้างขึ้นเพื่อควบคุมและจัดการงาน สินค้าคงคลังให้ในแต่ละขึ้นตอน ผลิตอย่างเหมาะสม และเป็นแบบแผนที่สุด\\
