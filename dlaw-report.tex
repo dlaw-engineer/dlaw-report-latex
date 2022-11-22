@@ -932,8 +932,8 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id                 & uuid          & ID ของประเภทไฟล์       \\ \hline
-    name               & String(256)   & ชื่อของประเภทของไฟล์   \\ \hline
+    id                 & UUID          & ID ของประเภทไฟล์       \\ \hline
+    name               & Varchar(256)   & ชื่อของประเภทของไฟล์   \\ \hline
     createdAt          & TimeStamp     & วันเวลาที่สร้าง        \\ \hline
     updatedAt          & TimeStamp     & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt          & TimeStamp     & วันเวลาที่ลบ           \\ \hline
@@ -948,9 +948,9 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id                 & uuid          & ID ของไฟล์                                                      \\ \hline
-    name               & String(256)   & ชื่อของประเภทของไฟล์                                            \\ \hline
-    fileTypeId         & uuid          & ID ของประเภทของไฟล์                                             \\ \hline
+    id                 & UUID          & ID ของไฟล์                                                      \\ \hline
+    name               & Varchar(256)   & ชื่อของประเภทของไฟล์                                            \\ \hline
+    fileTypeId         & UUID          & ID ของประเภทของไฟล์                                             \\ \hline
     url                & text          & Url ของไฟล์ที่ได้จาก google storage                             \\ \hline
     publishedUrl       & text          & Url ของไฟล์ที่บุคคลที่ไม่ใช่ทนายใช้ในการเข้าถึงเอกสารและดาวโหลด \\ \hline
     createdAt          & TimeStamp     & วันเวลาที่สร้าง                                                 \\ \hline
@@ -967,8 +967,8 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id                 & uuid          & ID ของ tag             \\ \hline
-    name               & String(256)   & ชื่อ tag               \\ \hline
+    id                 & UUID          & ID ของ tag             \\ \hline
+    name               & Varchar(256)   & ชื่อ tag               \\ \hline
     createdAt          & TimeStamp     & วันเวลาที่สร้าง        \\ \hline
     updatedAt          & TimeStamp     & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt          & TimeStamp     & วันเวลาที่ลบ       \\ \hline
@@ -983,9 +983,9 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id                 & uuid          & ID ของ file tag        \\ \hline
-    fileId             & uuid          & ID ของ file            \\ \hline
-    tagId              & uuid          & ID ของ tag             \\ \hline
+    id                 & UUID          & ID ของ file tag        \\ \hline
+    fileId             & UUID          & ID ของ file            \\ \hline
+    tagId              & UUID          & ID ของ tag             \\ \hline
     createdAt          & TimeStamp     & วันเวลาที่สร้าง        \\ \hline
     updatedAt          & TimeStamp     & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt          & TimeStamp     & วันเวลาที่ลบ          \\ \hline
@@ -1000,9 +1000,9 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id        & uuid        & ID ของ folder          \\ \hline
-    name      & String(256) & ชื่อ folder            \\ \hline
-    isArchived         & bool          & เก็บถาวรหรือเป็น attribute ที่บ่งบอกถึงสถานะการใช้งานว่าใช้ได้หรือไม่ \\ \hline
+    id        & UUID        & ID ของ folder          \\ \hline
+    name      & Varchar(256) & ชื่อ folder            \\ \hline
+    isArchived         & Boolean          & เก็บถาวรหรือเป็น attribute ที่บ่งบอกถึงสถานะการใช้งานว่าใช้ได้หรือไม่ \\ \hline
     createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
     updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt & TimeStamp   & วันเวลาที่ลบ             \\ \hline
@@ -1018,9 +1018,9 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id        & uuid      & ID ของ folder file     \\ \hline
-    flieId    & uuid      & ID ของ file            \\ \hline
-    folderId  & uuid      & ID ของ folder          \\ \hline
+    id        & UUID      & ID ของ folder file     \\ \hline
+    flieId    & UUID      & ID ของ file            \\ \hline
+    folderId  & UUID      & ID ของ folder          \\ \hline
     createdAt & TimeStamp & วันเวลาที่สร้าง        \\ \hline
     updatedAt & TimeStamp & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt & TimeStamp & วันเวลาที่ลบ              \\ \hline
@@ -1035,9 +1035,9 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id          & uuid      & ID ของ record                \\ \hline
-    folderId    & uuid      & ID ของโฟลเดอร์ที่อยู่ด้านนอก \\ \hline
-    subFolderId & uuid      & ID ของโฟลเดอร์ที่อยู่ด้านใน  \\ \hline
+    id          & UUID      & ID ของ record                \\ \hline
+    folderId    & UUID      & ID ของโฟลเดอร์ที่อยู่ด้านนอก \\ \hline
+    subFolderId & UUID      & ID ของโฟลเดอร์ที่อยู่ด้านใน  \\ \hline
     createdAt   & TimeStamp & วันเวลาที่สร้าง              \\ \hline
     updatedAt   & TimeStamp & วันเวลาที่อัพเดทล่าสุด       \\ \hline
     deletedAt   & TimeStamp & วันเวลาที่ลบ                \\ \hline  
@@ -1053,9 +1053,9 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id        & uuid      & ID ของ record          \\ \hline
-    folderId  & uuid      & ID ของ folder          \\ \hline
-    tagId     & uuid      & ID ของ tag             \\ \hline
+    id        & UUID      & ID ของ record          \\ \hline
+    folderId  & UUID      & ID ของ folder          \\ \hline
+    tagId     & UUID      & ID ของ tag             \\ \hline
     createdAt & TimeStamp & วันเวลาที่สร้าง        \\ \hline
     updatedAt & TimeStamp & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt & TimeStamp & วันเวลาที่ลบ     \\ \hline
@@ -1072,11 +1072,11 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id         & uuid        & ID ของ case                 \\ \hline
-    folderId   & uuid        & ID ของ folder ที่เชื่อมอยู่ \\ \hline
-    title      & String(256) & ชื่อคดี                     \\ \hline
+    id         & UUID        & ID ของ case                 \\ \hline
+    folderId   & UUID        & ID ของ folder ที่เชื่อมอยู่ \\ \hline
+    title      & Varchar(256) & ชื่อคดี                     \\ \hline
     detail     & text        & รายละเอียดคดี               \\ \hline
-    caseNumber & String(256) & เลขคดี                      \\ \hline
+    caseNumber & Varchar(256) & เลขคดี                      \\ \hline
     createdAt  & TimeStamp   & วันเวลาที่สร้าง             \\ \hline
     updatedAt  & TimeStamp   & วันเวลาที่อัพเดทล่าสุด      \\ \hline
     deletedAt  & TimeStamp   & วันเวลาที่ลบ     \\ \hline
@@ -1092,12 +1092,12 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id          & uuid        & ID ของ appointment                        \\ \hline
-    caseId      & uuid        & ID ของ case                               \\ \hline
-    eventId     & String(256) & ID ของ event ที่ใช้ใน google calendar api \\ \hline
-    detail      & String(256) & รายละเอียดของการนัดหมาย                   \\ \hline
-    title       & String(256) & ชื่อของการนัดหมาย                         \\ \hline
-    isPublished & bool        & เปิดเผยสู่สาธารณะหรือไม่                  \\ \hline
+    id          & UUID        & ID ของ appointment                        \\ \hline
+    caseId      & UUID        & ID ของ case                               \\ \hline
+    eventId     & Varchar(256) & ID ของ event ที่ใช้ใน google calendar api \\ \hline
+    detail      & Varchar(256) & รายละเอียดของการนัดหมาย                   \\ \hline
+    title       & Varchar(256) & ชื่อของการนัดหมาย                         \\ \hline
+    isPublished & Boolean        & เปิดเผยสู่สาธารณะหรือไม่                  \\ \hline
     createdAt   & TimeStamp   & วันเวลาที่สร้าง                           \\ \hline
     updatedAt   & TimeStamp   & วันเวลาที่อัพเดทล่าสุด                    \\ \hline
     deletedAt   & TimeStamp   & วันเวลาที่ลบ             \\ \hline
@@ -1113,8 +1113,8 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id        & uuid        & ID ของ permission      \\ \hline
-    name      & String(256) & ชื่อของ permission     \\ \hline
+    id        & UUID        & ID ของ permission      \\ \hline
+    name      & Varchar(256) & ชื่อของ permission     \\ \hline
     createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
     updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt & TimeStamp   & วันเวลาที่ลบ                \\ \hline
@@ -1130,10 +1130,10 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id           & uuid      & ID ของ folder appointment \\ \hline
-    permissionId & uuid      & ID ของ permission         \\ \hline
-    folderId     & uuid      & ID ของ folder             \\ \hline
-    userId       & uuid      & ID ของ user               \\ \hline
+    id           & UUID      & ID ของ folder appointment \\ \hline
+    permissionId & UUID      & ID ของ permission         \\ \hline
+    folderId     & UUID      & ID ของ folder             \\ \hline
+    userId       & UUID      & ID ของ user               \\ \hline
     createdAt    & TimeStamp & วันเวลาที่สร้าง           \\ \hline
     updatedAt    & TimeStamp & วันเวลาที่อัพเดทล่าสุด    \\ \hline
     deletedAt    & TimeStamp & วันเวลาที่ลบ            \\ \hline
@@ -1149,11 +1149,11 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id        & uuid      & ID ของ activity log                 \\ \hline
-    folderId  & uuid      & ID ของ folder ที่ถูกทำการอัพเดทไฟล์ \\ \hline
-    userId    & uuid      & ID ของ user ที่ทำการอัพเดทไฟล์      \\ \hline
-    flieId    & uuid      & ID ของ file ที่ถูกทำการอัพเดท       \\ \hline
-    actionId  & uuid      & ID ของ action ที่ทำ                 \\ \hline
+    id        & UUID      & ID ของ activity log                 \\ \hline
+    folderId  & UUID      & ID ของ folder ที่ถูกทำการอัพเดทไฟล์ \\ \hline
+    userId    & UUID      & ID ของ user ที่ทำการอัพเดทไฟล์      \\ \hline
+    flieId    & UUID      & ID ของ file ที่ถูกทำการอัพเดท       \\ \hline
+    actionId  & UUID      & ID ของ action ที่ทำ                 \\ \hline
     createdAt & TimeStamp & วันเวลาที่สร้าง                     \\ \hline
     updatedAt & TimeStamp & วันเวลาที่อัพเดทล่าสุด              \\ \hline
     deletedAt & TimeStamp & วันเวลาที่ลบ                      \\ \hline
@@ -1169,8 +1169,8 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id        & uuid        & ID ของ action          \\ \hline
-    name      & String(256) & ชื่อของ action         \\ \hline
+    id        & UUID        & ID ของ action          \\ \hline
+    name      & Varchar(256) & ชื่อของ action         \\ \hline
     createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
     updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt & TimeStamp   & วันเวลาที่ลบ          \\ \hline    
@@ -1186,11 +1186,11 @@ In a multihop ad hoc network, the interference among nodes is
     \begin{tabular}{|l|l|l|}
     \hline
     \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
-    id        & uuid        & ID ของ user            \\ \hline
-    firstName & String(256) & ชื่อจริง               \\ \hline
-    lastName  & String(256) & นามสกุล                \\ \hline
-    email     & String(256) & อีเมล์                 \\ \hline
-    password  & String(256) & รหัสผ่าน               \\ \hline
+    id        & UUID        & ID ของ user            \\ \hline
+    firstName & Varchar(256) & ชื่อจริง               \\ \hline
+    lastName  & Varchar(256) & นามสกุล                \\ \hline
+    email     & Varchar(256) & อีเมล์                 \\ \hline
+    password  & Varchar(256) & รหัสผ่าน               \\ \hline
     createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
     updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
     deletedAt & TimeStamp   & วันเวลาที่ลบ                \\ \hline
