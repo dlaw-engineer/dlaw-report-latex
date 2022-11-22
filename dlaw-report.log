@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  22 NOV 2022 16:10
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  22 NOV 2022 18:16
 entering extended mode
 **./dlaw-report.tex
 (dlaw-report.tex
@@ -1057,48 +1057,59 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 428.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
+\TU/THSarabunNew(0)/m/n/10 เป็นส่วนที่ใช้ในการจัดการแปลงไฟล์เอกสารหรือไฟล์รูปภา
+พให้อยู่ในรูปแบบข้อความเพื่อที่จะใช้ในการเก็บข้อมูลเข้า Database
+ []
+
+File: ./assets/software_architecture.png Graphic file (type bmp)
+<./assets/software_architecture.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [8
 
-]
+] [9] [10]
 บทที่ 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 450.
+(hyperref)                removed on input line 501.
 
-[9
+[11
 
 ]
 บทที่ 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 462.
+(hyperref)                removed on input line 513.
 
-(dlaw-report.bbl [10
+(dlaw-report.bbl [12
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [11
+) [13
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 21.25432pt on input line 497.
+(Font)              scaled to size 21.25432pt on input line 548.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 497.
- [12]
+(Font)              scaled to size 21.25432pt on input line 548.
+ [14]
 
 Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.29996pt
-(hyperref)                replaced by space on input line 497.
+(hyperref)                replaced by space on input line 548.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 498--499
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
 
  []
 
@@ -1191,28 +1202,23 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[13] (dlaw-report.aux
+[15] (dlaw-report.aux
 \thai@year=\count313
 )
+Package rerunfilecheck Info: File `dlaw-report.out' has not changed.
+(rerunfilecheck)             Checksum: 4E3C88B00A8046474DEE93B584EE466C;9372.
 
-Package rerunfilecheck Warning: File `dlaw-report.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `dlaw-report.out':
-(rerunfilecheck)             Before: 9766D9544CABDF691159FC22751EC8E8;9165
-(rerunfilecheck)             After:  F84D60EB3D926E027F4A983776AA4C55;9197.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 17039 strings out of 412197
- 304256 string characters out of 2849632
- 693423 words of memory out of 3000000
- 36325 multiletter control sequences out of 15000+200000
+ 17049 strings out of 412197
+ 304503 string characters out of 2849632
+ 693699 words of memory out of 3000000
+ 36332 multiletter control sequences out of 15000+200000
  537681 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,9n,112p,1391b,510s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dlaw-report.pdf (24 pages).
+Output written on dlaw-report.pdf (26 pages).
