@@ -242,7 +242,6 @@ In a multihop ad hoc network, the interference among nodes is
 
 \newpage
 \section{ขั้นตอนการทํางานและระยะเวลาการดําเนินงาน}
-\vspace*{0.3cm}
 \begin{enumerate}
   \item{กำหนดหัวข้อโครงงานและปรึกษาอาจารที่ปรึกษา} 
   \item{รวบรวมข้อมูลที่เกี่ยวข้องกับโครงงาน}
@@ -891,7 +890,7 @@ In a multihop ad hoc network, the interference among nodes is
 \end{enumerate}
 
 \begin{figure}[!h]\centering
-  \includegraphics[width=13cm]{./assets/software_architecture.png}
+  \includegraphics[width=13cm]{./assets/software-architecture.png}
   \caption{รูปแสดงสถาปัตยกรรมระบบของซอฟแวร์}\label{fig:systemArch}
 \end{figure}
 
@@ -918,7 +917,289 @@ In a multihop ad hoc network, the interference among nodes is
 \end{enumerate}
 
 
-\section{Database Design}
+\section{โครงสร้างฐานข้อมูล}
+\hspace*{1cm}โครงสร้างฐานข้อมูลของเว็บแอปพลิเคชัน DLaw แสดงดังรูป \ref{fig:erDiagram}  โดยมีรายละเอียดของชนิดตัวแปรและคํา
+อธิบายเพิ่มเติมดังตารางที่ \ref{tbl:dbFileType} - \ref{tbl:dbUser} ดังนี้
+\begin{figure}[!h]\centering
+    \includegraphics[width=16cm]{./assets/er-diagram.png}
+    \caption{รูปแสดงโครงสร้างฐานข้อมูล}\label{fig:erDiagram}
+\end{figure}
+
+\subsection{ตาราง FileType}
+ตารางที่ใช้ในการบันทึกข้อมูล ประเภทของไฟล์ในระบบ เช่น ไฟล์ประเภทเอกสาร ไฟล์ประเภทรูปภาพ เป็นต้น โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFileType}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id                 & uuid          & ID ของประเภทไฟล์       \\ \hline
+    name               & String(256)   & ชื่อของประเภทของไฟล์   \\ \hline
+    createdAt          & TimeStamp     & วันเวลาที่สร้าง        \\ \hline
+    updatedAt          & TimeStamp     & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt          & TimeStamp     & วันเวลาที่ลบ           \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง FileType} \label{tbl:dbFileType}
+\end{table}
+
+\subsection{ตาราง File}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์ที่ได้จากผู้ใช้งาน โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFile}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id                 & uuid          & ID ของไฟล์                                                      \\ \hline
+    name               & String(256)   & ชื่อของประเภทของไฟล์                                            \\ \hline
+    fileTypeId         & uuid          & ID ของประเภทของไฟล์                                             \\ \hline
+    url                & text          & Url ของไฟล์ที่ได้จาก google storage                             \\ \hline
+    publishedUrl       & text          & Url ของไฟล์ที่บุคคลที่ไม่ใช่ทนายใช้ในการเข้าถึงเอกสารและดาวโหลด \\ \hline
+    createdAt          & TimeStamp     & วันเวลาที่สร้าง                                                 \\ \hline
+    updatedAt          & TimeStamp     & วันเวลาที่อัพเดทล่าสุด                                          \\ \hline
+    deletedAt          & TimeStamp     & วันเวลาที่ลบ                                                    \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง File} \label{tbl:dbFile}
+\end{table}
+
+\subsection{ตาราง Tag}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดของแท็กต่างๆ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbTag}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id                 & uuid          & ID ของ tag             \\ \hline
+    name               & String(256)   & ชื่อ tag               \\ \hline
+    createdAt          & TimeStamp     & วันเวลาที่สร้าง        \\ \hline
+    updatedAt          & TimeStamp     & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt          & TimeStamp     & วันเวลาที่ลบ       \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง Tag} \label{tbl:dbTag}
+\end{table}
+
+\subsection{ตาราง FileTag}
+ตารางที่ใช้ในการบันทึกข้อมูลความสัมพันธ์ระหว่าง file กับ Tag โดยที่ว่า ใน 1 ไฟล์นั้นสามารถมีได้หลาย Tag โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFileTag}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id                 & uuid          & ID ของ file tag        \\ \hline
+    fileId             & uuid          & ID ของ file            \\ \hline
+    tagId              & uuid          & ID ของ tag             \\ \hline
+    createdAt          & TimeStamp     & วันเวลาที่สร้าง        \\ \hline
+    updatedAt          & TimeStamp     & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt          & TimeStamp     & วันเวลาที่ลบ          \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง FileTag} \label{tbl:dbFileTag}
+\end{table}
+
+\subsection{ตาราง Folder}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดโฟลเดอร์โดยจะมี attribute ที่มีชื่อว่า isArchived มาใช้ในการบ่งบอกว่าโฟลเดอร์นี้สามารถใช้งานได้หรือไม่โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolder}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id        & uuid        & ID ของ folder          \\ \hline
+    name      & String(256) & ชื่อ folder            \\ \hline
+    isArchived         & bool          & เก็บถาวรหรือเป็น attribute ที่บ่งบอกถึงสถานะการใช้งานว่าใช้ได้หรือไม่ \\ \hline
+    createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
+    updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt & TimeStamp   & วันเวลาที่ลบ             \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง Folder} \label{tbl:dbFolder}
+\end{table}
+
+
+\subsection{ตาราง FolderFile}
+ตารางที่ใช้ในการบันทึกข้อมูลว่าโฟลเดอร์นั้นๆเก็บไฟล์อะไรไว้บ้าง โดยมีรายละเอียดดังตารางที่  \ref{tbl:dbFolderFile}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id        & uuid      & ID ของ folder file     \\ \hline
+    flieId    & uuid      & ID ของ file            \\ \hline
+    folderId  & uuid      & ID ของ folder          \\ \hline
+    createdAt & TimeStamp & วันเวลาที่สร้าง        \\ \hline
+    updatedAt & TimeStamp & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt & TimeStamp & วันเวลาที่ลบ              \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderFile} \label{tbl:dbFolderFile}
+\end{table}
+
+\subsection{ตาราง SubFolder}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbSubFolder}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id          & uuid      & ID ของ record                \\ \hline
+    folderId    & uuid      & ID ของโฟลเดอร์ที่อยู่ด้านนอก \\ \hline
+    subFolderId & uuid      & ID ของโฟลเดอร์ที่อยู่ด้านใน  \\ \hline
+    createdAt   & TimeStamp & วันเวลาที่สร้าง              \\ \hline
+    updatedAt   & TimeStamp & วันเวลาที่อัพเดทล่าสุด       \\ \hline
+    deletedAt   & TimeStamp & วันเวลาที่ลบ                \\ \hline  
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง SubFolder} \label{tbl:dbSubFolder}
+\end{table}
+
+
+\subsection{ตาราง FolderTag}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolderTag}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id        & uuid      & ID ของ record          \\ \hline
+    folderId  & uuid      & ID ของ folder          \\ \hline
+    tagId     & uuid      & ID ของ tag             \\ \hline
+    createdAt & TimeStamp & วันเวลาที่สร้าง        \\ \hline
+    updatedAt & TimeStamp & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt & TimeStamp & วันเวลาที่ลบ     \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderTag} \label{tbl:dbFolderTag}
+\end{table}
+
+
+
+\subsection{ตาราง Case}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดคดีในแต่ละคดี โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbCase}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id         & uuid        & ID ของ case                 \\ \hline
+    folderId   & uuid        & ID ของ folder ที่เชื่อมอยู่ \\ \hline
+    title      & String(256) & ชื่อคดี                     \\ \hline
+    detail     & text        & รายละเอียดคดี               \\ \hline
+    caseNumber & String(256) & เลขคดี                      \\ \hline
+    createdAt  & TimeStamp   & วันเวลาที่สร้าง             \\ \hline
+    updatedAt  & TimeStamp   & วันเวลาที่อัพเดทล่าสุด      \\ \hline
+    deletedAt  & TimeStamp   & วันเวลาที่ลบ     \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง Case} \label{tbl:dbCase}
+\end{table}
+
+
+\subsection{ตาราง Appointment}
+ตารางที่ใช้ในการบันทึกการนัดหมาย โดยจะมี attribute isPublished มาใช้ในการบ่งบอกว่า นัดหมายในครั้งนี้สามารถเปิดเผยสู่สาธารณะได้หรือไม่ และมี eventId ที่ได้มาจากการสร้าง event ผ่าน Google calendar api โดยมีรายละเอียดดังตารางที่  \ref{tbl:dbAppointment}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id          & uuid        & ID ของ appointment                        \\ \hline
+    caseId      & uuid        & ID ของ case                               \\ \hline
+    eventId     & String(256) & ID ของ event ที่ใช้ใน google calendar api \\ \hline
+    detail      & String(256) & รายละเอียดของการนัดหมาย                   \\ \hline
+    title       & String(256) & ชื่อของการนัดหมาย                         \\ \hline
+    isPublished & bool        & เปิดเผยสู่สาธารณะหรือไม่                  \\ \hline
+    createdAt   & TimeStamp   & วันเวลาที่สร้าง                           \\ \hline
+    updatedAt   & TimeStamp   & วันเวลาที่อัพเดทล่าสุด                    \\ \hline
+    deletedAt   & TimeStamp   & วันเวลาที่ลบ             \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง Appointment} \label{tbl:dbAppointment}
+\end{table}
+
+
+\subsection{ตาราง Permission}
+ตารางที่ใช้ในการบันทึกข้อมูลรายสิทธิในการเข้าถึงที่มีอยู่ในระบบ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbPermission}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id        & uuid        & ID ของ permission      \\ \hline
+    name      & String(256) & ชื่อของ permission     \\ \hline
+    createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
+    updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt & TimeStamp   & วันเวลาที่ลบ                \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง Permission} \label{tbl:dbPermission}
+\end{table}
+
+
+\subsection{ตาราง FolderPermission}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์ที่เชื่อมความสัมพันธ์ระหว่างสิทธิของผู้ใช้งานกับโฟลเดอร์ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolderPermission}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id           & uuid      & ID ของ folder appointment \\ \hline
+    permissionId & uuid      & ID ของ permission         \\ \hline
+    folderId     & uuid      & ID ของ folder             \\ \hline
+    userId       & uuid      & ID ของ user               \\ \hline
+    createdAt    & TimeStamp & วันเวลาที่สร้าง           \\ \hline
+    updatedAt    & TimeStamp & วันเวลาที่อัพเดทล่าสุด    \\ \hline
+    deletedAt    & TimeStamp & วันเวลาที่ลบ            \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderPermission} \label{tbl:dbFolderPermission}
+\end{table}
+
+
+\subsection{ตาราง ActivityLog}
+ตารางที่ใช้ในการบันทึกข้อมูลการอัพเดทไฟล์ที่เกิดขึ้นในแต่ละโฟลเดอร์ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbActivityLog}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id        & uuid      & ID ของ activity log                 \\ \hline
+    folderId  & uuid      & ID ของ folder ที่ถูกทำการอัพเดทไฟล์ \\ \hline
+    userId    & uuid      & ID ของ user ที่ทำการอัพเดทไฟล์      \\ \hline
+    flieId    & uuid      & ID ของ file ที่ถูกทำการอัพเดท       \\ \hline
+    actionId  & uuid      & ID ของ action ที่ทำ                 \\ \hline
+    createdAt & TimeStamp & วันเวลาที่สร้าง                     \\ \hline
+    updatedAt & TimeStamp & วันเวลาที่อัพเดทล่าสุด              \\ \hline
+    deletedAt & TimeStamp & วันเวลาที่ลบ                      \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง ActivityLog} \label{tbl:dbActivityLog}
+\end{table}
+
+
+\subsection{ตาราง Action}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดของการทำ activity เช่น สร้าง อัพเดท ลบ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbAction}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id        & uuid        & ID ของ action          \\ \hline
+    name      & String(256) & ชื่อของ action         \\ \hline
+    createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
+    updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt & TimeStamp   & วันเวลาที่ลบ          \\ \hline    
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง Action} \label{tbl:dbAction}
+\end{table}
+
+
+\subsection{ตาราง User}
+ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดผู้ใช้งาน โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbUser}
+\begin{table}[!h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+    \hline
+    \textbf{Attribute} & \textbf{Type} & \textbf{Description}   \\ \hline
+    id        & uuid        & ID ของ user            \\ \hline
+    firstName & String(256) & ชื่อจริง               \\ \hline
+    lastName  & String(256) & นามสกุล                \\ \hline
+    email     & String(256) & อีเมล์                 \\ \hline
+    password  & String(256) & รหัสผ่าน               \\ \hline
+    createdAt & TimeStamp   & วันเวลาที่สร้าง        \\ \hline
+    updatedAt & TimeStamp   & วันเวลาที่อัพเดทล่าสุด \\ \hline
+    deletedAt & TimeStamp   & วันเวลาที่ลบ                \\ \hline
+    \end{tabular}
+    \caption{\centering  ตารางแสดงรายละเอียดของตาราง User} \label{tbl:dbUser}
+\end{table}
+
+
+
 
 \section{UML Design}
 
