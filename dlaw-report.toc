@@ -13,8 +13,28 @@
 \contentsline {section}{\numberline {1.3}ขอบเขตและข้อจำกัดของปริญญานิพนธ์}{1}{section.1.3}%
 \contentsline {section}{\numberline {1.4}เนื้อหาทางวิศวกรรมที่เป็นต้นฉบับ}{1}{section.1.4}%
 \contentsline {section}{\numberline {1.5}ขั้นตอนการทํางานและระยะเวลาการดําเนินงาน}{2}{section.1.5}%
-\contentsline {section}{\numberline {1.6}ตารางการดำเนินงาน}{2}{section.1.6}%
-\contentsline {section}{\numberline {1.7}ผลการดำเนินงาน}{2}{section.1.7}%
+\contentsline {subsection}{\numberline {1.5.1}กำหนดหัวข้อโครงงานและปรึกษาอาจารที่ปรึกษา}{2}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {1.5.2}รวบรวมข้อมูลที่เกี่ยวข้องกับโครงงาน}{2}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {1.5.3}ศึกษาเครื่องมือที่ใช้ในการทำโครงงาน}{2}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {1.5.4}ศึกษาค้นคว้าและเก็บรวบรวมข้อมูลที่ใช้ในการทำโครงการ}{2}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {1.5.5}จัดทำข้อเสนอโครงการ}{2}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {1.5.6}จัดทำรูปเล่มปริญญานิพนธ์ประจำภาคการศึกษาที่ 1/2565}{2}{subsection.1.5.6}%
+\contentsline {subsection}{\numberline {1.5.7}ออกแบบ โครงสร้าง UX/UI และฐานข้อมูล}{2}{subsection.1.5.7}%
+\contentsline {subsubsection}{\numberline {1.5.7.1}ออกแบบ และจัดวาง flow ของระบบ}{2}{subsubsection.1.5.7.1}%
+\contentsline {subsubsection}{\numberline {1.5.7.2}ออกแบบ UX/UI ของเว็บแอปพลิเคชัน}{2}{subsubsection.1.5.7.2}%
+\contentsline {subsection}{\numberline {1.5.8}ทดสอบเทคโนโลยี และทฤษฎีที่นำมาใช้ การพัฒนา Web Application}{2}{subsection.1.5.8}%
+\contentsline {subsection}{\numberline {1.5.9}พัฒนาเว็บแอปพลิเคชัน}{2}{subsection.1.5.9}%
+\contentsline {subsubsection}{\numberline {1.5.9.1}ศึกษาและพัฒนา Frontend ด้วย NextJS (Javascript)}{2}{subsubsection.1.5.9.1}%
+\contentsline {subsubsection}{\numberline {1.5.9.2}ศึกษาและพัฒนา Backend ด้วยภาษา Go}{2}{subsubsection.1.5.9.2}%
+\contentsline {subsubsection}{\numberline {1.5.9.3}ศึกษาและพัฒนาฐานข้อมูลด้วย PostgreSQL, Elasticsearch}{2}{subsubsection.1.5.9.3}%
+\contentsline {subsection}{\numberline {1.5.10}นำเสนอปริญญานิพนธ์ประจำภาคการศึกษาที่ 1/2565}{2}{subsection.1.5.10}%
+\contentsline {subsection}{\numberline {1.5.11}พัฒนาเว็บแอปพลิเคชัน (ต่อจากภาคเรียนที่ 1)}{2}{subsection.1.5.11}%
+\contentsline {subsection}{\numberline {1.5.12}ทดสอบเว็บแอปพลิเคชัน (ต่อจากภาคเรียนที่ 1)}{2}{subsection.1.5.12}%
+\contentsline {subsection}{\numberline {1.5.13}ปรับปรุงและแก้ไขเว็บแอปพลิเคชัน}{2}{subsection.1.5.13}%
+\contentsline {subsection}{\numberline {1.5.14}ทดสอบการใช้งานจริง}{2}{subsection.1.5.14}%
+\contentsline {subsection}{\numberline {1.5.15}จัดทำรูปเล่มปริญญานิพนธ์ประจำภาคการศึกษาที่ 2/2565}{2}{subsection.1.5.15}%
+\contentsline {subsection}{\numberline {1.5.16}นำเสนอปริญญานิพนธ์ประจำภาคการศึกษาที่ 2/2565}{2}{subsection.1.5.16}%
+\contentsline {section}{\numberline {1.6}ผลการดำเนินงาน}{2}{section.1.6}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {2}\hskip -0.8em ทฤษฎีความรู้และงานที่เกี่ยวข้อง}}}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}ทฤษฎีที่เกี่ยวข้อง}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}วิธีการดำเนินคดีของทนายความ}{3}{subsection.2.1.1}%
@@ -52,6 +72,5 @@
 \contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{12}{section.5.1}%
 \contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{12}{section.5.2}%
 \contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{12}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{13}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{14}{section.5.3}%
-\contentsline {apdx}{A\hskip 1em ชื่อภาคผนวกที่ 1}{15}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{13}{section.5.3}%
+\contentsline {apdx}{A\hskip 1em ชื่อภาคผนวกที่ 1}{14}{section.5.3}%
