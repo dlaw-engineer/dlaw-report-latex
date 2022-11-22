@@ -1,51 +1,49 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.26)  23 NOV 2022 01:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  23 NOV 2022 01:46
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**dlaw-report.tex
-(./dlaw-report.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (./cpe-thai-project.cls
+**./dlaw-report.tex
+(dlaw-report.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03> (cpe-thai-project.cls
 
 LaTeX Warning: You have requested document class `cpe-thai-project',
                but the document class provides `cpe-grad'.
 
 Document Class: cpe-grad 2016/05/30 CPE,KMUTT latex class
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count181
-\c@chapter=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
+\c@part=\count171
+\c@chapter=\count172
+\c@section=\count173
+\c@subsection=\count174
+\c@subsubsection=\count175
+\c@paragraph=\count176
+\c@subparagraph=\count177
+\c@figure=\count178
+\c@table=\count179
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
 Document Style `CPE thesis/report'.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks15
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count190
-\Gm@cntv=\count191
-\c@Gm@tempcnt=\count192
+\Gm@cnth=\count180
+\Gm@cntv=\count181
+\c@Gm@tempcnt=\count182
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -54,336 +52,337 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen144
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
-\Gm@dimlist=\toks17
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+\Gm@dimlist=\toks16
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/xelatex/xetexconfig\geometry.
+cfg))
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 105.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen147
 \Gin@req@width=\dimen148
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tools/array.sty
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+) (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen149
-\ar@mcellbox=\box50
+\ar@mcellbox=\box47
 \extrarowheight=\dimen150
-\NC@list=\toks18
+\NC@list=\toks17
 \extratabsurround=\skip49
 \backup@length=\skip50
-\ar@cellbox=\box51
+\ar@cellbox=\box48
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks19
+\@emptytoks=\toks18
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2021/10/15 v2.17l AMS math features
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks19
 \ex@=\dimen151
 ))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen152
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2021/08/26 v2.02 operator names
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count193
+\inf@bad=\count183
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count194
-\leftroot@=\count195
+\uproot@=\count184
+\leftroot@=\count185
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count196
-\DOTSCASE@=\count197
+\classnum@=\count186
+\DOTSCASE@=\count187
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box52
-\strutbox@=\box53
+\Mathstrutbox@=\box49
+\strutbox@=\box50
 \big@size=\dimen153
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count198
-\c@MaxMatrixCols=\count199
+\macc@depth=\count188
+\c@MaxMatrixCols=\count189
 \dotsspace@=\muskip16
-\c@parentequation=\count266
-\dspbrk@lvl=\count267
-\tag@help=\toks21
-\row@=\count268
-\column@=\count269
-\maxfields@=\count270
-\andhelp@=\toks22
+\c@parentequation=\count190
+\dspbrk@lvl=\count191
+\tag@help=\toks20
+\row@=\count192
+\column@=\count193
+\maxfields@=\count194
+\andhelp@=\toks21
 \eqnshift@=\dimen154
 \alignsep@=\dimen155
 \tagshift@=\dimen156
 \tagwidth@=\dimen157
 \totwidth@=\dimen158
 \lineht@=\dimen159
-\@envbody=\toks23
+\@envbody=\toks22
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2938.
-LaTeX Info: Redefining \] on input line 2939.
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/xelatex/mathspec/mathspec.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/xelatex/mathspec\mathspec.sty
 Package: mathspec 2016/12/22 v0.2b LaTeX Package (Mathematics font selection fo
 r XeLaTeX)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count271
+\etb@tempcnta=\count195
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifxetex.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2022-02-24 L3 programming layer (loader) 
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2020-10-27 L3 programming layer (loader) 
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
-
-(|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count272
-\l__color_backend_stack_int=\count273
-\g__color_backend_stack_int=\count274
-\g__graphics_track_int=\count275
-\l__pdf_internal_box=\box54
-\g__pdf_backend_object_int=\count276
-\g__pdf_backend_annotation_int=\count277
-\g__pdf_backend_link_int=\count278
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xet
+ex.def
+File: l3backend-xetex.def 2020-09-24 L3 backend support: XeTeX
+\g__graphics_track_int=\count196
+\l__pdf_internal_box=\box51
+\g__pdf_backend_object_int=\count197
+\g__pdf_backend_annotation_int=\count198
 ))
-Package: xparse 2022-01-12 L3 Experimental document command parser
-)
-Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+Package: xparse 2020-10-27 L3 Experimental document command parser
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e-generic.tex))
+Package: fontspec 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex
+.sty
+Package: fontspec-xetex 2020/02/21 v2.7i Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count279
-\l__fontspec_language_int=\count280
-\l__fontspec_strnum_int=\count281
-\l__fontspec_tmp_int=\count282
-\l__fontspec_tmpa_int=\count283
-\l__fontspec_tmpb_int=\count284
-\l__fontspec_tmpc_int=\count285
-\l__fontspec_em_int=\count286
-\l__fontspec_emdef_int=\count287
-\l__fontspec_strong_int=\count288
-\l__fontspec_strongdef_int=\count289
+\l__fontspec_script_int=\count199
+\l__fontspec_language_int=\count266
+\l__fontspec_strnum_int=\count267
+\l__fontspec_tmp_int=\count268
+\l__fontspec_tmpa_int=\count269
+\l__fontspec_tmpb_int=\count270
+\l__fontspec_tmpc_int=\count271
+\l__fontspec_em_int=\count272
+\l__fontspec_emdef_int=\count273
+\l__fontspec_strong_int=\count274
+\l__fontspec_strongdef_int=\count275
 \l__fontspec_tmpa_dim=\dimen160
 \l__fontspec_tmpb_dim=\dimen161
 \l__fontspec_tmpc_dim=\dimen162
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+ (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
-(/usr/local/texlive/2022/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg))
+) (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2022/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks25
-\XKV@tempa@toks=\toks26
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
 )
-\XKV@depth=\count290
+\XKV@depth=\count276
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@eu@=\count291
-\c@eu@i=\count292
-\c@mkern=\count293
+\c@eu@=\count277
+\c@eu@i=\count278
+\c@mkern=\count279
 )
-(/usr/local/texlive/2022/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/xelatex/xunicode\xunicode.sty
 File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
 other characters in Unicode lower plane
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tipa/t3enc.def
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
 )
-\tipaTiiicode=\count294
-\tipasavetokens=\toks27
-\tipachecktokens=\toks28
+\tipaTiiicode=\count280
+\tipasavetokens=\toks26
+\tipachecktokens=\toks27
 )
-(/usr/local/texlive/2022/texmf-dist/tex/xelatex/xltxtra/xltxtra.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/xltxtra\xltxtra.sty
 Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifluatex.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/realscripts/realscripts.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/realscripts\realscripts
+.sty
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
 ts
 \subsupersep=\dimen163
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/metalogo/metalogo.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/metalogo\metalogo.sty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
-\xl@everylogo=\toks29
-\xl@@everylogo=\toks30
+\xl@everylogo=\toks28
+\xl@@everylogo=\toks29
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
-\l__xetex_show_hyphens_wrapping_box=\box55
-\l__xetex_show_hyphens_temp_box=\box56
-\l__xetex_show_hyphens_final_box=\box57
-\g__xetex_show_hyphens_word_box=\box58
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\l__xetex_show_hyphens_wrapping_box=\box52
+\l__xetex_show_hyphens_temp_box=\box53
+\l__xetex_show_hyphens_final_box=\box54
+\g__xetex_show_hyphens_word_box=\box55
+) (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+) (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen164
-\Hy@linkcounter=\count295
-\Hy@pagecounter=\count296
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+\Hy@linkcounter=\count281
+\Hy@pagecounter=\count282
+ (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count297
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc-greekbasic.def
-File: puenc-greekbasic.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (
-greek block) (HO)
-))
-Package hyperref Info: Hyper figures OFF on input line 4137.
-Package hyperref Info: Link nesting OFF on input line 4142.
-Package hyperref Info: Hyper index ON on input line 4145.
-Package hyperref Info: Plain pages OFF on input line 4152.
-Package hyperref Info: Backreferencing OFF on input line 4157.
+\Hy@SavedSpaceFactor=\count283
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4390.
-\c@Hy@tempcnt=\count298
-LaTeX Info: Redefining \url on input line 4749.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count284
+LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen165
-
-(/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+ (C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count299
+\Fld@menulength=\count285
 \Field@Width=\dimen166
 \Fld@charsize=\dimen167
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
-LaTeX Info: Redefining \ref on input line 6097.
-LaTeX Info: Redefining \pageref on input line 6101.
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
 )
-\Hy@abspage=\count300
-\c@Item=\count301
-\c@Hfootnote=\count302
+\Hy@abspage=\count286
+\c@Item=\count287
+\c@Hfootnote=\count288
 )
 Package hyperref Info: Driver (autodetected): hxetex.
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2020-05-15 v7.00e Hyperref driver for XeTeX
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hxetex.def
-File: hxetex.def 2022-02-21 v7.00n Hyperref driver for XeTeX
-
-(/usr/local/texlive/2022/texmf-dist/tex/generic/stringenc/stringenc.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+)
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box59
-\c@Hy@AnnotLevel=\count303
-\HyField@AnnotCount=\count304
-\Fld@listcount=\count305
-\c@bookmark@seq@number=\count306
+\pdfm@box=\box56
+\c@Hy@AnnotLevel=\count289
+\HyField@AnnotCount=\count290
+\Fld@listcount=\count291
+\c@bookmark@seq@number=\count292
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
 with kernel methods
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -394,39 +393,33 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `linktocpage' set `true' on input line 54.
 Package hyperref Info: Option `colorlinks' set `true' on input line 54.
 \bibindent=\dimen168
- (/usr/local/texlive/2022/texmf-dist/tex/latex/base/latexsym.sty
+
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
-\c@definition=\count307
+\c@definition=\count293
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/polyglossia.sty
-Package: polyglossia 2021/04/12 v1.53 Modern multilingual typesetting with XeLa
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\polyglossia
+.sty
+Package: polyglossia 2022/10/26 v1.58 Modern multilingual typesetting with XeLa
 TeX and LuaLaTeX
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/makecmds/makecmds.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/makecmds\makecmds.sty
 Package: makecmds 2009/09/03 v1.0a extra command making commands
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+Package: l3keys2e 2020-10-27 LaTeX2e option processing using LaTeX3 keys
 )
-
-LaTeX hooks Warning: Generic hook 'file/after/tracklang.sty' is deprecated.
-(hooks)              Use hook 'file/tracklang.sty/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/bidi' is deprecated.
-(hooks)              Use hook 'package/bidi/after' instead.
-
-
-LaTeX hooks Warning: Generic hook 'package/after/luabidi' is deprecated.
-(hooks)              Use hook 'package/luabidi/after' instead.
-
 \xpg@normalclass=\XeTeXcharclass1
-(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-latex.ldf
-File: gloss-latex.ldf polyglossia: module for default language
+
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-latex
+.lde
+Package: gloss-latex 2022/10/26 vv1.58 polyglossia: module for default language
+
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -444,54 +437,55 @@ braces):
 >  {latex/envname}  =>  {latex}
 >  {latex/babelname}  =>  {latex}
 >  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}.
 )
 Package polyglossia Info: Default language is latex.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2021/07/05 v2.14 Sectioning titles
-\ttl@box=\box60
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box57
 \beforetitleunit=\skip55
 \aftertitleunit=\skip56
 \ttl@plus=\dimen169
 \ttl@minus=\dimen170
-\ttl@toksa=\toks31
+\ttl@toksa=\toks30
 \titlewidth=\dimen171
 \titlewidthlast=\dimen172
 \titlewidthfirst=\dimen173
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/multirow/multirow.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip57
-\multirow@cntb=\count308
+\multirow@cntb=\count294
 \multirow@dima=\skip58
 \bigstrutjot=\dimen174
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: xetex.def on input line 227.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/colortbl/colortbl.sty
-Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks32
+Package xcolor Info: Driver file: xetex.def on input line 225.
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
+\everycr=\toks31
 \minrowclearance=\skip59
+\rownum=\count295
 )
-\rownum=\count309
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1368.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-thai.ldf
-File: gloss-thai.ldf polyglossia: module for thai
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-thai.
+ldf
+File: gloss-thai.ldf polyglossia: module for Thai
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -510,45 +504,7 @@ braces):
 >  {latex/babelname}  =>  {latex}
 >  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
->  {thai/script}  =>  {Thai}
->  {thai/lcscript}  =>  {thai}
->  {thai/scripttag}  =>  {thai}
->  {thai/language}  =>  {Thai}
->  {thai/langtag}  =>  {THA}
->  {thai/bcp47}  =>  {th}
->  {thai/hyphennames}  =>  {nohyphenation}
->  {thai/direction}  =>  {LR}
->  {thai/hyphenmins}  =>  {2,3}
->  {thai/frenchspacing}  =>  {false}
->  {thai/indentfirst}  =>  {false}
->  {thai/fontsetup}  =>  {true}
->  {thai/envname}  =>  {thai}
->  {thai/babelname}  =>  {thai}
->  {thai/localnumeral}  =>  {thainumerals}
->  {thai/Localnumeral}  =>  {thainumerals}.
-)
-Package polyglossia Info: Default language is thai.
-
-(/usr/local/texlive/2022/texmf-dist/tex/latex/polyglossia/gloss-english.ldf
-File: gloss-english.ldf polyglossia: module for english
-The property list \polyglossia@langsetup contains the pairs (without outer
-braces):
->  {latex/script}  =>  {latin}
->  {latex/lcscript}  =>  {latin}
->  {latex/scripttag}  =>  {}
->  {latex/language}  =>  {Latex}
->  {latex/langtag}  =>  {ENG}
->  {latex/bcp47}  =>  {}
->  {latex/hyphennames}  =>  {english}
->  {latex/direction}  =>  {LR}
->  {latex/hyphenmins}  =>  {2,3}
->  {latex/frenchspacing}  =>  {false}
->  {latex/indentfirst}  =>  {false}
->  {latex/fontsetup}  =>  {true}
->  {latex/envname}  =>  {latex}
->  {latex/babelname}  =>  {latex}
->  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
 >  {thai/script}  =>  {Thai}
 >  {thai/lcscript}  =>  {thai}
 >  {thai/scripttag}  =>  {thai}
@@ -565,6 +521,49 @@ braces):
 >  {thai/babelname}  =>  {thai}
 >  {thai/localnumeral}  =>  {thainumerals}
 >  {thai/Localnumeral}  =>  {thainumerals}
+>  {thai/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+)
+Package polyglossia Info: Default language is thai.
+
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/polyglossia\gloss-engli
+sh.ldf
+File: gloss-english.ldf polyglossia: module for English
+The property list \polyglossia@langsetup contains the pairs (without outer
+braces):
+>  {latex/script}  =>  {latin}
+>  {latex/lcscript}  =>  {latin}
+>  {latex/scripttag}  =>  {}
+>  {latex/language}  =>  {Latex}
+>  {latex/langtag}  =>  {ENG}
+>  {latex/bcp47}  =>  {}
+>  {latex/hyphennames}  =>  {english}
+>  {latex/direction}  =>  {LR}
+>  {latex/hyphenmins}  =>  {2,3}
+>  {latex/frenchspacing}  =>  {false}
+>  {latex/indentfirst}  =>  {false}
+>  {latex/fontsetup}  =>  {true}
+>  {latex/envname}  =>  {latex}
+>  {latex/babelname}  =>  {latex}
+>  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
+>  {thai/script}  =>  {Thai}
+>  {thai/lcscript}  =>  {thai}
+>  {thai/scripttag}  =>  {thai}
+>  {thai/language}  =>  {Thai}
+>  {thai/langtag}  =>  {THA}
+>  {thai/bcp47}  =>  {th}
+>  {thai/hyphennames}  =>  {nohyphenation}
+>  {thai/direction}  =>  {LR}
+>  {thai/hyphenmins}  =>  {2,3}
+>  {thai/frenchspacing}  =>  {false}
+>  {thai/indentfirst}  =>  {false}
+>  {thai/fontsetup}  =>  {true}
+>  {thai/envname}  =>  {thai}
+>  {thai/babelname}  =>  {thai}
+>  {thai/localnumeral}  =>  {thainumerals}
+>  {thai/Localnumeral}  =>  {thainumerals}
+>  {thai/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
 >  {english/script}  =>  {latin}
 >  {english/lcscript}  =>  {latin}
 >  {english/scripttag}  =>  {}
@@ -580,9 +579,14 @@ braces):
 >  {english/envname}  =>  {english}
 >  {english/babelname}  =>  {english}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
 Package polyglossia Info: Option: English, variant=american.
 )
+
+Package fontspec Warning: Font "TH Sarabun New" does not contain requested
+(fontspec)                Script "Thai".
+
 
 Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
 (fontspec)             Sarabun New' with options [Script=Thai,Scale=1.23].
@@ -591,16 +595,16 @@ Package fontspec Info: Font family 'THSarabunNew(0)' created for font 'TH
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun New/OT:script=thai;language=dflt;"
+(fontspec)             Sarabun New/OT:script=latn;language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->s*[1.23]"TH Sarabun
-(fontspec)             New/B/OT:script=thai;language=dflt;"
+(fontspec)             New/B/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun New/I/OT:script=thai;language=dflt;"
+(fontspec)             Sarabun New/I/OT:script=latn;language=dflt;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->s*[1.23]"TH
-(fontspec)             Sarabun New/BI/OT:script=thai;language=dflt;"
+(fontspec)             Sarabun New/BI/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
@@ -650,12 +654,15 @@ erspace=0;extend=1.0;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(1)/m/n' will be
 (Font)              scaled to size 12.29996pt on input line 16.
-\c@theorem=\count310
-\c@lemma=\count311
-\c@corollary=\count312
+\c@theorem=\count296
+\c@lemma=\count297
+\c@corollary=\count298
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/ragged2e/ragged2e.sty
-Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/ms\everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
 \CenteringLeftskip=\skip60
 \RaggedLeftLeftskip=\skip61
 \RaggedRightLeftskip=\skip62
@@ -671,13 +678,10 @@ Package: ragged2e 2021/12/15 v3.1 ragged2e Package
 \RaggedRightParindent=\skip72
 \JustifyingParindent=\skip73
 )
-(./dlaw-report.aux
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
+(dlaw-report.aux
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 12.29996pt on input line 19.
-\thai@year=\count313
+\thai@year=\count299
 )
 \openout1 = `dlaw-report.aux'.
 
@@ -693,7 +697,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 15.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 115.
@@ -707,7 +711,7 @@ LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 115.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11
 5.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/tipa/t3cmr.fd
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 115.
@@ -716,10 +720,9 @@ LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -751,54 +754,92 @@ LaTeX Font Info:    ... okay on input line 115.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 115.
-(/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
-ty
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count314
+\c@section@level=\count300
 )
 LaTeX Info: Redefining \ref on input line 115.
 LaTeX Info: Redefining \pageref on input line 115.
 LaTeX Info: Redefining \nameref on input line 115.
- (./dlaw-report.out) (./dlaw-report.out)
+ (dlaw-report.out) (dlaw-report.out)
 \@outlinefile=\write3
 \openout3 = `dlaw-report.out'.
 
-LaTeX Info: Redefining \rmfamily on input line 115.
-LaTeX Info: Redefining \sffamily on input line 115.
-LaTeX Info: Redefining \ttfamily on input line 115.
-LaTeX Info: Redefining \rmfamily on input line 115.
-LaTeX Info: Redefining \sffamily on input line 115.
-LaTeX Info: Redefining \ttfamily on input line 115.
-\thai@year=\count315
+The property list \__xpg_alias contains the pairs (without outer braces):
+>  {latex/target}  =>  {latex}
+>  {thai/target}  =>  {thai}
+>  {th/target}  =>  {thai}
+>  {english/target}  =>  {english}
+>  {en/target}  =>  {english}
+>  {en-AU/target}  =>  {english}
+>  {en-AU/variant}  =>  {australian}
+>  {en-AU/options}  =>  {variant=australian}
+>  {en-CA/target}  =>  {english}
+>  {en-CA/variant}  =>  {canadian}
+>  {en-CA/options}  =>  {variant=canadian}
+>  {en-GB/target}  =>  {english}
+>  {en-GB/variant}  =>  {british}
+>  {en-GB/options}  =>  {variant=british}
+>  {en-NZ/target}  =>  {english}
+>  {en-NZ/variant}  =>  {newzealand}
+>  {en-NZ/options}  =>  {variant=newzealand}
+>  {en-US/target}  =>  {english}
+>  {en-US/variant}  =>  {us}
+>  {en-US/options}  =>  {variant=us}
+>  {american/target}  =>  {english}
+>  {american/variant}  =>  {us}
+>  {american/options}  =>  {variant=us}
+>  {australian/target}  =>  {english}
+>  {australian/variant}  =>  {australian}
+>  {australian/options}  =>  {variant=australian}
+>  {british/target}  =>  {english}
+>  {british/variant}  =>  {british}
+>  {british/options}  =>  {variant=british}
+>  {canadian/target}  =>  {english}
+>  {canadian/variant}  =>  {canadian}
+>  {canadian/options}  =>  {variant=canadian}
+>  {newzealand/target}  =>  {english}
+>  {newzealand/variant}  =>  {newzealand}
+>  {newzealand/options}  =>  {variant=newzealand}.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 115.
+\thai@year=\count301
 File: logo02.jpg Graphic file (type bmp)
 <logo02.jpg>
- [1
+
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\se-ascii-pr
+int.def
+File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
+
+) [1
 
 
 ]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 127
 .
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 127
 .
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
 7.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ulasy.fd
+(C:\Users\nom_n\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Underfull \hbox (badness 10000) in alignment at lines 127--127
@@ -817,87 +858,51 @@ Underfull \hbox (badness 10000) in alignment at lines 149--151
  []
 
 [2]
+\thai@year=\count302
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count316
+\thai@year=\count303
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
+\thai@year=\count304
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count317
+\thai@year=\count305
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
+\thai@year=\count306
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count318
+\thai@year=\count307
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
+\thai@year=\count308
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count319
+\thai@year=\count309
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
+\thai@year=\count310
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count320
+\thai@year=\count311
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
+\thai@year=\count312
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count321
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count322
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count323
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count324
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count325
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count326
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-LaTeX Info: Redefining \rmfamily on input line 161.
-LaTeX Info: Redefining \sffamily on input line 161.
-LaTeX Info: Redefining \ttfamily on input line 161.
-\thai@year=\count327
+\thai@year=\count313
 LaTeX Info: Redefining \rmfamily on input line 161.
 LaTeX Info: Redefining \sffamily on input line 161.
 LaTeX Info: Redefining \ttfamily on input line 161.
@@ -913,36 +918,24 @@ LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 (Font)              scaled to size 14.75995pt on input line 179.
  [4
 
-] (./dlaw-report.toc
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count328
+] (dlaw-report.toc
+\thai@year=\count314
  [5
 
 ])
 \tf@toc=\write4
 \openout4 = `dlaw-report.toc'.
 
- [6] (./dlaw-report.lot
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count329
-)
+ [6] (dlaw-report.lot)
 \tf@lot=\write5
 \openout5 = `dlaw-report.lot'.
 
  [7
 
-] (./dlaw-report.lof
-LaTeX Info: Redefining \rmfamily on input line 1.
-LaTeX Info: Redefining \sffamily on input line 1.
-LaTeX Info: Redefining \ttfamily on input line 1.
-\thai@year=\count330
-)
+] (dlaw-report.lof)
 \tf@lof=\write6
 \openout6 = `dlaw-report.lof'.
+
 
 [8
 
@@ -973,19 +966,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--228
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 226--228
+Underfull \hbox (badness 1308) in paragraph at lines 226--228
 \TU/THSarabunNew(0)/m/n/10 เพื่อสิทธิมนุษยชน หรือ TLHR ซึ่งองค์กรไม่แสวงผลกำไรน
 ี้ได้เข้ามามีบทบาท ทำให้ผู้ที่ถูกดำเนินคดีทางการเมืองจำนวนมากต่างเข้ามา
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 226--228
+Underfull \hbox (badness 6364) in paragraph at lines 226--228
 |  \TU/THSarabunNew(0)/m/n/10 ด้วยเหตุเหล่านี้ทางคณะผู้จัดทำได้เล็งเห็นถึงปัญหา
 ดังกล่าว คณะผู้จัดทำจึงต้องการที่จะพัฒนาเว็บแอปพลิเคชันเพื่อใช้ในการ
  []
 
 
-Underfull \hbox (badness 6691) in paragraph at lines 226--228
+Underfull \hbox (badness 5817) in paragraph at lines 226--228
 \TU/THSarabunNew(0)/m/n/10 คดีเหล่านั้นได้ อีกทั้งทางคณะผู้จัดทำจะนำข้อมูลต่างๆ
 ที่มีความน่าสนใจมาจัดทำให้อยู่ในรูปแบบของแผนที่จำลองหรือแผนภูมิในรูปแบบ
  []
@@ -1002,93 +995,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [2] [3]
 บทที่ 2.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 728.
+(hyperref)                removed on input line 729.
 
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 13.52995pt on input line 734.
+(Font)              scaled to size 13.52995pt on input line 735.
 
-Underfull \hbox (badness 10000) in paragraph at lines 735--736
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
 | \TU/THSarabunNew(0)/m/n/10 หลังจากที่ทนายได้รับเรื่องคดีเข้ามาแล้ว ทนายก็จะทำ
 การสอบข้อเท็จจริงจากลูกความและทำการปรับข้อเท็จจริงให้เข้ากับหลัก
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 735--736
+Underfull \hbox (badness 1057) in paragraph at lines 736--737
 \TU/THSarabunNew(0)/m/n/10 กฎหมาย จากนั้น จะทำการออกหนังสือกล่าวทวงถาม เขียนคำฟ
 ้อง คำให้การ และคำให้การพร้อมฟ้องแย้ง หลังจากนั้นจะทำการยื่น
  []
 
 
-Overfull \hbox (10.78975pt too wide) in paragraph at lines 742--744
+Overfull \hbox (10.78975pt too wide) in paragraph at lines 743--745
 \TU/THSarabunNew(0)/m/n/10 ประสงค์เพื่อลดความซ้ำซ้อนของข้อมูล และช่วยเพิ่มประสิ
 ทธิภาพในการจัดการข้อมูล ผ่านระบบจัดการฐานข้อมูล (Database Management
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 745--747
+Underfull \hbox (badness 10000) in paragraph at lines 746--748
 | \TU/THSarabunNew(0)/m/n/10 เป็นระบบจัดการฐานข้อมูลที่มีความเสถียรมากเหมาะสำหร
 ับการเก็บข้อมูลที่มีจุดประสงค์และแยกประเภทชัดเจน ใช้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 749--751
+Underfull \hbox (badness 10000) in paragraph at lines 750--752
 | \TU/THSarabunNew(0)/m/n/10 เป็นระบบจัดการฐานข้อมูลชนิดหนึ่งที่ถูกสร้างขึ้นเพื
 ่อวัตถุประสงค์ในการเก็บข้อมูลที่ต้องการเข้าถึงอย่างรวดเร็ว โดยใช้
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 754--756
+Underfull \hbox (badness 10000) in paragraph at lines 755--757
 
  []
 
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 781--782
+Underfull \hbox (badness 10000) in paragraph at lines 782--783
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 788--789
+Underfull \hbox (badness 10000) in paragraph at lines 789--790
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 797--798
+Underfull \hbox (badness 10000) in paragraph at lines 798--799
 
  []
 
 
-Overfull \hbox (4.36545pt too wide) in paragraph at lines 811--814
+Overfull \hbox (4.73445pt too wide) in paragraph at lines 812--815
 |  \TU/THSarabunNew(0)/m/n/10 คือ React UI library ที่มี Component ให้ใช้ที่ค่อ
 นข้างครอบคลุม หลากหาย และสวยงาม ซึ่งสามารถรองรับ Responsive
  []
 
 [6]
-Overfull \hbox (1.34991pt too wide) in paragraph at lines 827--829
+Overfull \hbox (2.33391pt too wide) in paragraph at lines 828--830
 \TU/THSarabunNew(0)/m/n/10 ผลลัพธ์อะไรให้ตรงกับที่ต้องการมากที่สุดซึ่งมีการใช้ว
 ิธีการประเมินที่เรียกว่า Term Frequency-Inverse Document Frequency
  []
 
 
-Underfull \hbox (badness 2875) in paragraph at lines 827--829
+Underfull \hbox (badness 2503) in paragraph at lines 828--830
 \TU/THSarabunNew(0)/m/n/10 มากและยิ่งจำนวนเอกสารที่มีในการค้นหามากเท่าไหร่แสดงว
 ่า คำหรือข้อความที่ค้นหานั้นมีความสำคัญน้อยลง ซึ่งการใช้วิธีการ
  []
 
-
-Underfull \hbox (badness 1286) in paragraph at lines 843--846
-\TU/THSarabunNew(0)/m/n/10 เอกสารประเภทต่างๆให้อยู่ในรูปแบบของข้อความที่คอมพิวเ
-ตอร์สามารถเข้าใจได้ เพื่อใช้ในการเก็บข้อมูลเอกสารให้อยู่ในรูปแบบ
- []
-
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 854--856
+Underfull \hbox (badness 10000) in paragraph at lines 855--857
 |  \TU/THSarabunNew(0)/m/n/10 เป็นแอปพลิเคชันที่ใช้สำหรับการสื่อสารที่สามารถสื่
 อสารได้ทั้งเสียงและข้อความโดยสามารถแบ่งแยกห้องออกมาเป็น
  []
@@ -1098,10 +1088,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 854--856
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 863.
+(hyperref)                removed on input line 864.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--886
+Underfull \hbox (badness 10000) in paragraph at lines 885--887
 |  \TU/THSarabunNew(0)/m/n/10 เป็นส่วนที่ใช้ในการจัดการแปลงไฟล์เอกสารหรือไฟล์รู
 ปภาพให้อยู่ในรูปแบบข้อความเพื่อที่จะใช้ในการเก็บข้อมูลเข้า
  []
@@ -1118,7 +1108,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 936.
+(hyperref)                removed on input line 937.
 
 [12
 
@@ -1127,9 +1117,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 948.
+(hyperref)                removed on input line 949.
 
-(./dlaw-report.bbl [13
+(dlaw-report.bbl [13
 
 ]
 
@@ -1139,9 +1129,9 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 21.25432pt on input line 983.
+(Font)              scaled to size 21.25432pt on input line 984.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 983.
+(Font)              scaled to size 21.25432pt on input line 984.
  [15]
 
 Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
@@ -1149,10 +1139,10 @@ Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.29996pt
-(hyperref)                replaced by space on input line 983.
+(hyperref)                replaced by space on input line 984.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 984--985
+Underfull \hbox (badness 10000) in paragraph at lines 985--986
 
  []
 
@@ -1174,6 +1164,7 @@ braces):
 >  {latex/babelname}  =>  {latex}
 >  {latex/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {latex/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {latex/DefineCommandsCmd}  =>  {use_none:n}
 >  {thai/script}  =>  {Thai}
 >  {thai/lcscript}  =>  {thai}
 >  {thai/scripttag}  =>  {thai}
@@ -1190,6 +1181,7 @@ braces):
 >  {thai/babelname}  =>  {thai}
 >  {thai/localnumeral}  =>  {thainumerals}
 >  {thai/Localnumeral}  =>  {thainumerals}
+>  {thai/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}
 >  {english/script}  =>  {latin}
 >  {english/lcscript}  =>  {latin}
 >  {english/scripttag}  =>  {}
@@ -1205,23 +1197,57 @@ braces):
 >  {english/envname}  =>  {english}
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
->  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-[16] (./dlaw-report.aux
-LaTeX Info: Redefining \rmfamily on input line 19.
-LaTeX Info: Redefining \sffamily on input line 19.
-LaTeX Info: Redefining \ttfamily on input line 19.
-\thai@year=\count331
+>  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}
+>  {english/DefineCommandsCmd}  =>  {xpg_define_language_commands:e}.
+The property list \__xpg_alias contains the pairs (without outer braces):
+>  {latex/target}  =>  {latex}
+>  {thai/target}  =>  {thai}
+>  {th/target}  =>  {thai}
+>  {english/target}  =>  {english}
+>  {en/target}  =>  {english}
+>  {en-AU/target}  =>  {english}
+>  {en-AU/variant}  =>  {australian}
+>  {en-AU/options}  =>  {variant=australian}
+>  {en-CA/target}  =>  {english}
+>  {en-CA/variant}  =>  {canadian}
+>  {en-CA/options}  =>  {variant=canadian}
+>  {en-GB/target}  =>  {english}
+>  {en-GB/variant}  =>  {british}
+>  {en-GB/options}  =>  {variant=british}
+>  {en-NZ/target}  =>  {english}
+>  {en-NZ/variant}  =>  {newzealand}
+>  {en-NZ/options}  =>  {variant=newzealand}
+>  {en-US/target}  =>  {english}
+>  {en-US/variant}  =>  {us}
+>  {en-US/options}  =>  {variant=us}
+>  {american/target}  =>  {english}
+>  {american/variant}  =>  {us}
+>  {american/options}  =>  {variant=us}
+>  {australian/target}  =>  {english}
+>  {australian/variant}  =>  {australian}
+>  {australian/options}  =>  {variant=australian}
+>  {british/target}  =>  {english}
+>  {british/variant}  =>  {british}
+>  {british/options}  =>  {variant=british}
+>  {canadian/target}  =>  {english}
+>  {canadian/variant}  =>  {canadian}
+>  {canadian/options}  =>  {variant=canadian}
+>  {newzealand/target}  =>  {english}
+>  {newzealand/variant}  =>  {newzealand}
+>  {newzealand/options}  =>  {variant=newzealand}.
+[16] (dlaw-report.aux
+\thai@year=\count315
 )
 Package rerunfilecheck Info: File `dlaw-report.out' has not changed.
-(rerunfilecheck)             Checksum: 2310A06C6E7251E14CD6499E1CF149F3;10636.
+(rerunfilecheck)             Checksum: 79D2F1FAF4DD645B9DCCB1D3BFE4142E;9181.
  ) 
 Here is how much of TeX's memory you used:
- 17888 strings out of 476179
- 336434 string characters out of 5809544
- 752192 words of memory out of 5000000
- 38353 multiletter control sequences out of 15000+600000
- 471916 words of font info for 75 fonts, out of 8000000 for 9000
+ 17553 strings out of 412197
+ 310260 string characters out of 2849632
+ 741797 words of memory out of 3000000
+ 36829 multiletter control sequences out of 15000+200000
+ 537681 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,12n,105p,1389b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,12n,112p,1391b,510s stack positions out of 5000i,500n,10000p,200000b,50000s
 
 Output written on dlaw-report.pdf (27 pages).
