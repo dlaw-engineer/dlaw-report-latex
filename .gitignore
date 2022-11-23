@@ -6,4 +6,5 @@
 *.lot
 *.out
 *.tpc
+*.toc
 .DS_Store
