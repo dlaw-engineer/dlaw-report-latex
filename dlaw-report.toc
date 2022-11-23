@@ -42,29 +42,30 @@
 \contentsline {section}{\numberline {3.4}โครงสร้างฐานข้อมูล}{11}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}ตาราง FileType}{11}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}ตาราง File}{12}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}ตาราง Tag}{12}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.3}ตาราง Tag}{13}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}ตาราง FileTag}{13}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}ตาราง Folder}{13}{subsection.3.4.5}%
 \contentsline {subsection}{\numberline {3.4.6}ตาราง FolderFile}{13}{subsection.3.4.6}%
 \contentsline {subsection}{\numberline {3.4.7}ตาราง SubFolder}{13}{subsection.3.4.7}%
-\contentsline {subsection}{\numberline {3.4.8}ตาราง FolderTag}{13}{subsection.3.4.8}%
+\contentsline {subsection}{\numberline {3.4.8}ตาราง FolderTag}{14}{subsection.3.4.8}%
 \contentsline {subsection}{\numberline {3.4.9}ตาราง Case}{14}{subsection.3.4.9}%
-\contentsline {subsection}{\numberline {3.4.10}ตาราง Appointment}{14}{subsection.3.4.10}%
+\contentsline {subsection}{\numberline {3.4.10}ตาราง Appointment}{15}{subsection.3.4.10}%
 \contentsline {subsection}{\numberline {3.4.11}ตาราง Permission}{15}{subsection.3.4.11}%
 \contentsline {subsection}{\numberline {3.4.12}ตาราง FolderPermission}{15}{subsection.3.4.12}%
 \contentsline {subsection}{\numberline {3.4.13}ตาราง ActivityLog}{15}{subsection.3.4.13}%
-\contentsline {subsection}{\numberline {3.4.14}ตาราง Action}{15}{subsection.3.4.14}%
-\contentsline {subsection}{\numberline {3.4.15}ตาราง User}{15}{subsection.3.4.15}%
+\contentsline {subsection}{\numberline {3.4.14}ตาราง Action}{16}{subsection.3.4.14}%
+\contentsline {subsection}{\numberline {3.4.15}ตาราง User}{16}{subsection.3.4.15}%
 \contentsline {section}{\numberline {3.5}Use case diagram}{16}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Use case narrative}{16}{section.3.6}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{17}{chapter.4}%
-\contentsline {section}{\numberline {4.1}ประสิทฺธิภาพการทำงานของระบบ}{17}{section.4.1}%
-\contentsline {section}{\numberline {4.2}ความพึงพอใจการใช้งาน}{17}{section.4.2}%
-\contentsline {section}{\numberline {4.3}การวิเคราะห์ข้อมูลและผลการทดลอง}{17}{section.4.3}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em บทสรุป}}}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{18}{section.5.2}%
-\contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{18}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{19}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{20}{section.5.3}%
-\contentsline {apdx}{A\hskip 1em ชื่อภาคผนวกที่ 1}{21}{section.5.3}%
+\contentsline {section}{\numberline {3.6}Use case narrative}{17}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Sequence diagram}{23}{section.3.7}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{40}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ประสิทฺธิภาพการทำงานของระบบ}{40}{section.4.1}%
+\contentsline {section}{\numberline {4.2}ความพึงพอใจการใช้งาน}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.3}การวิเคราะห์ข้อมูลและผลการทดลอง}{40}{section.4.3}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em บทสรุป}}}{41}{chapter.5}%
+\contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{41}{section.5.1}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{41}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{41}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{42}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{43}{section.5.3}%
+\contentsline {apdx}{A\hskip 1em ชื่อภาคผนวกที่ 1}{44}{section.5.3}%
