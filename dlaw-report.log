@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.26)  23 NOV 2022 20:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.9.26)  23 NOV 2022 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,20 +973,21 @@ LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
 \thai@year=\count330
-)
-\tf@lof=\write6
-\openout6 = `dlaw-report.lof'.
 
 [8
 
-]
+])
+\tf@lof=\write6
+\openout6 = `dlaw-report.lof'.
+
+ [9]
 Overfull \hbox (1.72173pt too wide) in paragraph at lines 187--187
 []|\TU/THSarabunNew(0)/b/n/10 SYMBOL| 
  []
 
-[9
+[10
 
-] [10
+] [11
 
 ]
 บทที่ 1.
@@ -1195,47 +1196,226 @@ File: ./assets/sequence-diagram/reset-password.png Graphic file (type bmp)
 <./assets/sequence-diagram/reset-password.png>
 File: ./assets/sequence-diagram/change-password.png Graphic file (type bmp)
 <./assets/sequence-diagram/change-password.png>
- [26] [27] [28] [29] [30]
-[31] [32] [33] [34] [35] [36] [37] [38] [39]
+ [26]
+File: ./assets/userinterface/folder-component.png Graphic file (type bmp)
+<./assets/userinterface/folder-component.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/rename-folder.png Graphic file (type bmp)
+<./assets/userinterface/rename-folder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/manage-folder-permission.png Graphic file (type bm
+p)
+<./assets/userinterface/manage-folder-permission.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/archive-folder.png Graphic file (type bmp)
+<./assets/userinterface/archive-folder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/delete-folder.png Graphic file (type bmp)
+<./assets/userinterface/delete-folder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/file-component.png Graphic file (type bmp)
+<./assets/userinterface/file-component.png>
+[27]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/move-to-folder.png Graphic file (type bmp)
+<./assets/userinterface/move-to-folder.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/publish-document.png Graphic file (type bmp)
+<./assets/userinterface/publish-document.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/delete-file.png Graphic file (type bmp)
+<./assets/userinterface/delete-file.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28]
+File: ./assets/userinterface/search-filter.png Graphic file (type bmp)
+<./assets/userinterface/search-filter.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29]
+File: ./assets/userinterface/landing-page.png Graphic file (type bmp)
+<./assets/userinterface/landing-page.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/search-case.png Graphic file (type bmp)
+<./assets/userinterface/search-case.png>
+
+Underfull \hbox (badness 1142) in paragraph at lines 1859--1864
+|  \TU/THSarabunNew(0)/m/n/10 เป็นหน้าที่จะใช้ค้นหาคดีต่าง ๆ โดยใช้หมายเลขคดีดำ
+หรือหมายเลขคดีแดง ซึ่งจะสามารถแสดงรายระเอียดของคดีที่ต้องการ
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30]
+File: ./assets/userinterface/appointment-public.png Graphic file (type bmp)
+<./assets/userinterface/appointment-public.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/login-page.png Graphic file (type bmp)
+<./assets/userinterface/login-page.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31]
+File: ./assets/userinterface/workshop-page.png Graphic file (type bmp)
+<./assets/userinterface/workshop-page.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/workshop-tags-filter.png Graphic file (type bmp)
+<./assets/userinterface/workshop-tags-filter.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[32]
+File: ./assets/userinterface/case-folder.png Graphic file (type bmp)
+<./assets/userinterface/case-folder.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/new-case.png Graphic file (type bmp)
+<./assets/userinterface/new-case.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/document-list.png Graphic file (type bmp)
+<./assets/userinterface/document-list.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/upload-document.png Graphic file (type bmp)
+<./assets/userinterface/upload-document.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+File: ./assets/userinterface/folder-permission.png Graphic file (type bmp)
+<./assets/userinterface/folder-permission.png>
+File: ./assets/userinterface/create-new-folder.png Graphic file (type bmp)
+<./assets/userinterface/create-new-folder.png>
+File: ./assets/userinterface/activity-logs.png Graphic file (type bmp)
+<./assets/userinterface/activity-logs.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47
+
+]
+File: ./assets/userinterface/preview-file.png Graphic file (type bmp)
+<./assets/userinterface/preview-file.png>
+File: ./assets/userinterface/public-document.png Graphic file (type bmp)
+<./assets/userinterface/public-document.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48]
+File: ./assets/userinterface/appointment.png Graphic file (type bmp)
+<./assets/userinterface/appointment.png>
+ [49]
+File: ./assets/userinterface/create-appointment-info.png Graphic file (type bmp
+)
+<./assets/userinterface/create-appointment-info.png>
+File: ./assets/userinterface/create-appointment-email.png Graphic file (type bm
+p)
+<./assets/userinterface/create-appointment-email.png>
+File: ./assets/userinterface/create-appointment-datetime.png Graphic file (type
+ bmp)
+<./assets/userinterface/create-appointment-datetime.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./assets/userinterface/create-appointment-done.png Graphic file (type bmp
+)
+<./assets/userinterface/create-appointment-done.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50
+
+] [51]
+File: ./assets/userinterface/setting-myprofile.png Graphic file (type bmp)
+<./assets/userinterface/setting-myprofile.png>
+File: ./assets/userinterface/setting-manage-user.png Graphic file (type bmp)
+<./assets/userinterface/setting-manage-user.png>
+File: ./assets/userinterface/setting-create-user.png Graphic file (type bmp)
+<./assets/userinterface/setting-create-user.png>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[52
+
+] [53]
 บทที่ 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1791.
+(hyperref)                removed on input line 2000.
 
-[40
+[54
 
 ]
 บทที่ 5.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
-(hyperref)                removed on input line 1803.
+(hyperref)                removed on input line 2012.
 
-(./dlaw-report.bbl [41
+(./dlaw-report.bbl [55
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [42
+) [56
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
-(Font)              scaled to size 21.25432pt on input line 1838.
+(Font)              scaled to size 21.25432pt on input line 2047.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
-(Font)              scaled to size 21.25432pt on input line 1838.
- [43]
+(Font)              scaled to size 21.25432pt on input line 2047.
+ [57]
 
 Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \hskip 12.29996pt
-(hyperref)                replaced by space on input line 1838.
+(hyperref)                replaced by space on input line 2047.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1839--1840
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
 
  []
 
@@ -1289,7 +1469,7 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-[44] (./dlaw-report.aux
+[58] (./dlaw-report.aux
 LaTeX Info: Redefining \rmfamily on input line 19.
 LaTeX Info: Redefining \sffamily on input line 19.
 LaTeX Info: Redefining \ttfamily on input line 19.
@@ -1298,16 +1478,22 @@ LaTeX Info: Redefining \ttfamily on input line 19.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `dlaw-report.out' has not changed.
-(rerunfilecheck)             Checksum: AC679FE96692B38EE28186907B72C436;12702.
+
+Package rerunfilecheck Warning: File `dlaw-report.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `dlaw-report.out':
+(rerunfilecheck)             Before: 370284E23C1310BFEF15F9CEBF8BDD28;14105
+(rerunfilecheck)             After:  9B941DA1E233E9F1395CF89645C06C08;14263.
  ) 
 Here is how much of TeX's memory you used:
- 18071 strings out of 476179
- 342668 string characters out of 5809544
- 757479 words of memory out of 5000000
- 38518 multiletter control sequences out of 15000+600000
+ 18370 strings out of 476179
+ 355071 string characters out of 5809544
+ 760322 words of memory out of 5000000
+ 38783 multiletter control sequences out of 15000+600000
  471916 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,19n,105p,1389b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on dlaw-report.pdf (55 pages).
+Output written on dlaw-report.pdf (70 pages).

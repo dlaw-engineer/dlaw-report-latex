@@ -5,8 +5,8 @@
 \contentsline {chapterx}{\mdseries สารบัญ}{v}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญตาราง}{vii}{Doc-Start}%
 \contentsline {chapterx}{\mdseries สารบัญรูปภาพ}{viii}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญสัญลักษณ์}{ix}{Doc-Start}%
-\contentsline {chapterx}{\mdseries สารบัญคำศัพท์ทางเทคนิคและคำย่อ}{x}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญสัญลักษณ์}{x}{Doc-Start}%
+\contentsline {chapterx}{\mdseries สารบัญคำศัพท์ทางเทคนิคและคำย่อ}{xi}{Doc-Start}%
 \contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {1}\hskip -0.8em บทนำ}}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}ที่มาและความสำคัญ}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}วัตถุประสงค์}{1}{section.1.2}%
@@ -58,14 +58,25 @@
 \contentsline {section}{\numberline {3.5}Use case diagram}{16}{section.3.5}%
 \contentsline {section}{\numberline {3.6}Use case narrative}{17}{section.3.6}%
 \contentsline {section}{\numberline {3.7}Sequence diagram}{23}{section.3.7}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{40}{chapter.4}%
-\contentsline {section}{\numberline {4.1}ประสิทฺธิภาพการทำงานของระบบ}{40}{section.4.1}%
-\contentsline {section}{\numberline {4.2}ความพึงพอใจการใช้งาน}{40}{section.4.2}%
-\contentsline {section}{\numberline {4.3}การวิเคราะห์ข้อมูลและผลการทดลอง}{40}{section.4.3}%
-\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em บทสรุป}}}{41}{chapter.5}%
-\contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{41}{section.5.1}%
-\contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{41}{section.5.2}%
-\contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{41}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{42}{section.5.3}%
-\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{43}{section.5.3}%
-\contentsline {apdx}{A\hskip 1em ชื่อภาคผนวกที่ 1}{44}{section.5.3}%
+\contentsline {section}{\numberline {3.8}User Interface Design}{27}{section.3.8}%
+\contentsline {subsection}{\numberline {3.8.1}Base Component}{27}{subsection.3.8.1}%
+\contentsline {subsection}{\numberline {3.8.2}Landing Page}{30}{subsection.3.8.2}%
+\contentsline {subsection}{\numberline {3.8.3}Search case Page}{30}{subsection.3.8.3}%
+\contentsline {subsection}{\numberline {3.8.4}Public appointment Page}{31}{subsection.3.8.4}%
+\contentsline {subsection}{\numberline {3.8.5}Login Page}{31}{subsection.3.8.5}%
+\contentsline {subsection}{\numberline {3.8.6}Workspace Page}{32}{subsection.3.8.6}%
+\contentsline {subsection}{\numberline {3.8.7}Doucment Page}{33}{subsection.3.8.7}%
+\contentsline {subsection}{\numberline {3.8.8}Preview file Page}{48}{subsection.3.8.8}%
+\contentsline {subsection}{\numberline {3.8.9}Appointment Page}{49}{subsection.3.8.9}%
+\contentsline {subsection}{\numberline {3.8.10}Setting Page}{52}{subsection.3.8.10}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {4}\hskip -0.8em ผลการดำเนินงาน}}}{54}{chapter.4}%
+\contentsline {section}{\numberline {4.1}ประสิทฺธิภาพการทำงานของระบบ}{54}{section.4.1}%
+\contentsline {section}{\numberline {4.2}ความพึงพอใจการใช้งาน}{54}{section.4.2}%
+\contentsline {section}{\numberline {4.3}การวิเคราะห์ข้อมูลและผลการทดลอง}{54}{section.4.3}%
+\contentsline {chapter}{\normalsize \bf \MakeUppercase {บทที่ {\numberline {5}\hskip -0.8em บทสรุป}}}{55}{chapter.5}%
+\contentsline {section}{\numberline {5.1}สรุปผลโครงงาน}{55}{section.5.1}%
+\contentsline {section}{\numberline {5.2}ปัญหาที่พบและการแก้ไข}{55}{section.5.2}%
+\contentsline {section}{\numberline {5.3}ข้อจำกัดและข้อเสนอแนะ}{55}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {หนังสืออ้างอิง}}{56}{section.5.3}%
+\contentsline {chapter}{\mdseries \bf \MakeUppercase {Appendix}}{57}{section.5.3}%
+\contentsline {apdx}{A\hskip 1em ชื่อภาคผนวกที่ 1}{58}{section.5.3}%
