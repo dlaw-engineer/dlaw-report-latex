@@ -1214,36 +1214,216 @@ English abstract
 
 \section{Use case narrative}
 
+\newpage
 \section{User Interface Design}
 \subsection{Base Component}
 \hspace*{1cm} เป็นส่วนประกอบหลักที่ถูกใช้ในหน้าต่าง ๆ โดยจะมีทั้ง ตารางแสดงโฟล์เดอร์ ไฟล์ และช่องค้นหาข้อมูลรวมไปถึงแสดงการใช้ฟังก์ชันต่าง ๆ ดังนี้
 \begin{itemize}
-  \item Case folder component \\
-\hspace*{1cm} เป็นส่วนประกอบหลัก ที่ประกอบไปด้วยตารางแสดงข้อมูลโฟล์เดอร์ และแสดงการใช้ฟังก์ชันต่าง ๆ ดังรูป ดังนี้
+  \item \textbf{Case folder component} \\
+\hspace*{1cm} เป็นส่วนประกอบหลัก ที่ประกอบไปด้วยตารางแสดงข้อมูลโฟล์เดอร์ และแสดงการใช้ฟังก์ชันต่าง ๆ ดังรูป \ref{fig:folder-component} - \ref{fig:delete-folder} ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/folder-component.png}
+  \caption{รูปแสดงการออกแบบตารางแสดงข้อมูลโฟล์เดอร์}\label{fig:folder-component}
+\end{figure}
 
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/rename-folder.png}
+  \caption{รูปแสดงการออกแบบหน้าแก้ไขชื่อโฟล์เดอร์}\label{fig:rename-folder}
+\end{figure}
 
-  \item File component \\
-\hspace*{1cm} เป็นส่วนประกอบหลัก ที่ประกอบไปด้วยตารางแสดงข้อมูลไฟล์ และแสดงการใช้ฟังก์ชันต่าง ๆ ดังรูป ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/manage-folder-permission.png}
+  \caption{รูปแสดงการออกแบบหน้าแก้ไขสิทธ์การเข้าถึงโฟล์เดอร์}\label{fig:manage-folder-permission}
+\end{figure}
 
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/archive-folder.png}
+  \caption{รูปแสดงการออกแบบหน้าจัดเก็บโฟล์เดอร์}\label{fig:archive-folder}
+\end{figure}
 
-  \item Search component \\
-\hspace*{1cm} เป็นส่วนประกอบหลัก ที่ประกอบไปด้วยช่องค้นหาข้อมูล และการใช้ฟังก์ชั่นกรองข้อมูล ดังรูป ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/delete-folder.png}
+  \caption{รูปแสดงการออกแบบหน้าลบโฟล์เดอร์}\label{fig:delete-folder}
+\end{figure}
 
+  \item \textbf{File component} \\
+\hspace*{1cm} เป็นส่วนประกอบหลัก ที่ประกอบไปด้วยตารางแสดงข้อมูลไฟล์ และแสดงการใช้ฟังก์ชันต่าง ๆ ดังรูป \ref{fig:file-component} - \ref{fig:delete-file} ดังนี้
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/file-component.png}
+  \caption{รูปแสดงการออกแบบตารางแสดงข้อมูลไฟล์}\label{fig:file-component}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/move-to-folder.png}
+  \caption{รูปแสดงการออกแบบหน้าย้านที่อยู่ไฟล์}\label{fig:move-to-folder}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/publish-document.png}
+  \caption{รูปแสดงการออกแบบหน้าเผยแพร่ไฟล์}\label{fig:publish-document}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/delete-file.png}
+  \caption{รูปแสดงการออกแบบหน้าลบไฟล์}\label{fig:delete-file}
+\end{figure}
+\newpage
+  \item \textbf{Search component} \\
+\hspace*{1cm} เป็นส่วนประกอบหลัก ที่ประกอบไปด้วยช่องค้นหาข้อมูล และการใช้ฟังก์ชั่นกรองข้อมูล ดังรูป \ref{fig:search-filter} ดังนี้
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=8cm]{./assets/userinterface/search-filter.png}
+  \caption{รูปแสดงการออกแบบหน้าค้นหาเอกสาร}\label{fig:search-filter}
+\end{figure}
 
 \end{itemize}
+\newpage
+
+\subsection{Landing Page}
+\hspace*{1cm} เป็นหน้าแรกที่จะแสดงข้อมูลในรูปแบบแผนที่หรือแผนภูมิรูปต่าง ๆ โดยจะเป็นข้อมูลเกี่ยวกับกฎหมายหรือคดีต่าง ๆ ที่มีความน่าสนใจ ดังรูป \ref{fig:landing-page} ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/landing-page.png}
+  \caption{รูปแสดงการออกแบบหน้าแรกของเว็บไซต์}\label{fig:landing-page}
+\end{figure}
+
+\subsection{Search case Page}
+\hspace*{1cm} เป็นหน้าที่จะใช้ค้นหาคดีต่าง ๆ โดยใช้หมายเลขคดีดำหรือหมายเลขคดีแดง ซึ่งจะสามารถแสดงรายระเอียดของคดีที่ต้องการค้นหาได้ ดังรูป \ref{fig:search-case} ดังนี้ 
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/search-case.png}
+  \caption{รูปแสดงการออกแบบหน้าค้นหาข้อมูลคดี}\label{fig:search-case}
+\end{figure}
+
+\newpage
+\subsection{Public appointment Page}
+\hspace*{1cm} เป็นหน้าที่แสดงข้อมูลการนัดหมาย ที่ถูกเผยแพร่ให้คนทั่วไปสามารถดูข้อมูล และดาวน์โหลดเอกสารคดีได้ ดังรูป \ref{fig:appoinmtment-page} ดังนี้ 
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/appointment-public.png}
+  \caption{รูปแสดงการออกแบบหน้าแสดงข้อมูลนัดหมายและเอกสาร}\label{fig:appoinmtment-page}
+\end{figure}
 
 \subsection{Login Page}
-\hspace*{1cm} คือหน้าสำหรับการเข้าสู่ระบบ Document management system for lawyer โดยจะประกอบไปด้วย ช่องกรอกอีเมล และพลาสเวิร์ด ดังรูป ดังนี้
+\hspace*{1cm} คือหน้าสำหรับการเข้าสู่ระบบ Document management system for lawyer โดยจะประกอบไปด้วยช่องกรอกอีเมล และพลาสเวิร์ด ดังรูป \ref{fig:login-page} ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/login-page.png}
+  \caption{รูปแสดงการออกแบบหน้าเข้าสู่ระบบ}\label{fig:login-page}
+\end{figure}
 
-
+\newpage
 \subsection{Workspace Page}
-\hspace*{1cm} คือหน้าที่จะถูกส่งมากจากหน้าเข้าสู่ระบบ โดยหน้านี้จะเป็นหน้าเกี่ยวกับการแสดงโฟล์เดอร์ และไฟล์ที่ถูกเรียกใช้บ่อย ๆ และยังสามารถกรองไฟล์ตามแท๊กได้ ดังรูป ดังนี้
+\hspace*{1cm} หลังจากที่เข้าสู่ระบบมาจะเข้ามาสู่หน้าแสดงโฟล์เดอร์ และไฟล์ที่ถูกเรียกใช้บ่อย ๆ อีกทั้งยังสามารถกรองไฟล์ตามแท๊กได้ ดังรูป  \ref{fig:workspace-page} - \ref{fig:workspace-tags-filter} ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/workshop-page.png}
+  \caption{รูปแสดงการออกแบบหน้าเข้าสู่ระบบ}\label{fig:workspace-page}
+\end{figure}
 
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/workshop-tags-filter.png}
+  \caption{รูปแสดงการออกแบบการกรองไฟล์ตามแท๊ก}\label{fig:workspace-tags-filter}
+\end{figure}
+
+\newpage
 \subsection{Doucment Page}
-\hspace*{1cm} คือหน้าที่จะแสดง โฟล์เดอร์เคสและไฟล์เอกสารต่าง ๆ ซื่อจะสามารถสร้าง อัพโหลด เผยแพร่ และสามารถใช้ฟังก์ชันอื่น ๆ ได้
+\hspace*{1cm} เป็นหน้าที่จะแสดง โฟล์เดอร์เคสและไฟล์เอกสารต่าง ๆ ซื่อจะสามารถสร้าง อัพโหลด เผยแพร่ และสามารถใช้ฟังก์ชันอื่น ๆ ได้ ดังรูป \ref{fig:case-folder} - \ref{fig:activity-logs} ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/case-folder.png}
+  \caption{รูปแสดงการออกแบบหน้าตารางแสดงเคสต่าง ๆ}\label{fig:case-folder}
+\end{figure}
 
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/new-case.png}
+  \caption{รูปแสดงการออกแบบหน้าสร้างเคสใหม่}\label{fig:new-case}
+\end{figure}
 
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/document-list.png}
+  \caption{รูปแสดงการออกแบบหน้าตารางแสดงไฟล์ต่าง ๆ}\label{fig:document-list}
+\end{figure}
 
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/upload-document.png}
+  \caption{รูปแสดงการออกแบบหน้าอัพโหลดไฟล์}\label{fig:upload-document}
+\end{figure}
+\clearpage
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/folder-permission.png}
+  \caption{รูปแสดงการออกแบบหน้าจัดการสิทธ์การเข้าถึงเคสโฟล์เดอร์}\label{fig:folder-permission}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/create-new-folder.png}
+  \caption{รูปแสดงการออกแบบหน้าสร้างโฟล์เดอร์ย่อยใหม่}\label{fig:create-new-folder}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/activity-logs.png}
+  \caption{รูปแสดงการออกแบบหน้าบันทึกกิจกรรมย้อนหลังของไฟล์}\label{fig:activity-logs}
+\end{figure}
+
+\newpage
+\subsection{Preview file Page}
+\hspace*{1cm} เป็นหน้าที่จะแสดง รายละเอียด รูปแบบเอกสาร และสามารถเผยแพร่เอกสารได้ ดังรูป \ref{fig:preview-file} - \ref{fig:public-document} ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/preview-file.png}
+  \caption{รูปแสดงการออกแบบหน้าแสดงรายระเอียดไฟล์เอกสาร}\label{fig:preview-file}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/public-document.png}
+  \caption{รูปแสดงการออกแบบหน้าเผยแพร่ไฟล์เอกสาร}\label{fig:public-document}
+\end{figure}
+
+\newpage
+\subsection{Appointment Page}
+\hspace*{1cm} เป็นหน้าที่จะแสดงตารางนัดหมาย และสามารถส่งนัดหมายให้กับทนายคนอื่นๆและลูกความได้ ดังรูป \ref{fig:appointment} - \ref{fig:create-appointment-done} ดังนี้
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/appointment.png}
+  \caption{รูปแสดงการออกแบบหน้าแสดงตารางนัดหมาย}\label{fig:appointment}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/create-appointment-info.png}
+  \caption{รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกข้อมูลนัดหมาย}\label{fig:create-appointment-info}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/create-appointment-email.png}
+  \caption{รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกอีเมล}\label{fig:create-appointment-email}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/create-appointment-datetime.png}
+  \caption{รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกวันเวลานัดหมาย}\label{fig:create-appointment-datetime}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/create-appointment-done.png}
+  \caption{รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนนัดหมายเสร็จสิ้น}\label{fig:create-appointment-done}
+\end{figure}
+
+\clearpage
+
+\newpage
+\subsection{Setting Page}
+\hspace*{1cm} เป็นหน้าสำหรับแก้ไขข้อมูลโปรโฟล์ เปลี่ยนรหัสผ่าน และจัดการกับสมาชิกในองค์กรได้ ดังรูป \ref{fig:setting-myprofile} - \ref{fig:setting-create-user} ดังนี้
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/setting-myprofile.png}
+  \caption{รูปแสดงการออกแบบหน้าแก้ไขโปรฟล์ และเปลี่ยนรหัสผ่าน }\label{fig:setting-myprofile}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/setting-manage-user.png}
+  \caption{รูปแสดงการออกแบบหน้าแสดงตารางผู้ใช้งาน}\label{fig:setting-manage-user}
+\end{figure}
+
+\begin{figure}[!h]\centering
+  \includegraphics[width=13cm]{./assets/userinterface/setting-create-user.png}
+  \caption{รูปแสดงการออกแบบหน้าเพิ่มผู้ใช้งานใหม่}\label{fig:setting-create-user}
+\end{figure}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
