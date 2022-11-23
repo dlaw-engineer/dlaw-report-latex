@@ -921,7 +921,7 @@ English abstract
 \end{enumerate}
 
 \section{Navigation map}
-\hspace{1cm} โดย Navigation map จะแบ่งออกเป็น 2 ส่วน คือ ส่วนของผู้ใช้งานทั่วไปแสดงดังรูป \ref{fig:navMapGuest} และส่วนของผู้ใช้งานที่เป็นทนายแสดงดังรูป \ref{fig:navMapLawyer} โดยในส่วนของผู้ใช้งานทั่วไปเมื่อเข้าใช้งานเว็บแอปพลิเคชันจะเริ่มต้นที่หน้า Landing ซึ่งในหน้านี้มีจะมีการแสดงแผนที่จำลองหรือในรูปแบบแผนภูมิซึ่งจะสามารถไปยังหน้าอื่นๆได้ 3 หน้า โดยมีหน้าแรกคือ 
+โดย Navigation map จะแบ่งออกเป็น 2 ส่วน คือ ส่วนของผู้ใช้งานทั่วไปแสดงดังรูป \ref{fig:navMapGuest} และส่วนของผู้ใช้งานที่เป็นทนายแสดงดังรูป \ref{fig:navMapLawyer} โดยในส่วนของผู้ใช้งานทั่วไปเมื่อเข้าใช้งานเว็บแอปพลิเคชันจะเริ่มต้นที่หน้า Landing ซึ่งในหน้านี้มีจะมีการแสดงแผนที่จำลองหรือในรูปแบบแผนภูมิซึ่งจะสามารถไปยังหน้าอื่นๆได้ 3 หน้า โดยมีหน้าแรกคือ 
 หน้า Published document list ซึ่งเป็นหน้าที่สามารถค้นหาเอกสารที่ถูกเผยแพร่แล้วได้ และเมื่อกดเลือกดูไฟล์จะทำการเข้าไปยังหน้า Preview file ซึ่งจะเป็นหน้าที่แสดงไฟล์ PDF ได้ หน้าที่สองคือหน้า Case list โดยจะสามารถดูและติดตามคดีได้ และหน้าที่สามคือ หน้า Appointment list จะเป็นหน้าที่สามารถดูนัดหมายที่ได้รับการเผยแพร่ได้ \hspace{1cm}ในส่วนของทนายความจะเริ่มต้นที่หน้า Landing จากนั้นเข้ามาหน้า Login เมื่อเข้าสู่ระบบสำเร็จจะเข้ามาที่หน้า Home ซึ่งสามารถติดตามคดีต่างๆ จัดการเอกสาร รวมไปถึงการดูนัดหมายและตั้งค่าข้อมูลส่วนตัวได้
 \begin{figure}[!ht]\centering
     \includegraphics[width=13cm]{./assets/nav-map-guest.png}
@@ -933,7 +933,8 @@ English abstract
     \includegraphics[width=13cm]{./assets/nav-map-lawyer.png}
     \caption{รูปแสดง Navigation map ของทนายความ}\label{fig:navMapLawyer}
 \end{figure}
-  
+\clearpage
+\newpage
 \section{โครงสร้างฐานข้อมูล}
 \hspace*{1cm}โครงสร้างฐานข้อมูลของเว็บแอปพลิเคชันแสดงดังรูป \ref{fig:erDiagram} โดยมีรายละเอียดของชนิดตัวแปรและคํา
 อธิบายเพิ่มเติมดังตารางที่ \ref{tbl:dbFileType} - \ref{tbl:dbUser} ดังนี้
@@ -958,6 +959,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง FileType} \label{tbl:dbFileType}
 \end{table}
 
+\newpage
 \subsection{ตาราง File}
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์ที่ได้จากผู้ใช้งาน โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFile}
 \begin{table}[!ht]
@@ -1010,6 +1012,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง FileTag} \label{tbl:dbFileTag}
 \end{table}
 
+\newpage
 \subsection{ตาราง Folder}
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดโฟลเดอร์โดยจะมี attribute ที่มีชื่อว่า isArchived มาใช้ในการบ่งบอกว่าโฟลเดอร์นี้สามารถใช้งานได้หรือไม่โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolder}
 \begin{table}[!ht]
@@ -1026,7 +1029,6 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Folder} \label{tbl:dbFolder}
 \end{table}
-
 
 \subsection{ตาราง FolderFile}
 ตารางที่ใช้ในการบันทึกข้อมูลว่าโฟลเดอร์นั้นๆเก็บไฟล์อะไรไว้บ้าง โดยมีรายละเอียดดังตารางที่  \ref{tbl:dbFolderFile}
@@ -1062,7 +1064,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง SubFolder} \label{tbl:dbSubFolder}
 \end{table}
 
-
+\newpage
 \subsection{ตาราง FolderTag}
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolderTag}
 \begin{table}[!ht]
@@ -1079,8 +1081,6 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderTag} \label{tbl:dbFolderTag}
 \end{table}
-
-
 
 \subsection{ตาราง Case}
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดคดีในแต่ละคดี โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbCase}
@@ -1100,7 +1100,6 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Case} \label{tbl:dbCase}
 \end{table}
-
 
 \subsection{ตาราง Appointment}
 ตารางที่ใช้ในการบันทึกการนัดหมาย โดยจะมี attribute isPublished มาใช้ในการบ่งบอกว่า นัดหมายในครั้งนี้สามารถเปิดเผยสู่สาธารณะได้หรือไม่ และมี eventId ที่ได้มาจากการสร้าง event ผ่าน Google calendar api โดยมีรายละเอียดดังตารางที่  \ref{tbl:dbAppointment}
@@ -1122,7 +1121,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Appointment} \label{tbl:dbAppointment}
 \end{table}
 
-
+\newpage
 \subsection{ตาราง Permission}
 ตารางที่ใช้ในการบันทึกข้อมูลรายสิทธิในการเข้าถึงที่มีอยู่ในระบบ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbPermission}
 \begin{table}[!ht]
@@ -1138,7 +1137,6 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Permission} \label{tbl:dbPermission}
 \end{table}
-
 
 \subsection{ตาราง FolderPermission}
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์ที่เชื่อมความสัมพันธ์ระหว่างสิทธิของผู้ใช้งานกับโฟลเดอร์ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolderPermission}
@@ -1158,7 +1156,6 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderPermission} \label{tbl:dbFolderPermission}
 \end{table}
 
-
 \subsection{ตาราง ActivityLog}
 ตารางที่ใช้ในการบันทึกข้อมูลการอัพเดทไฟล์ที่เกิดขึ้นในแต่ละโฟลเดอร์ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbActivityLog}
 \begin{table}[!ht]
@@ -1177,8 +1174,8 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง ActivityLog} \label{tbl:dbActivityLog}
 \end{table}
-
-
+\clearpage
+\newpage
 \subsection{ตาราง Action}
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดของการทำ activity เช่น สร้าง อัพเดท ลบ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbAction}
 \begin{table}[!ht]
@@ -1194,7 +1191,6 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Action} \label{tbl:dbAction}
 \end{table}
-
 
 \subsection{ตาราง User}
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดผู้ใช้งาน โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbUser}
@@ -1214,7 +1210,8 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง User} \label{tbl:dbUser}
 \end{table}
-
+% \clearpage
+\newpage
 \section{Use case diagram}
 \begin{figure}[!ht]\centering
     \includegraphics[width=16cm]{./assets/use-case-diagram.png}
@@ -1227,6 +1224,8 @@ English abstract
     \item ผู้ใช้งานที่เข้าสู่ระบบหรือ ทนายสามารเข้าถึงการจัดการเอกสารต่างๆและนัดหมายที่ตนเองมีสิทธิ์ในคดีนั้นๆได้ และฟังก์ชันพื้นฐานเช่น การเปลี่ยนรหัสผ่าน การแก้ไขโปรไฟล์ และสุดท้ายคือ การเพิ่ม user ใหม่ 
 \end{itemize}
 
+
+\clearpage
 \section{Use case narrative}
 ประกอบไปด้วย 27 use case ตามรูปที่ \ref{fig:usecaseDiagram} โดยมีรายละเอียดของแต่ละ use case ดังนี้
 \begin{itemize}
@@ -1268,6 +1267,7 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
     \end{table}
+    \newpage
     \item View case appointment
     \begin{table}[!ht]
         \centering
@@ -1693,7 +1693,7 @@ English abstract
     \end{table}
 \end{itemize}
 
-\newpage
+\clearpage
 \section{Sequence diagram}
 จะมีการเขียนการทำงานอย่างเป็นลำดับขั้นตอนบาง Use case ที่มีความซับซ้อนออกมาซึ่งสามารถดูได้จากรูปที่ \ref{fig:sqCreateCase} - \ref{fig:sqChangePassword}
 
@@ -1705,24 +1705,28 @@ English abstract
         \caption{รูปแสดง Sequence diagram ของ Create case}\label{fig:sqCreateCase}
     \end{figure}
 
+    \newpage
     \item Archive case \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 3cm 0 3cm},clip]{./assets/sequence-diagram/archive-case.png}
         \caption{รูปแสดง Sequence diagram ของ Archive case}\label{fig:sqArchiveCase}
     \end{figure}
 
+    \newpage
     \item Delete case \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 1cm 0 1cm},clip]{./assets/sequence-diagram/delete-case.png}
         \caption{รูปแสดง Sequence diagram ของ Delete case}\label{fig:sqDeleteCase}
     \end{figure}
 
+    \newpage
     \item Search file \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/search-file.png}
         \caption{รูปแสดง Sequence diagram ของ Search file}\label{fig:sqSearchFile}
     \end{figure}
 
+    \newpage
     \item Upload file \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 6cm 0 6cm},clip]{./assets/sequence-diagram/upload-file.png}
@@ -1730,36 +1734,42 @@ English abstract
     \end{figure}
 
 
+    \newpage
     \item Create event \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/create-event.png}
         \caption{รูปแสดง Sequence diagram ของ Create event}\label{fig:sqCraeteEvent}
     \end{figure}
 
+    \newpage
     \item Edit event \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 5cm 0 5cm},clip]{./assets/sequence-diagram/edit-event.png}
         \caption{รูปแสดง Sequence diagram ของ Edit event}\label{fig:sqEditEvent}
     \end{figure}
 
+    \newpage
     \item Create user \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 9cm 0 9cm},clip]{./assets/sequence-diagram/create-user.png}
         \caption{รูปแสดง Sequence diagram ของ Create user}\label{fig:sqCreateUser}
     \end{figure}
 
+    \newpage
     \item Edit profile \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 6cm 0 6cm},clip]{./assets/sequence-diagram/edit-profile.png}
         \caption{รูปแสดง Sequence diagram ของ Edit profile}\label{fig:sqEditProfile}
     \end{figure}
 
+    \newpage
     \item Login \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 5cm 0 5cm},clip]{./assets/sequence-diagram/login.png}
         \caption{รูปแสดง Sequence diagram ของ Login}\label{fig:sqLogin}
     \end{figure}
 
+    \newpage
     \item Forget password \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/forget-password.png}
@@ -1767,6 +1777,7 @@ English abstract
     \end{figure}
 
     
+    \newpage
     \item Reset password \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/reset-password.png}
@@ -1774,6 +1785,7 @@ English abstract
     \end{figure}
 
         
+    \newpage
     \item  Change password\\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 5cm 0 5cm},clip]{./assets/sequence-diagram/change-password.png}
