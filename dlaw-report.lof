@@ -1,3 +1,4 @@
+\selectlanguage *{thai}
 \addvspace {0em}
 \addvspace {0em}
 \addvspace {0em}
@@ -5,38 +6,52 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces รูปแสดง Navigation map ของบุคคลทั่วไป}}{11}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces รูปแสดง Navigation map ของทนายความ}}{11}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces รูปแสดงโครงสร้างฐานข้อมูล}}{12}{figure.3.4}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces รูปแสดงการออกแบบตารางแสดงข้อมูลโฟล์เดอร์}}{17}{figure.3.5}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces รูปแสดงการออกแบบหน้าแก้ไขชื่อโฟล์เดอร์}}{17}{figure.3.6}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces รูปแสดงการออกแบบหน้าแก้ไขสิทธ์การเข้าถึงโฟล์เดอร์}}{17}{figure.3.7}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces รูปแสดงการออกแบบหน้าจัดเก็บโฟล์เดอร์}}{17}{figure.3.8}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces รูปแสดงการออกแบบหน้าลบโฟล์เดอร์}}{18}{figure.3.9}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces รูปแสดงการออกแบบตารางแสดงข้อมูลไฟล์}}{18}{figure.3.10}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces รูปแสดงการออกแบบหน้าย้านที่อยู่ไฟล์}}{18}{figure.3.11}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces รูปแสดงการออกแบบหน้าเผยแพร่ไฟล์}}{18}{figure.3.12}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces รูปแสดงการออกแบบหน้าลบไฟล์}}{19}{figure.3.13}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces รูปแสดงการออกแบบหน้าค้นหาเอกสาร}}{19}{figure.3.14}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces รูปแสดงการออกแบบหน้าแรกของเว็บไซต์}}{20}{figure.3.15}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces รูปแสดงการออกแบบหน้าค้นหาข้อมูลคดี}}{20}{figure.3.16}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงข้อมูลนัดหมายและเอกสาร}}{21}{figure.3.17}%
-\contentsline {figure}{\numberline {3.18}{\ignorespaces รูปแสดงการออกแบบหน้าเข้าสู่ระบบ}}{21}{figure.3.18}%
-\contentsline {figure}{\numberline {3.19}{\ignorespaces รูปแสดงการออกแบบหน้าเข้าสู่ระบบ}}{22}{figure.3.19}%
-\contentsline {figure}{\numberline {3.20}{\ignorespaces รูปแสดงการออกแบบการกรองไฟล์ตามแท๊ก}}{22}{figure.3.20}%
-\contentsline {figure}{\numberline {3.21}{\ignorespaces รูปแสดงการออกแบบหน้าตารางแสดงเคสต่าง ๆ}}{23}{figure.3.21}%
-\contentsline {figure}{\numberline {3.22}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างเคสใหม่}}{23}{figure.3.22}%
-\contentsline {figure}{\numberline {3.23}{\ignorespaces รูปแสดงการออกแบบหน้าตารางแสดงไฟล์ต่าง ๆ}}{24}{figure.3.23}%
-\contentsline {figure}{\numberline {3.24}{\ignorespaces รูปแสดงการออกแบบหน้าอัพโหลดไฟล์}}{24}{figure.3.24}%
-\contentsline {figure}{\numberline {3.25}{\ignorespaces รูปแสดงการออกแบบหน้าจัดการสิทธ์การเข้าถึงเคสโฟล์เดอร์}}{25}{figure.3.25}%
-\contentsline {figure}{\numberline {3.26}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างโฟล์เดอร์ย่อยใหม่}}{25}{figure.3.26}%
-\contentsline {figure}{\numberline {3.27}{\ignorespaces รูปแสดงการออกแบบหน้าบันทึกกิจกรรมย้อนหลังของไฟล์}}{26}{figure.3.27}%
-\contentsline {figure}{\numberline {3.28}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงรายระเอียดไฟล์เอกสาร}}{26}{figure.3.28}%
-\contentsline {figure}{\numberline {3.29}{\ignorespaces รูปแสดงการออกแบบหน้าเผยแพร่ไฟล์เอกสาร}}{27}{figure.3.29}%
-\contentsline {figure}{\numberline {3.30}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงตารางนัดหมาย}}{27}{figure.3.30}%
-\contentsline {figure}{\numberline {3.31}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกข้อมูลนัดหมาย}}{28}{figure.3.31}%
-\contentsline {figure}{\numberline {3.32}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกอีเมล}}{28}{figure.3.32}%
-\contentsline {figure}{\numberline {3.33}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกวันเวลานัดหมาย}}{29}{figure.3.33}%
-\contentsline {figure}{\numberline {3.34}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนนัดหมายเสร็จสิ้น}}{29}{figure.3.34}%
-\contentsline {figure}{\numberline {3.35}{\ignorespaces รูปแสดงการออกแบบหน้าแก้ไขโปรฟล์ และเปลี่ยนรหัสผ่าน }}{30}{figure.3.35}%
-\contentsline {figure}{\numberline {3.36}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงตารางผู้ใช้งาน}}{30}{figure.3.36}%
-\contentsline {figure}{\numberline {3.37}{\ignorespaces รูปแสดงการออกแบบหน้าเพิ่มผู้ใช้งานใหม่}}{31}{figure.3.37}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces รูปแสดง Use case diagram แสดงการทำงานของระบบ}}{17}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces รูปแสดง Sequence diagram ของ Create case}}{27}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces รูปแสดง Sequence diagram ของ Archive case}}{28}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces รูปแสดง Sequence diagram ของ Delete case}}{29}{figure.3.8}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces รูปแสดง Sequence diagram ของ Search file}}{30}{figure.3.9}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces รูปแสดง Sequence diagram ของ Upload file}}{31}{figure.3.10}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces รูปแสดง Sequence diagram ของ Create event}}{32}{figure.3.11}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces รูปแสดง Sequence diagram ของ Edit event}}{33}{figure.3.12}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces รูปแสดง Sequence diagram ของ Create user}}{34}{figure.3.13}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces รูปแสดง Sequence diagram ของ Edit profile}}{35}{figure.3.14}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces รูปแสดง Sequence diagram ของ Login}}{36}{figure.3.15}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces รูปแสดง Sequence diagram ของ Forget password}}{37}{figure.3.16}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces รูปแสดง Sequence diagram ของ Reset password}}{38}{figure.3.17}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces รูปแสดง Sequence diagram ของ Change password}}{39}{figure.3.18}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces รูปแสดงการออกแบบตารางแสดงข้อมูลโฟล์เดอร์}}{39}{figure.3.19}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces รูปแสดงการออกแบบหน้าแก้ไขชื่อโฟล์เดอร์}}{39}{figure.3.20}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces รูปแสดงการออกแบบหน้าแก้ไขสิทธ์การเข้าถึงโฟล์เดอร์}}{40}{figure.3.21}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces รูปแสดงการออกแบบหน้าจัดเก็บโฟล์เดอร์}}{40}{figure.3.22}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces รูปแสดงการออกแบบหน้าลบโฟล์เดอร์}}{40}{figure.3.23}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces รูปแสดงการออกแบบตารางแสดงข้อมูลไฟล์}}{40}{figure.3.24}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces รูปแสดงการออกแบบหน้าย้านที่อยู่ไฟล์}}{40}{figure.3.25}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces รูปแสดงการออกแบบหน้าเผยแพร่ไฟล์}}{41}{figure.3.26}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces รูปแสดงการออกแบบหน้าลบไฟล์}}{41}{figure.3.27}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces รูปแสดงการออกแบบหน้าค้นหาเอกสาร}}{41}{figure.3.28}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces รูปแสดงการออกแบบหน้าแรกของเว็บไซต์}}{42}{figure.3.29}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces รูปแสดงการออกแบบหน้าค้นหาข้อมูลคดี}}{42}{figure.3.30}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงข้อมูลนัดหมายและเอกสาร}}{43}{figure.3.31}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces รูปแสดงการออกแบบหน้าเข้าสู่ระบบ}}{43}{figure.3.32}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces รูปแสดงการออกแบบหน้าเข้าสู่ระบบ}}{44}{figure.3.33}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces รูปแสดงการออกแบบการกรองไฟล์ตามแท๊ก}}{44}{figure.3.34}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces รูปแสดงการออกแบบหน้าตารางแสดงเคสต่าง ๆ}}{45}{figure.3.35}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างเคสใหม่}}{45}{figure.3.36}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces รูปแสดงการออกแบบหน้าตารางแสดงไฟล์ต่าง ๆ}}{46}{figure.3.37}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces รูปแสดงการออกแบบหน้าอัพโหลดไฟล์}}{46}{figure.3.38}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces รูปแสดงการออกแบบหน้าจัดการสิทธ์การเข้าถึงเคสโฟล์เดอร์}}{47}{figure.3.39}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างโฟล์เดอร์ย่อยใหม่}}{47}{figure.3.40}%
+\contentsline {figure}{\numberline {3.41}{\ignorespaces รูปแสดงการออกแบบหน้าบันทึกกิจกรรมย้อนหลังของไฟล์}}{48}{figure.3.41}%
+\contentsline {figure}{\numberline {3.42}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงรายระเอียดไฟล์เอกสาร}}{48}{figure.3.42}%
+\contentsline {figure}{\numberline {3.43}{\ignorespaces รูปแสดงการออกแบบหน้าเผยแพร่ไฟล์เอกสาร}}{49}{figure.3.43}%
+\contentsline {figure}{\numberline {3.44}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงตารางนัดหมาย}}{49}{figure.3.44}%
+\contentsline {figure}{\numberline {3.45}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกข้อมูลนัดหมาย}}{50}{figure.3.45}%
+\contentsline {figure}{\numberline {3.46}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกอีเมล}}{50}{figure.3.46}%
+\contentsline {figure}{\numberline {3.47}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนการกรอกวันเวลานัดหมาย}}{51}{figure.3.47}%
+\contentsline {figure}{\numberline {3.48}{\ignorespaces รูปแสดงการออกแบบหน้าสร้างนัดหมาย ในขั้นตอนนัดหมายเสร็จสิ้น}}{51}{figure.3.48}%
+\contentsline {figure}{\numberline {3.49}{\ignorespaces รูปแสดงการออกแบบหน้าแก้ไขโปรฟล์ และเปลี่ยนรหัสผ่าน }}{52}{figure.3.49}%
+\contentsline {figure}{\numberline {3.50}{\ignorespaces รูปแสดงการออกแบบหน้าแสดงตารางผู้ใช้งาน}}{52}{figure.3.50}%
+\contentsline {figure}{\numberline {3.51}{\ignorespaces รูปแสดงการออกแบบหน้าเพิ่มผู้ใช้งานใหม่}}{53}{figure.3.51}%
 \addvspace {0em}
 \addvspace {0em}
