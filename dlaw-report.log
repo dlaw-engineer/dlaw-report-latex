@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  23 NOV 2022 16:07
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.11) (preloaded format=xelatex 2022.11.15)  23 NOV 2022 20:52
 entering extended mode
 **./dlaw-report.tex
 (dlaw-report.tex
@@ -1008,15 +1008,9 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 (Font)              scaled to size 13.52995pt on input line 722.
 
-Underfull \hbox (badness 10000) in paragraph at lines 723--724
-| \TU/THSarabunNew(0)/m/n/10 หลังจากที่ทนายได้รับเรื่องคดีเข้ามาแล้ว ทนายก็จะทำ
-การสอบข้อเท็จจริงจากลูกความและทำการปรับข้อเท็จจริงให้เข้ากับหลัก
- []
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 723--724
-\TU/THSarabunNew(0)/m/n/10 กฎหมาย จากนั้น จะทำการออกหนังสือกล่าวทวงถาม เขียนคำฟ
-้อง คำให้การ และคำให้การพร้อมฟ้องแย้ง หลังจากนั้นจะทำการยื่น
+Underfull \hbox (badness 2401) in paragraph at lines 723--724
+| \TU/THSarabunNew(0)/m/n/10 วิธีการดำเนินคดีของทนายความ [[]] ในขั้นตอนแรกหลังจ
+ากที่ทนายได้รับเรื่องคดีเข้ามาแล้ว ทนายก็จะทำการสอบข้อเท็จจริง
  []
 
 
@@ -1302,15 +1296,112 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern -9.84pt
 (hyperref)                removed on input line 1444.
 
-No file dlaw-report.bbl.
-[33
+(dlaw-report.bbl [33
+
+]
+\thai@year=\count315
+LaTeX Info: Redefining \rmfamily on input line 4.
+LaTeX Info: Redefining \sffamily on input line 4.
+LaTeX Info: Redefining \ttfamily on input line 4.
+\thai@year=\count316
+LaTeX Info: Redefining \rmfamily on input line 7.
+LaTeX Info: Redefining \sffamily on input line 7.
+LaTeX Info: Redefining \ttfamily on input line 7.
+\thai@year=\count317
+LaTeX Info: Redefining \rmfamily on input line 9.
+LaTeX Info: Redefining \sffamily on input line 9.
+LaTeX Info: Redefining \ttfamily on input line 9.
+\thai@year=\count318
+LaTeX Info: Redefining \rmfamily on input line 15.
+LaTeX Info: Redefining \sffamily on input line 15.
+LaTeX Info: Redefining \ttfamily on input line 15.
+\thai@year=\count319
+LaTeX Info: Redefining \rmfamily on input line 23.
+LaTeX Info: Redefining \sffamily on input line 23.
+LaTeX Info: Redefining \ttfamily on input line 23.
+\thai@year=\count320
+LaTeX Info: Redefining \rmfamily on input line 34.
+LaTeX Info: Redefining \sffamily on input line 34.
+LaTeX Info: Redefining \ttfamily on input line 34.
+
+Underfull \hbox (badness 1424) in paragraph at lines 30--39
+\TU/THSarabunNew(0)/m/n/10 มีระบบ,'' จากเว็บไซต์ [][]$[][][][][] [] [] [] [][][
+] [] [][][][][][][][] [] [][][] [] [][][][][][][][][] [] [][][] [] [][] [] [][]
+ [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--39
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--39
+[][] [][] [][][][][][][][] [][] [][][][][][] [][] [][][] [] [][] [] [][] [] [][
+] [] [][] [] [][] [] [][] [] [][] [] [][] [][] [][][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+\thai@year=\count321
+LaTeX Info: Redefining \rmfamily on input line 42.
+LaTeX Info: Redefining \sffamily on input line 42.
+LaTeX Info: Redefining \ttfamily on input line 42.
+
+Underfull \hbox (badness 2302) in paragraph at lines 41--47
+[]\TU/THSarabunNew(0)/m/n/10 Suppawat K., 2563,  ``SQL vs NoSQL คืออะไร?,'' จาก
+เว็บไซต์ [][]$[][][][][] [] [] [] [][][][] [] [][][][][][][] [] [][] [] [][] []
+ [][][] [][] [][] [][] [][][][][] [] [] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+[][][][] [] [][][][][] [] [][][][][][][][][][][][][] [] [][][][][][][][][][] []
+ [][][][][][][][][][][][] [] [][][][][][][][] [] [][][][][] [] [][][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][][][][][][][] [] [][
+] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
+[] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [][] [][][
+] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] []
+[] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+[][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [] [][] [
+] [][] [] [][] [] [][] [] [][] [] [][] [] [][] []
+ []
+
+\thai@year=\count322
+LaTeX Info: Redefining \rmfamily on input line 50.
+LaTeX Info: Redefining \sffamily on input line 50.
+LaTeX Info: Redefining \ttfamily on input line 50.
+) [34
 
 ]
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/m/n' will be
 (Font)              scaled to size 21.25432pt on input line 1479.
 LaTeX Font Info:    Font shape `TU/THSarabunNew(0)/b/n' will be
 (Font)              scaled to size 21.25432pt on input line 1479.
- [34]
+ [35]
 
 Package hyperref Warning: bookmark level for unknown apdx defaults to 0.
 
@@ -1413,19 +1504,19 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {newzealand/target}  =>  {english}
 >  {newzealand/variant}  =>  {newzealand}
 >  {newzealand/options}  =>  {variant=newzealand}.
-[35] (dlaw-report.aux
-\thai@year=\count315
+[36] (dlaw-report.aux
+\thai@year=\count323
 )
 Package rerunfilecheck Info: File `dlaw-report.out' has not changed.
-(rerunfilecheck)             Checksum: B0B5B28020F1DFF9A84AB27B236D2B33;11672.
+(rerunfilecheck)             Checksum: 0227DD393A85CA1664ACD20A8190C313;11830.
  ) 
 Here is how much of TeX's memory you used:
- 17820 strings out of 412197
- 319813 string characters out of 2849632
- 747906 words of memory out of 3000000
- 37061 multiletter control sequences out of 15000+200000
+ 17830 strings out of 412197
+ 319967 string characters out of 2849632
+ 748331 words of memory out of 3000000
+ 37069 multiletter control sequences out of 15000+200000
  537681 words of font info for 68 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,12n,112p,1391b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on dlaw-report.pdf (46 pages).
+Output written on dlaw-report.pdf (47 pages).
