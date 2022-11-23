@@ -1,3 +1,69 @@
+<<<<<<< HEAD
 \begin{thebibliography}{}
 
 \end{thebibliography}
+=======
+\begin{thebibliography}{1}
+
+\bibitem{LawyerDefinition}
+{\textthai{ธีระศักดิ์ สุโชตินันท์}},
+\newblock  2563, {\bf
+  {\textthai{คู่มือสอบตั๋วทนาย
+  (ฉบับเรียนรู้ด้วยตัวเอง)}}},
+\newblock {\textthai{ธีระศักดิ์
+  สุโชตินันท์}}.
+
+\bibitem{WhatIsKanban}
+Cartoon Tanaporn,  2565,
+\newblock ``{\textthai{Kanban Board คืออะไร?
+  รู้จักสุดยอดเครื่องมือที่เข้ามาเปลี่ยนโลกการทำงาน.
+  }},'' จากเว็บไซต์
+  \url{https://thegrowthmaster.com/blog/kanban-board},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤษจิกายน 2565].
+
+\bibitem{KanbanConcept}
+Wanchalerm Devinya,  2559,
+\newblock ``{\textthai{Kanban
+  แนวคิดน่าใช้ในการทำงาน}},''
+  จากเว็บไซต์
+  \url{https://www.glurgeek.com/education/concept-kanban/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤษจิกายน 2565].
+
+\bibitem{DatabaseDefinition}
+toppiiz spiiz,  2561,
+\newblock ``{\textthai{ระบบฐานข้อมูล (Database
+  System) คือ
+  ระบบที่รวบรวมข้อมูลต่าง ๆ
+  ที่เกี่ยวข้องกันเข้าไว้ด้วยกันอย่างมีระบบ}},''
+  จากเว็บไซต์
+  \url{https://www.glurgeek.com/education/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B8%90%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%B9%E0%B8%A5-database-system-%E0%B8%84%E0%B8%B7%E0%B8%AD-%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤษจิกายน 2565].
+
+\bibitem{SqlNoSql1}
+Suppawat K.,  2563,
+\newblock ``{\textthai{SQL vs NoSQL คืออะไร?}},''
+  จากเว็บไซต์
+  \url{https://blog.cloudhm.co.th/sql-vs-nosql/#:~:text=RDBMS%20(Relational%20Database%20Management%20System)&text=%E0%B8%AD%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A%E0%B8%82%E0%B8%AD%E0%B8%87%20Tables%20%E0%B8%88%E0%B8%B0%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%81%E0%B8%AD%E0%B8%9A,%E0%B8%AD%E0%B8%A2%E0%B8%B9%E0%B9%88%2C%20%E0%B8%A7%E0%B8%B1%E0%B8%99%20%E0%B9%80%E0%B8%94%E0%B8%B7%E0%B8%AD%E0%B8%99%20%E0%B8%9B%E0%B8%B5%E0%B9%80%E0%B8%81%E0%B8%B4%E0%B8%94},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤษจิกายน 2565].
+
+\bibitem{SqlNoSql2}
+Amazon~Web Services,  2565,
+\newblock ``{\textthai{NoSQL คืออะไร}},''
+  จากเว็บไซต์ \url{https://aws.amazon.com/th/nosql/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤษจิกายน 2565].
+
+\bibitem{InmemoryDatabase}
+Amazon~Web Services,  2565,
+\newblock ``{What Is an In-Memory Database?},''
+  จากเว็บไซต์
+  \url{https://aws.amazon.com/nosql/in-memory/},
+\newblock [ออนไลน์; วันที่สืบค้น 11
+  พฤษจิกายน 2565].
+
+\end{thebibliography}
+>>>>>>> b7578b8c3f17b30330362095e8878a9083b2b059
