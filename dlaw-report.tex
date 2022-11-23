@@ -948,8 +948,8 @@ English abstract
 \end{enumerate}
 
 \section{Navigation map}
-โดย Navigation map จะแบ่งออกเป็น 2 ส่วน คือ ส่วนของผู้ใช้งานทั่วไปแสดงดังรูป \ref{fig:navMapGuest} และส่วนของผู้ใช้งานที่เป็นทนายแสดงดังรูป \ref{fig:navMapLawyer} โดยในส่วนของผู้ใช้งานทั่วไปเมื่อเข้าใช้งานเว็บแอปพลิเคชันจะเริ่มต้นที่หน้า Landing ซึ่งในหน้านี้มีจะมีการแสดงแผนที่จำลองหรือในรูปแบบแผนภูมิซึ่งจะสามารถไปยังหน้าอื่นๆได้ 3 หน้า โดยมีหน้าแรกคือ 
-หน้า Published document list ซึ่งเป็นหน้าที่สามารถค้นหาเอกสารที่ถูกเผยแพร่แล้วได้ และเมื่อกดเลือกดูไฟล์จะทำการเข้าไปยังหน้า Preview file ซึ่งจะเป็นหน้าที่แสดงไฟล์ PDF ได้ หน้าที่สองคือหน้า Case list โดยจะสามารถดูและติดตามคดีได้ และหน้าที่สามคือ หน้า Appointment list จะเป็นหน้าที่สามารถดูนัดหมายที่ได้รับการเผยแพร่ได้ \hspace{1cm}ในส่วนของทนายความจะเริ่มต้นที่หน้า Landing จากนั้นเข้ามาหน้า Login เมื่อเข้าสู่ระบบสำเร็จจะเข้ามาที่หน้า Home ซึ่งสามารถติดตามคดีต่างๆ จัดการเอกสาร รวมไปถึงการดูนัดหมายและตั้งค่าข้อมูลส่วนตัวได้
+โดย Navigation map จะแบ่งออกเป็น 2 ส่วน คือ ส่วนของผู้ใช้งานทั่วไปแสดงดังรูป \ref{fig:navMapGuest} และส่วนของผู้ใช้งานที่เป็นทนายแสดงดังรูป \ref{fig:navMapLawyer} โดยในส่วนของผู้ใช้งานทั่วไปเมื่อเข้าใช้งานเว็บแอปพลิเคชันจะเริ่มต้นที่หน้า Landing ซึ่งในหน้านี้มีจะมีการแสดงแผนที่จำลองหรือในรูปแบบแผนภูมิซึ่งจะสามารถไปยังหน้าอื่นๆได้ 2 หน้า โดยมีหน้าแรกคือ 
+หน้า Case search ซึ่งเป็นหน้าที่ใช้ในการติดตามโดยค้นหาจากเลขคดี และหน้า Appointment list จะเป็นหน้าที่สามารถดูนัดหมายที่ได้รับการเผยแพร่ได้  \hspace{1cm}ในส่วนของทนายความจะเริ่มต้นที่หน้า Landing จากนั้นเข้ามาหน้า Login เมื่อเข้าสู่ระบบสำเร็จจะเข้ามาที่หน้า Home ซึ่งสามารถติดตามคดีต่างๆ จัดการเอกสาร รวมไปถึงการดูนัดหมายและตั้งค่าข้อมูลส่วนตัวได้
 \begin{figure}[!ht]\centering
     \includegraphics[width=13cm]{./assets/nav-map-guest.png}
     \caption{รูปแสดง Navigation map ของบุคคลทั่วไป}\label{fig:navMapGuest}
@@ -969,8 +969,8 @@ English abstract
     \includegraphics[width=16cm]{./assets/er-diagram.png}
     \caption{รูปแสดงโครงสร้างฐานข้อมูล}\label{fig:erDiagram}
 \end{figure}
-
-\subsection{ตาราง FileType}
+\begin{itemize}
+\item \textbf{ตาราง FileType}\\
 ตารางที่ใช้ในการบันทึกข้อมูล ประเภทของไฟล์ในระบบ เช่น ไฟล์ประเภทเอกสาร ไฟล์ประเภทรูปภาพ เป็นต้น โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFileType}
 \begin{table}[!ht]
     \centering
@@ -987,7 +987,7 @@ English abstract
 \end{table}
 
 \newpage
-\subsection{ตาราง File}
+\item \textbf{ตาราง File}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์ที่ได้จากผู้ใช้งาน โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFile}
 \begin{table}[!ht]
     \centering
@@ -1006,7 +1006,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง File} \label{tbl:dbFile}
 \end{table}
 
-\subsection{ตาราง Tag}
+\item \textbf{ตาราง Tag}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดของแท็กต่างๆ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbTag}
 \begin{table}[!ht]
     \centering
@@ -1022,7 +1022,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Tag} \label{tbl:dbTag}
 \end{table}
 
-\subsection{ตาราง FileTag}
+\item \textbf{ตาราง FileTag}\\
 ตารางที่ใช้ในการบันทึกข้อมูลความสัมพันธ์ระหว่าง file กับ Tag โดยที่ว่า ใน 1 ไฟล์นั้นสามารถมีได้หลาย Tag โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFileTag}
 \begin{table}[!ht]
     \centering
@@ -1040,7 +1040,7 @@ English abstract
 \end{table}
 
 \newpage
-\subsection{ตาราง Folder}
+\item \textbf{ตาราง Folder}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดโฟลเดอร์โดยจะมี attribute ที่มีชื่อว่า isArchived มาใช้ในการบ่งบอกว่าโฟลเดอร์นี้สามารถใช้งานได้หรือไม่โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolder}
 \begin{table}[!ht]
     \centering
@@ -1057,7 +1057,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Folder} \label{tbl:dbFolder}
 \end{table}
 
-\subsection{ตาราง FolderFile}
+\item \textbf{ตาราง FolderFile}\\
 ตารางที่ใช้ในการบันทึกข้อมูลว่าโฟลเดอร์นั้นๆเก็บไฟล์อะไรไว้บ้าง โดยมีรายละเอียดดังตารางที่  \ref{tbl:dbFolderFile}
 \begin{table}[!ht]
     \centering
@@ -1074,7 +1074,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderFile} \label{tbl:dbFolderFile}
 \end{table}
 
-\subsection{ตาราง SubFolder}
+\item \textbf{ตาราง SubFolder}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbSubFolder}
 \begin{table}[!ht]
     \centering
@@ -1092,7 +1092,7 @@ English abstract
 \end{table}
 
 \newpage
-\subsection{ตาราง FolderTag}
+\item \textbf{ตาราง FolderTag}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolderTag}
 \begin{table}[!ht]
     \centering
@@ -1109,7 +1109,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderTag} \label{tbl:dbFolderTag}
 \end{table}
 
-\subsection{ตาราง Case}
+\item \textbf{ตาราง Case}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดคดีในแต่ละคดี โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbCase}
 \begin{table}[!ht]
     \centering
@@ -1128,7 +1128,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Case} \label{tbl:dbCase}
 \end{table}
 
-\subsection{ตาราง Appointment}
+\item \textbf{ตาราง Appointment}\\
 ตารางที่ใช้ในการบันทึกการนัดหมาย โดยจะมี attribute isPublished มาใช้ในการบ่งบอกว่า นัดหมายในครั้งนี้สามารถเปิดเผยสู่สาธารณะได้หรือไม่ และมี eventId ที่ได้มาจากการสร้าง event ผ่าน Google calendar api โดยมีรายละเอียดดังตารางที่  \ref{tbl:dbAppointment}
 \begin{table}[!ht]
     \centering
@@ -1149,7 +1149,7 @@ English abstract
 \end{table}
 
 \newpage
-\subsection{ตาราง Permission}
+\item \textbf{ตาราง Permission}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายสิทธิในการเข้าถึงที่มีอยู่ในระบบ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbPermission}
 \begin{table}[!ht]
     \centering
@@ -1165,7 +1165,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Permission} \label{tbl:dbPermission}
 \end{table}
 
-\subsection{ตาราง FolderPermission}
+\item \textbf{ตาราง FolderPermission}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดไฟล์ที่เชื่อมความสัมพันธ์ระหว่างสิทธิของผู้ใช้งานกับโฟลเดอร์ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbFolderPermission}
 \begin{table}[!ht]
     \centering
@@ -1183,7 +1183,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง FolderPermission} \label{tbl:dbFolderPermission}
 \end{table}
 
-\subsection{ตาราง ActivityLog}
+\item \textbf{ตาราง ActivityLog}\\
 ตารางที่ใช้ในการบันทึกข้อมูลการอัพเดทไฟล์ที่เกิดขึ้นในแต่ละโฟลเดอร์ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbActivityLog}
 \begin{table}[!ht]
     \centering
@@ -1203,7 +1203,7 @@ English abstract
 \end{table}
 \clearpage
 \newpage
-\subsection{ตาราง Action}
+\item \textbf{ตาราง Action}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดของการทำ activity เช่น สร้าง อัพเดท ลบ โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbAction}
 \begin{table}[!ht]
     \centering
@@ -1219,7 +1219,7 @@ English abstract
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง Action} \label{tbl:dbAction}
 \end{table}
 
-\subsection{ตาราง User}
+\item \textbf{ตาราง User}\\
 ตารางที่ใช้ในการบันทึกข้อมูลรายละเอียดผู้ใช้งาน โดยมีรายละเอียดดังตารางที่ \ref{tbl:dbUser}
 \begin{table}[!ht]
     \centering
@@ -1237,6 +1237,7 @@ English abstract
     \end{tabular}
     \caption{\centering  ตารางแสดงรายละเอียดของตาราง User} \label{tbl:dbUser}
 \end{table}
+\end{itemize}
 % \clearpage
 \newpage
 \section{Use case diagram}
@@ -1245,7 +1246,7 @@ English abstract
     \caption{รูปแสดง Use case diagram แสดงการทำงานของระบบ}\label{fig:usecaseDiagram}
 \end{figure}
 
-จากรูปที่ \ref{fig:usecaseDiagram} แสดง Use case การทำงานของ จะถูกแบ่งออกเป็น 2 ส่วน คือ ส่วนของผู้ใช้งานทั่วไป และ ส่วนของทนาย ซึ่งมีความแตกต่างกัน คือ 
+จากรูปที่ \ref{fig:usecaseDiagram} แสดง Use case digram การทำงานจะถูกแบ่งออกเป็น 2 ส่วน คือ ส่วนของผู้ใช้งานทั่วไป และ ส่วนของทนาย ซึ่งมีความแตกต่างกัน คือ 
 \begin{itemize}
     \item ผู้ใช้งานทั่วไปสามารถเข้าถึงเอกสารหรือนัดหมายที่ถูกเปิดเผยสู่สาธารณะได้ 
     \item ผู้ใช้งานที่เข้าสู่ระบบหรือ ทนายสามารเข้าถึงการจัดการเอกสารต่างๆและนัดหมายที่ตนเองมีสิทธิ์ในคดีนั้นๆได้ และฟังก์ชันพื้นฐานเช่น การเปลี่ยนรหัสผ่าน การแก้ไขโปรไฟล์ และสุดท้ายคือ การเพิ่ม user ใหม่ 
@@ -1254,19 +1255,19 @@ English abstract
 
 \clearpage
 \section{Use case narrative}
-ประกอบไปด้วย 27 use case ตามรูปที่ \ref{fig:usecaseDiagram} โดยมีรายละเอียดของแต่ละ use case ดังนี้
+จากรูปที่ \ref{fig:usecaseDiagram} ซึ่งมี usecase ต่างๆ โดยจะมีการอธิบายรายละเอียดเพิ่มเติม ดังนี้
 \begin{itemize}
-    \item Search case 
+    \item \textbf{Search case }
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
             \multicolumn{1}{|l|}{Use case}      & Search case                        \\ \hline
             \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & ผู้ใช้สามารถเห็นคดีที่ต้องการค้นหา \\ \hline
             \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี\\ 2. ผู้ใช้กรอกหมายเลขคดีดำหรือหมายเลขคดีแดง\\ 3. ผู้ใช้กดปุ่มค้นหา\\ 4. ระบบตรวจสอบข้อมูลและถูกต้อง\\ 5. ระบบดึงข้อมูลจาก Database และ API \\ 6. ระบบแสดงรายละเอียดคดี \end{tabular} \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี\\ 2. ผู้ใช้กรอกหมายเลขคดีดำหรือหมายเลขคดีแดง\\ 3. ผู้ใช้กดปุ่มค้นหา\\ 4. ระบบตรวจสอบข้อมูลและถูกต้อง\\ 5. ระบบดึงข้อมูลจาก API \\ 6. ระบบแสดงรายละเอียดคดี \end{tabular} \\ \hline
             \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
             \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
             \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
@@ -1275,46 +1276,38 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Search case } \label{tbl:usecaseSearchCase}
     \end{table}
-    \item View case detail and status
+    \item \textbf{View case detail and status}
      \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
             \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
             \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & ผู้ใช้สามารถเห็นรายละเอียดคดีเพิ่มเติม \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition} & ผู้ใช้ทำการค้นหาคดีพบ                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1.กดบริเวณคดี\\ 2.ระบบแสดงรายละเอียดเพิ่มเติม  \end{tabular} \\ \hline
         \end{tabular}
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
     \end{table}
     \newpage
-    \item View case appointment
+    \item \textbf{View case appointment}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
             \multicolumn{1}{|l|}{Use case}      & View case appointment                        \\ \hline
             \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & ผู้ใช้สามารถเห็นรายละเอียดการนัดหมายที่ได้รับการเผยแพร่ \\ \hline
             \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนู นัดหมาย \\2. ระบบทำการดึงข้อมูลจาก Database \\ 3. ระบบแสดงการนัดหมายที่ทำการเผยแพร่  \end{tabular} \\ \hline
         \end{tabular}
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case View case appointment } \label{tbl:usecaseViewCaseAppointment}
     \end{table} 
-    \item Forget password
+    \item \textbf{Forget password}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1331,7 +1324,7 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Forget password } \label{tbl:usecaseForgetPassword}
     \end{table}
-    \item Reset password
+    \item \textbf{Reset password}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1349,7 +1342,8 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Reset password } \label{tbl:usecaseResetPassword}
     \end{table}
-    \item Login
+    \clearpage
+    \item \textbf{Login}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1371,7 +1365,7 @@ English abstract
         
         \caption{\centering  ตารางแสดงรายละเอียด Use case Login } \label{tbl:usecaseLogin}
     \end{table}
-    \item Logout
+    \item \textbf{Logout}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1386,7 +1380,7 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Logout } \label{tbl:usecaseLogout}
     \end{table}
-    \item Create new account
+    \item \textbf{Create new account}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1403,7 +1397,8 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Create new account } \label{tbl:usecaseCreateNewAccount}
     \end{table}
-    \item Edit profile
+    \clearpage
+    \item \textbf{Edit profile}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1420,7 +1415,7 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Edit profile } \label{tbl:usecaseEditProfile}
     \end{table}
-    \item Change password
+    \item \textbf{Change password}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1438,7 +1433,24 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Change password } \label{tbl:usecaseChangePassword}
     \end{table}
-    \item Add case folder
+    \item \textbf{View case folder}
+    \begin{table}[!ht]
+        \centering
+        \begin{tabular}{|p{5cm}|p{10cm}|}
+            \hline
+            \multicolumn{1}{|l|}{Use case}      & View case folder                                   \\ \hline
+            \multicolumn{1}{|l|}{Actor}         & Lawyer                                             \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & ผู้ใช้เข้าสู่ folder คดีเพื่อดูเอกสารที่อยู่ภายใต้ \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition} & -                                                  \\ \hline
+            \multicolumn{1}{|l|}{Flow of event} &
+            \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนู document\\ 2. ผู้ใช้กดที่ folder ที่ต้องการ\\ 3. ระบบดึงข้อมูลจาก Database\\ 4. ระบบแสดงข้อมูลที่อยู่ในโฟลเดอร์\end{tabular} \\ \hline
+
+        \end{tabular}
+
+        \caption{\centering  ตารางแสดงรายละเอียด Use case View case folder } \label{tbl:usecaseViewCaseFolder}
+    \end{table}
+    \clearpage
+    \item \textbf{Add case folder}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1456,138 +1468,114 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Add case folder } \label{tbl:usecaseAddCaseFolder}
     \end{table}
-    %% TODO : HERE -------------------------------------------
-    \item Search case and document
+    \item \textbf{Search case and document}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
+            \multicolumn{1}{|l|}{Use case}      & Search case and document                        \\ \hline
+            \multicolumn{1}{|l|}{Actor}         & Lawyer                                  \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & ผู้้ใช้เห็นไฟล์หรือโฟลเดอร์ที่ใกล้เคียงกับคำที่ค้นหา \\ \hline
             \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดบริเวณช่อง Search documents \\ 2. ผู้ใช้กรอกคำที่ต้องการค้นหา \\ 3. ระบบทำการดึงข้อมูลจาก Database \\4. ระบบแสดงไฟล์หรือโฟลเดอร์ที่ได้รับ \end{tabular} \\ \hline
             \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}3a. ผู้ใช้ทำการเพิ่มประเภทของไฟล์ \\ 4a. ระบบทำการดึงข้อมูลจาก Database \\5a. ระบบแสดงไฟล์หรือโฟลเดอร์ที่ได้รับโดยแสดงเฉพาะประเภทของไฟล์ที่เลือกเท่านั้น\end{tabular}} \\ \hline
             \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}3a. ผู้ใช้ทำการเพิ่ม tags \\ 4a. ระบบทำการดึงข้อมูลจาก Database \\5a. ระบบแสดงไฟล์หรือโฟลเดอร์ที่ได้รับโดยแสดงเฉพาะประเภทของ tags ที่เลือกเท่านั้น\end{tabular}} \\ \hline
         \end{tabular}
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Search case and document } \label{tbl:usecaseSearchCaseDoc}
     \end{table}
-    \item Add appointment
+
+    \clearpage
+    \item \textbf{Add appointment}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
+            \multicolumn{1}{|l|}{Use case}      & Add appointment                        \\ \hline
+            \multicolumn{1}{|l|}{Actor}         & Lawyer                        \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & ผู้ใช้เพิ่มนัดหมายสำเร็จ \\ \hline
             \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนู Appointment \\2. ผู้ใช้กดปุ่ม New appointment \\3. ผู้ใช้กรอกคดีที่ต้องการนัดหมาย \\4. ผู้ใช้กรอกข้อมูลเพิ่มเติม  \\5. ผู้ใช้กดปุ่ม next \\6.ผู้ใช้กรอกอีเมล์ของผู้ที่เกี่ยวข้อง \\7. ผู้ใช้กดปุ่ม next \\8.ผู้ใช้เลือกวันและเวลาที่นัดหมาย \\9.ผู้ใช้กดปุ่ม next \\10. ระบบทำการบันทึกข้อมูลลง Database และเรียกใช้ API \\11. ระบบแสดงหน้าสำเร็จ   \end{tabular} \\ \hline
         \end{tabular}
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseAddApointment}
     \end{table}
-    \item View case folder
+    \item \textbf{Upload document / file}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case folder                                   \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Lawyer                                             \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & ผู้ใช้เข้าสู่ folder คดีเพื่อดูเอกสารที่อยู่ภายใต้ \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                                  \\ \hline
-            \multicolumn{1}{|l|}{Flow of event} &
-            \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนู document\\ 2. ผู้ใช้กดที่ folder ที่ต้องการ\\ 3. ระบบดึงข้อมูลจาก Database\\ 4. ระบบแสดงข้อมูลที่อยู่ในโฟลเดอร์\end{tabular} \\ \hline
+            \multicolumn{1}{|l|}{Use case}      & Upload document / file                        \\ \hline
+            \multicolumn{1}{|l|}{Actor}         & Lawyer                 \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & ผู้ใช้อัปโหลดไฟล์สู่โฟลเดอร์ \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition} & ผู้ใช้ต้องอยู่ในหน้าโฟลเดอร์ที่เลือก                                      \\ \hline
+            \multicolumn{1}{|l|}{Flow of event} & 
+              \begin{tabular}[c]{@{}l@{}}1. กดปุ่ม upload file\\2. ผู้ใช้กดบริเวณไอคอนเพื่อเลือกไฟล์ \\3. ผู้ใช้เลือกไฟล์ที่ต่องการอัปโหลด \\4. ผู้ใช้กดปุ่ม Upload \\5. ระบบทำการบันทึกข้อมูลลงใน Database และจัดเก็บไฟล์ \\6. ระบบแสดงผลดำเนินการสำเร็จ\end{tabular} \\ \hline
+            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
+            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}2a. ลากไฟล์จากเครื่องคอมพิวเตอร์มาสู่บริเวณอัปโหลด\\ 3a. เหมือนข้อ 3. \end{tabular}} \\ \hline
 
         \end{tabular}
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case folder } \label{tbl:usecaseViewCaseFolder}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Upload document or file } \label{tbl:usecaseUploadDocument}
     \end{table}
-    \item Upload document / file
+    \item \textbf{View document / file}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}      & View document / file                        \\ \hline
+            \multicolumn{1}{|l|}{Actor}         & Lawyer                                  \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & เปิดไฟล์สำเร็จ \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition} & ผู้ใช้อยู่ในหน้าโฟลเดอร์ที่มีไฟล์ที่ต้องการเปิดอยู่                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดบริเวณไฟล์ \\2.ระบบแสดงไฟล์หรือเอกสาร \end{tabular} \\ \hline
         \end{tabular}
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case View document or file } \label{tbl:usecaseViewDocument}
     \end{table}
-    \item View document / file
+    \clearpage
+    \item \textbf{Edit appointment}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}      & Edit appointment                        \\ \hline
+            \multicolumn{1}{|l|}{Actor}         & Lawyer                                  \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & สามารถแก้ไขนัดหมายที่เคยสร้างขึ้นได้ \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition} & ผู้ใช้เคยสร้างนัดหมายมาก่อนและนัดหมายที่สร้างนั้นยังไม่ถึงกำหนด                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
+            \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดปุ่ม 3 จุด \\ 2. ระบบแสดงเมนู \\ 3. ผู้ใช้กดปุ่มแก้ไข \\4. ผู้ใช้กรอกข้อมูลที่ต้องการแก้ไข \\5. ผู้ใช้กดปุ่ม Update \\6. ระบบทำการตรวจสอบข้อมูลและถูกต้อง\\7.ระบบทำการอัพเดทข้อมูลใน Database แก้ไขข้อมูลใน Google Calendar \end{tabular} \\ \hline
+              
             \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}6a. ระบบตรวจสอบไม่ถูกต้อง\\ 7a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
         \end{tabular}
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Edit appointment } \label{tbl:usecaseEditAppointment}
     \end{table}
-    \item Edit appointment
+
+    \item \textbf{Delete appointment}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}      & Delete appointment                        \\ \hline
+            \multicolumn{1}{|l|}{Actor}         & Lawyer                                  \\ \hline
+            \multicolumn{1}{|l|}{Goal}          & สามารถแก้ไขนัดหมายที่เคยสร้างขึ้นได้ \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition} & ผู้ใช้เคยสร้างนัดหมายมาก่อนและนัดหมายที่สร้างนั้นยังไม่ถึงกำหนด                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
+            \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดปุ่ม 3 จุด \\ 2. ระบบแสดงเมนู \\ 3. ผู้ใช้กดปุ่มลบ \\4. ระบบทำการถามยืนยัน \\5.ผู้ใช้กดยืนยัน \\6. ระบบทำการอัพเดทข้อมูลใน Database และแก้ไขใน Google Calendar \\ 7. ระบบแสดงผลดำเนินการสำเร็จ \end{tabular} \\ \hline
             \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-        \end{tabular}
+            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5a. ผู้ใช้กดยกเลิก \end{tabular}} \\ \hline
+        \end{tabular} 
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Delete appointment } \label{tbl:usecaseDeleteAppointment}
     \end{table}
-    \item Delete appointment
-    \begin{table}[!ht]
-        \centering
-        \begin{tabular}{|p{5cm}|p{10cm}|}
-            \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
-            \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-        \end{tabular}
-
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
-    \end{table}
-    \item Add sub folder
+    \clearpage
+    \item \textbf{Add sub folder}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1606,7 +1594,7 @@ English abstract
 
         \caption{\centering  ตารางแสดงรายละเอียด Use case Add sub folder } \label{tbl:usecaseAddSubFolder}
     \end{table}
-    \item Edit case folder
+    \item \textbf{Edit case folder}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
@@ -1614,109 +1602,98 @@ English abstract
             \multicolumn{1}{|l|}{Use case}                                           & Edit case folder                                                          \\ \hline
             \multicolumn{1}{|l|}{Actor}                                              & Lawyer                                                                    \\ \hline
             \multicolumn{1}{|l|}{Goal}                                               & ผู้ใช้เปลี่ยนแปลงข้อมูลคดี                                                \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition}                                      & ผู้ใช้ต้องอยู่ในหน้า folder ที่เลือก                                      \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition}                                      & ผู้ใช้ต้องอยู่ในหน้าคดีรวม                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดปุ่มไอคอนสร้างโฟลเดอร์\\ 2. ระบบแสดง Popup สำหรับสร้างโฟลเดอร์\\ 3. ผู้ใช้กรอกชื่อโฟลเดอร์\\ 4. ผู้ใช้กดปุ่ม Add folder\\ 5. ระบบทำการตรวจสอบข้อมูลและถูกต้อง\\ 6. ระบบทำการบันทึกข้อมูลลงใน Database\\ 7. ระบบแจ้งเตือนสถานะทำสำเร็จและเพิ่มโฟลเดอร์ลงในลิสต์\end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                                                                                         \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดปุ่ม 3 จุดของคดีที่เลือก \\ 2. ระบบแสดงเมนู\\ 3. ผู้ใช้กด Edit \\ 4. ผู้ใช้กรอกข้อมูลที่ต้องการแก้ไข\\ 5. ระบบทำการตรวจสอบข้อมูลและถูกต้อง\\ 6. ระบบทำการบันทึกข้อมูลลงใน Database\\ 7. ระบบแจ้งเตือนสถานะทำสำเร็จ\end{tabular} \\ \hline
+            \multicolumn{2}{|l|}{Extension scenario (a)}        \\ \hline
             \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5a. ระบบทำการตรวจสอบข้อมูลและไม่ถูกต้อง\\ 6a. ระบบทำการแจ้งเตือนสถานะผิดพลาด และเหตุผล\end{tabular}} \\ \hline            
 
         \end{tabular}
         \caption{\centering  ตารางแสดงรายละเอียด Use case Edit case folder } \label{tbl:usecaseEditCaseFolder}
     \end{table}
-    \item Delete case folder
+    \clearpage
+    \item \textbf{Delete case folder}
+
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}                                           & Delete case folder                                                          \\ \hline
+            \multicolumn{1}{|l|}{Actor}                                              & Lawyer                                                                    \\ \hline
+            \multicolumn{1}{|l|}{Goal}                                               & ผู้ใช้ลบคดีสำเร็จ                                                \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition}                                      & ผู้ใช้ต้องอยู่ในหน้าคดีรวม                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-        \end{tabular}
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดปุ่ม 3 จุดของคดีที่เลือก \\ 2. ระบบแสดงเมนู \\ 3. ผู้ใช้กดปุ่ม Delete \\4. ระบบทำการถามยืนยัน \\5.ผู้ใช้กดยืนยัน \\6. ระบบทำการอัพเดทข้อมูลใน Database และลบไฟล์ที่เก็บไว้ \\ 7. ระบบแสดงผลดำเนินการสำเร็จ\end{tabular} \\ \hline
+            \multicolumn{2}{|l|}{Extension scenario (a)}        \\ \hline
+            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5a. ผู้ใช้กดยกเลิก\end{tabular}} \\ \hline            
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \end{tabular}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Delete case folder } \label{tbl:usecaseDeleteCaseFolder}
     \end{table}
-    \item Archive case folder
+
+    \item \textbf{Archive case folder}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}                                           & Archive case folder                                                          \\ \hline
+            \multicolumn{1}{|l|}{Actor}                                              & Lawyer                                                                    \\ \hline
+            \multicolumn{1}{|l|}{Goal}                                               & เก็บบันทึกคดี                                                \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition}                                      & ผู้ใช้ต้องอยู่ในหน้าคดีรวม                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-        \end{tabular}
+              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดปุ่ม 3 จุดของคดีที่เลือก \\ 2. ระบบแสดงเมนู \\ 3. ผู้ใช้กดปุ่ม Archive \\4. ระบบทำการถามยืนยัน \\5.ผู้ใช้กดยืนยัน \\6. ระบบทำการอัพเดทข้อมูลใน Database \\ 7. ระบบแสดงผลดำเนินการสำเร็จ\end{tabular} \\ \hline
+            \multicolumn{2}{|l|}{Extension scenario (a)}        \\ \hline
+            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5a. ผู้ใช้กดยกเลิก\end{tabular}} \\ \hline            
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \end{tabular}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Archive case folder} \label{tbl:usecaseArchiveFolder}
     \end{table}
-    \item Edit collaborator
+
+    \item \textbf{Edit collaborator}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}                                           & Edit collaborator folder                                                          \\ \hline
+            \multicolumn{1}{|l|}{Actor}                                              & Lawyer                                                                    \\ \hline
+            \multicolumn{1}{|l|}{Goal}                                               & แก้ไขบุคคลที่มีสิทธิในคดี                                                \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition}                                      & ผู้ใช้ต้องอยู่ในหน้าคดีที่ต้องการจัดการสิทธิ์ และผู้ใช้ต้องเป็นคนสร้างคดี                                     \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-        \end{tabular}
+              \begin{tabular}[c]{@{}l@{}}1. กดปุ่มไอคอนรูปคน \\ 2. ระบบแสดง popup \\ 3. ผู้ใช้ทำการกรอกอีเมล์ของทนายที่ต้องการให้สิทธิ \\4. ผู้ใช้ทำการเลือกสิทธิ์ที่ต้องการให้ \\5. ผู้ใช้กดปุ่ม Send \\6. ระบบทำการอัพเดทข้อมูลใน Database \\ 7. ระบบแสดงผลดำเนินการสำเร็จ\end{tabular} \\ \hline
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \end{tabular}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Edit collaborator} \label{tbl:usecaseEditCollab}
     \end{table}
-    \item Delete document / file
+    \clearpage
+    \item \textbf{Delete document / file}
+
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}                                           & Delete document / file                                                          \\ \hline
+            \multicolumn{1}{|l|}{Actor}                                              & Lawyer                                                                    \\ \hline
+            \multicolumn{1}{|l|}{Goal}                                               & ลบเอกสาร                                                \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition}                                      & ผู้ใช้อยู่ในหน้าโฟลเดอร์ที่มีไฟล์ที่ต้องการลบอยู่                                     \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
+              \begin{tabular}[c]{@{}l@{}}1. กดปุ่ม 3 จุด \\ 2. ระบบแสดงเมนู \\ 3. ผู้ใช้กดปุ่ม Delete \\4. ระบบทำการถามยืนยัน \\5.ผู้ใช้กดยืนยัน \\6. ระบบทำการอัพเดทข้อมูลใน Database และลบไฟล์ที่เก็บไว้ \\ 7. ระบบแสดงผลดำเนินการสำเร็จ\end{tabular} \\ \hline
         \end{tabular}
-
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Delete document } \label{tbl:usecaseDeleteDocument}
     \end{table}
-    \item Publish document / file
+    \item \textbf{Publish document / file}
     \begin{table}[!ht]
         \centering
         \begin{tabular}{|p{5cm}|p{10cm}|}
             \hline
-            \multicolumn{1}{|l|}{Use case}      & View case detail and status                        \\ \hline
-            \multicolumn{1}{|l|}{Actor}         & Guest                                  \\ \hline
-            \multicolumn{1}{|l|}{Goal}          & เห็นคดีที่ต้องการค้นหา \\ \hline
-            \multicolumn{1}{|l|}{Pre-condition} & -                                      \\ \hline
+            \multicolumn{1}{|l|}{Use case}                                           & Publish document / file                                                          \\ \hline
+            \multicolumn{1}{|l|}{Actor}                                              & Lawyer                                                                    \\ \hline
+            \multicolumn{1}{|l|}{Goal}                                               & เผยแพร่เอกสาร                                                \\ \hline
+            \multicolumn{1}{|l|}{Pre-condition}                                      & ผู้ใช้อยู่หน้าไฟล์อยู่                                      \\ \hline
             \multicolumn{1}{|l|}{Flow of event} &
-              \begin{tabular}[c]{@{}l@{}}1. ผู้ใช้กดเมนูค้นหาคดี \end{tabular} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (a)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}4a. ระบบตรวจสอบไม่ถูกต้อง\\ 5a. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-            \multicolumn{2}{|l|}{Extension scenario (b)}                                 \\ \hline
-            \multicolumn{2}{|l|}{\begin{tabular}[c]{@{}l@{}}5b. ระบบดึงข้อมูลจาก API ไม่สำเร็จ\\ 6b. เว็บแสดงข้อความแจ้งเตือน\end{tabular}} \\ \hline
-        \end{tabular}
+              \begin{tabular}[c]{@{}l@{}}1. กดปุ่ม Publish \\ 2. ระบบแสดง popup \\ 3. ผู้ใช้ทำการเลือกรูปแบบการเผยแพร่ให้ทุกคน \\4. ระบบทำการสร้างลิงค์ไฟล์ใหม่ \\5. ระบบทำการเผยแพร่ไฟล์\end{tabular} \\ \hline
 
-        \caption{\centering  ตารางแสดงรายละเอียด Use case View case detail and status } \label{tbl:usecaseViewCaseDetail}
+        \end{tabular}
+        \caption{\centering  ตารางแสดงรายละเอียด Use case Publish document } \label{tbl:usecasePublishDocument}
     \end{table}
 \end{itemize}
 
@@ -1726,35 +1703,35 @@ English abstract
 
 \begin{itemize}
 
-    \item Create case\\
+    \item \textbf{Create case}\\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 4cm 0 0},clip]{./assets/sequence-diagram/create-case.png}
         \caption{รูปแสดง Sequence diagram ของ Create case}\label{fig:sqCreateCase}
     \end{figure}
 
     \newpage
-    \item Archive case \\
+    \item \textbf{Archive case} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 3cm 0 3cm},clip]{./assets/sequence-diagram/archive-case.png}
         \caption{รูปแสดง Sequence diagram ของ Archive case}\label{fig:sqArchiveCase}
     \end{figure}
 
     \newpage
-    \item Delete case \\
+    \item \textbf{Delete case} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 1cm 0 1cm},clip]{./assets/sequence-diagram/delete-case.png}
         \caption{รูปแสดง Sequence diagram ของ Delete case}\label{fig:sqDeleteCase}
     \end{figure}
 
     \newpage
-    \item Search file \\
+    \item \textbf{Search file} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/search-file.png}
         \caption{รูปแสดง Sequence diagram ของ Search file}\label{fig:sqSearchFile}
     \end{figure}
 
     \newpage
-    \item Upload file \\
+    \item \textbf{Upload file} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 6cm 0 6cm},clip]{./assets/sequence-diagram/upload-file.png}
         \caption{รูปแสดง Sequence diagram ของ Upload file}\label{fig:sqUploadFile}
@@ -1762,42 +1739,42 @@ English abstract
 
 
     \newpage
-    \item Create event \\
+    \item \textbf{Create event} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/create-event.png}
         \caption{รูปแสดง Sequence diagram ของ Create event}\label{fig:sqCraeteEvent}
     \end{figure}
 
     \newpage
-    \item Edit event \\
+    \item \textbf{Edit event} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 5cm 0 5cm},clip]{./assets/sequence-diagram/edit-event.png}
         \caption{รูปแสดง Sequence diagram ของ Edit event}\label{fig:sqEditEvent}
     \end{figure}
 
     \newpage
-    \item Create user \\
+    \item \textbf{Create user} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 9cm 0 9cm},clip]{./assets/sequence-diagram/create-user.png}
         \caption{รูปแสดง Sequence diagram ของ Create user}\label{fig:sqCreateUser}
     \end{figure}
 
     \newpage
-    \item Edit profile \\
+    \item \textbf{Edit profile} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 6cm 0 6cm},clip]{./assets/sequence-diagram/edit-profile.png}
         \caption{รูปแสดง Sequence diagram ของ Edit profile}\label{fig:sqEditProfile}
     \end{figure}
 
     \newpage
-    \item Login \\
+    \item \textbf{Login} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 5cm 0 5cm},clip]{./assets/sequence-diagram/login.png}
         \caption{รูปแสดง Sequence diagram ของ Login}\label{fig:sqLogin}
     \end{figure}
 
     \newpage
-    \item Forget password \\
+    \item \textbf{Forget password} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/forget-password.png}
         \caption{รูปแสดง Sequence diagram ของ Forget password}\label{fig:sqForgetPassword}
@@ -1805,7 +1782,7 @@ English abstract
 
     
     \newpage
-    \item Reset password \\
+    \item \textbf{Reset password} \\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 7cm 0 7cm},clip]{./assets/sequence-diagram/reset-password.png}
         \caption{รูปแสดง Sequence diagram ของ Reset password}\label{fig:sqResetPassword}
@@ -1813,7 +1790,7 @@ English abstract
 
         
     \newpage
-    \item  Change password\\
+    \item \textbf{Change password}\\
     \begin{figure}[!ht]\centering
         \includegraphics[width=13cm, trim={0 5cm 0 5cm},clip]{./assets/sequence-diagram/change-password.png}
         \caption{รูปแสดง Sequence diagram ของ Change password}\label{fig:sqChangePassword}
